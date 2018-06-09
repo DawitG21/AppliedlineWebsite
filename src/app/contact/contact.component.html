@@ -6,22 +6,22 @@
 	</section>
 
 	<section id="contact_section">
-		<form action="#" method="post" id="contact_form">
+		<form (ngSubmit)="onSubmit()" #contactForm="ngForm" id="contact_form">
 			<div class="name">
 				<label for="name"></label>
-				<input type="text" placeholder="Company / Personal Name" name="name" id="name_input" required>
+				<input type="text" [(ngModel)]="contact.ContactName" placeholder="Company / Personal Name" name="name" id="name_input" required>
 			</div>
 			<div class="email">
 				<label for="email"></label>
-				<input type="email" placeholder="E-mail " name="email" id="email_input" required>
+				<input type="email" [(ngModel)]="contact.Email" placeholder="E-mail " name="email" id="email_input" required>
 			</div>
 			<div class="telephone">
 				<label for="name"></label>
-				<input type="tel" placeholder="Phone Number" name="telephone" id="telephone_input" required>
+				<input type="tel" [(ngModel)]="contact.Phone" placeholder="Phone Number" name="telephone" id="telephone_input" required>
 			</div>
 			<div class="subject">
 				<label for="subject"></label>
-				<select placeholder="Subject" name="subject" id="subject_input" required>
+				<select placeholder="Subject" [(ngModel)]="contact.RequestType" name="subject" id="subject_input" required>
 					<option disabled hidden selected>Subject</option>
 					<option>project</option>
 					<option>purchase</option>
@@ -32,7 +32,7 @@
 			</div>
 			<div class="message">
 				<label for="message"></label>
-				<textarea name="message" placeholder="What Can We Do For You?" id="message_input" cols="30" rows="3" required></textarea>
+				<textarea name="message" [(ngModel)]="contact.MessageText" placeholder="What Can We Do For You?" id="message_input" cols="30" rows="3" required></textarea>
 			</div>
 			<div class="submit">
 				<button id="form_button" type="submit">Send Message</button>
