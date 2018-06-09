@@ -1,0 +1,41 @@
+<section class="overflow-auto">
+	<section id="contact_map">
+		<agm-map [latitude]="latitude" [longitude]="longtiude" [zoom]="20" [zoomControl]="false" [scrollwheel]="false">
+			<agm-marker [latitude]="latitude" [longitude]="longtiude"></agm-marker>
+		</agm-map>
+	</section>
+
+	<section id="contact_section">
+		<form action="#" method="post" id="contact_form">
+			<div class="name">
+				<label for="name"></label>
+				<input type="text" placeholder="Company / Personal Name" name="name" id="name_input" required>
+			</div>
+			<div class="email">
+				<label for="email"></label>
+				<input type="email" placeholder="E-mail " name="email" id="email_input" required>
+			</div>
+			<div class="telephone">
+				<label for="name"></label>
+				<input type="tel" placeholder="Phone Number" name="telephone" id="telephone_input" required>
+			</div>
+			<div class="subject">
+				<label for="subject"></label>
+				<select placeholder="Subject" name="subject" id="subject_input" required>
+					<option disabled hidden selected>Subject</option>
+					<option>start a project</option>
+					<option>buy a product</option>
+					<option>request a quote</option>
+					<option>others</option>
+				</select>
+			</div>
+			<div class="message">
+				<label for="message"></label>
+				<textarea name="message" placeholder="What Can We Do For You?" id="message_input" cols="30" rows="3" required></textarea>
+			</div>
+			<div class="submit">
+				<button id="form_button" type="submit">Send Message</button>
+			</div>
+		</form>
+	</section>
+</section>
