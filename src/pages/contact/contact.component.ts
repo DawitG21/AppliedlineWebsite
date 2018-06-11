@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { IWebContact } from '../../interfaces/webcontact.interface';
 import { WebContact } from '../../models/webcontact.model';
+import { WebRequestProcessor } from '../../processors/webrequest.processor';
 
 @Component({
 	selector: 'app-contact',
@@ -14,7 +15,7 @@ export class ContactComponent implements OnInit {
 
 	contact: IWebContact;
 
-	constructor() {
+	constructor(private processor: WebRequestProcessor) {
 		this.contact = new WebContact();
 		this.contact.RequestType = 'Subject';
 	}
@@ -23,6 +24,14 @@ export class ContactComponent implements OnInit {
 	}
 
 	onSubmit(): void {
-		console.log(this.contact);
+		this.processor.sendRequest(this.contact)
+		.then((value) => {
+			console.log('success', value);
+		}, (reason) => {
+			console.log('rejected');
+		}).catch(() => {
+			// error occured
+			console.log('catch error');
+		});
 	}
 }

@@ -30,6 +30,10 @@ export class ContentAreaComponent implements OnInit {
 			const slides = document.getElementsByClassName('mySlides');
 			const dots = document.getElementsByClassName('dot');
 
+			if (!slides) {
+				return;
+			}
+
 			for (let i = 0; i < slides.length; i++) {
 				slides[i].classList.add('hidden');
 				slides[i].classList.remove('show');
@@ -55,51 +59,3 @@ export class ContentAreaComponent implements OnInit {
 
 	}
 }
-
-
-
-/*
-	items: Array<any> = [];
-
-	constructor (){
-		this.items= [
-
-				{ name : './assets/image1.png'},
-				{ name : './assets/image2.jpg'},
-				{ name : './assets/image3.jpg'},
-				{ name : './assets/image4.png'},
-				{ name : './assets/image5.png'},
-				{ name : './assets/photo.jpg'},
-				{ name : './assets/image1.png'},
-				{ name : './assets/image2.jpg'},
-				{ name : './assets/image3.jpg'},
-				{ name : './assets/image4.png'},
-				{ name : './assets/image5.png'},
-				{ name : './assets/photo.jpg'},
-				{ name : './assets/image1.png'},
-				{ name : './assets/image2.jpg'},
-				{ name : './assets/image3.jpg'},
-				{ name : './assets/image4.png'},
-				{ name : './assets/image5.png'},
-				{ name : './assets/photo.jpg'},
-
-
-		];
-*/
-/*
-		window.onscroll=function(){
-			dawit();
-		}
-		let a,b;
-		a=document.getElementById('letusknow');
-		b=a.offsetTop;
-		function dawit(){
-			if(window.scrollY>=b){
-				a.classList.add('myfixed');
-			}
-			else{
-				a.classList.remove('myfixed');
-			}
-		}
-	}
-*/

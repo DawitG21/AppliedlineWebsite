@@ -1,11 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { AgmCoreModule } from '@agm/core';
 import { Ng2CarouselamosModule } from 'ng2-carouselamos';
 
 
+import { ApiProvider } from '../providers/api.provider';
+import { WebRequestProvider } from '../providers/webrequest.provider';
+import { HelperProvider } from '../providers/helper.provider';
+import { WebRequestProcessor } from '../processors/webrequest.processor';
 
 
 import { AppComponent } from './app.component';
@@ -26,7 +31,11 @@ import { ContactComponent } from '../pages/contact/contact.component';
 		ContactComponent,
 	],
 	imports: [
-		BrowserModule, Ng2CarouselamosModule, FormsModule, AgmCoreModule.forRoot({
+		BrowserModule,
+		FormsModule,
+		HttpModule,
+		Ng2CarouselamosModule,
+		AgmCoreModule.forRoot({
 			apiKey: 'AIzaSyC5TiZoTEwEcB_HUZRhe_rXrcSWW1Z5x8I'
 		}),
 		RouterModule.forRoot([
@@ -44,7 +53,12 @@ import { ContactComponent } from '../pages/contact/contact.component';
 			}
 		])
 	],
-	providers: [],
+	providers: [
+		ApiProvider,
+		WebRequestProvider,
+		HelperProvider,
+		WebRequestProcessor
+	],
 	bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -2,11 +2,8 @@ import { Injectable } from '@angular/core';
 
 @Injectable()
 export class ApiProvider {
-	appHost = 'https://appliedline.com'; // does not end with /
-	apiHost = 'https://appliedline.com/'; // ends with /
-	apiBaseUrl = this.apiHost + 'webapi/';
+	readonly apiServer = 'http://localhost:59440/'; // 'https://appliedline.com/'; // ends with /
+	readonly apiBaseUrl = this.apiServer; // + 'appliedlineapi/';
 
-	apiUrl(): string {
-		return this.apiBaseUrl + 'api/';
-	}
+	readonly apiUrl = this.apiBaseUrl + 'api/v1/';
 }
