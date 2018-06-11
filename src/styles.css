@@ -267,8 +267,8 @@ img {
 }
 
 .icons2 {
-	margin-top: 50px;
-	margin-bottom: 35px;
+	padding-top: 50px;
+	padding-bottom: 35px;
 }
 
 .icons2 .clients h1 {
@@ -437,14 +437,6 @@ img {
 	border-radius: 6px;
 }
 
-#footer {
-	padding: 20px;
-	color: white;
-	background-color: hsl(0, 0%, 24%);
-	margin-top: 20px;
-	text-align: center;
-	min-height: 100px;
-}
 
 .black {
 	background: rgb(120, 120, 120);

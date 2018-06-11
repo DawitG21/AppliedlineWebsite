@@ -3,7 +3,7 @@ import { IWebContact } from '../../interfaces/webcontact.interface';
 import { WebContact } from '../../models/webcontact.model';
 
 @Component({
-	// selector: 'contact',
+	selector: 'app-contact',
 	templateUrl: './contact.component.html',
 	styleUrls: ['./contact.component.css']
 })

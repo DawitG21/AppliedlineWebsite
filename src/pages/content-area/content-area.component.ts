@@ -1,9 +1,9 @@
-import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-	// selector: 'content-area',
-	templateUrl: 'content-area.component.html',
-	styleUrls: ['content-area.component.css']
+	selector: 'app-content-area',
+	templateUrl: './content-area.component.html',
+	styleUrls: ['./content-area.component.css']
 })
 export class ContentAreaComponent implements OnInit {
 

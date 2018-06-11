@@ -9,11 +9,11 @@ import { Ng2CarouselamosModule } from 'ng2-carouselamos';
 
 
 import { AppComponent } from './app.component';
-import { NavComponent } from './nav/nav.component';
-import { ContentAreaComponent } from './content-area/content-area.component';
-import { FooterComponent } from './footer/footer.component';
-import { AboutComponent } from './about/about.component';
-import { ContactComponent } from './contact/contact.component';
+import { NavComponent } from '../pages/nav/nav.component';
+import { ContentAreaComponent } from '../pages/content-area/content-area.component';
+import { FooterComponent } from '../pages/footer/footer.component';
+import { AboutComponent } from '../pages/about/about.component';
+import { ContactComponent } from '../pages/contact/contact.component';
 
 
 @NgModule({
@@ -30,7 +30,6 @@ import { ContactComponent } from './contact/contact.component';
 			apiKey: 'AIzaSyC5TiZoTEwEcB_HUZRhe_rXrcSWW1Z5x8I'
 		}),
 		RouterModule.forRoot([
-
 			{
 				path: '',
 				component: ContentAreaComponent
@@ -43,7 +42,6 @@ import { ContactComponent } from './contact/contact.component';
 				path: 'contact',
 				component: ContactComponent
 			}
-
 		])
 	],
 	providers: [],
