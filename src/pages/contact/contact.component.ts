@@ -16,22 +16,27 @@ export class ContactComponent implements OnInit {
 	contact: IWebContact;
 
 	constructor(private processor: WebRequestProcessor) {
+	}
+
+	ngOnInit() {
+		this.initContactForm();
+	}
+
+	initContactForm(): any {
 		this.contact = new WebContact();
 		this.contact.RequestType = 'Subject';
 	}
 
-	ngOnInit() {
-	}
-
 	onSubmit(): void {
 		this.processor.sendRequest(this.contact)
-		.then((value) => {
-			console.log('success', value);
-		}, (reason) => {
-			console.log('rejected');
-		}).catch(() => {
-			// error occured
-			console.log('catch error');
-		});
+			.then((value) => {
+				console.log('success');
+				this.initContactForm();
+			}, (reason) => {
+				console.log('rejected');
+			}).catch(() => {
+				// error occured
+				console.log('catch error');
+			});
 	}
 }

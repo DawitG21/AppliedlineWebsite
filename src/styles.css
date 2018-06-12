@@ -285,7 +285,7 @@ img {
 	box-sizing: border-box;
 }
 
-.one img, .two img, .three img, .one img {
+.one img, .two img, .three img {
 	width: 110px;
 }
 
