@@ -21,7 +21,6 @@ input[type='text'], [type='email'], [type='tel'], select, textarea {
     letter-spacing: 1px;
     margin: 0em 0 1.875em;
     padding: 0 5px 0.875em;
-    /* text-transform: capitalize; */
     width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { ContactServiceProvider } from '../../providers/contact.service.provider';
 
 @Component({
 	selector: 'app-content-area',
@@ -7,22 +9,43 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContentAreaComponent implements OnInit {
 
+	message: string;
+	/**
+	 *
+	 */
+	constructor(private router: Router,
+		private contactBroadcast: ContactServiceProvider
+	) { }
+
+
+	onSubmit() {
+		this.contactBroadcast.updateMessage(this.message);
+		this.message = '';
+		this.router.navigate(['/contact']);
+	}
+
 	ngOnInit() {
-		window.onscroll = function () {
-			fixLetUsKnowDiv();
-		};
+		scroll(0, 0);
 
 		const letUsKnowDiv = document.getElementById('letusknow');
 		const letUsKnowTopOffset = letUsKnowDiv.offsetTop;
 
-		function fixLetUsKnowDiv() {
+		// fix the div if topOffset is about 0
+		this.fixLetUsKnowDiv(letUsKnowDiv, letUsKnowTopOffset);
+		this.beginSlideshow();
+	}
+
+	fixLetUsKnowDiv(letUsKnowDiv, letUsKnowTopOffset) {
+		window.onscroll = function () {
 			if (window.scrollY >= letUsKnowTopOffset + 30) {
 				letUsKnowDiv.classList.add('myfixed');
 			} else {
 				letUsKnowDiv.classList.remove('myfixed');
 			}
-		}
+		};
+	}
 
+	beginSlideshow() {
 		let slideIndex = 0;
 		showSlides();
 
@@ -56,6 +79,5 @@ export class ContentAreaComponent implements OnInit {
 			// Change image every few seconds
 			setTimeout(showSlides, 5000);
 		}
-
 	}
 }

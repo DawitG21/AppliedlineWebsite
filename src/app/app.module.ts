@@ -10,6 +10,8 @@ import { Ng2CarouselamosModule } from 'ng2-carouselamos';
 import { ApiProvider } from '../providers/api.provider';
 import { WebRequestProvider } from '../providers/webrequest.provider';
 import { HelperProvider } from '../providers/helper.provider';
+import { ContactServiceProvider } from '../providers/contact.service.provider';
+import { ConstantsProvider } from '../providers/constants.provider';
 import { WebRequestProcessor } from '../processors/webrequest.processor';
 
 
@@ -19,6 +21,7 @@ import { ContentAreaComponent } from '../pages/content-area/content-area.compone
 import { FooterComponent } from '../pages/footer/footer.component';
 import { AboutComponent } from '../pages/about/about.component';
 import { ContactComponent } from '../pages/contact/contact.component';
+import { DailogComponent } from '../pages/dialogs/dialog.component';
 
 
 @NgModule({
@@ -29,6 +32,7 @@ import { ContactComponent } from '../pages/contact/contact.component';
 		FooterComponent,
 		AboutComponent,
 		ContactComponent,
+		DailogComponent
 	],
 	imports: [
 		BrowserModule,
@@ -57,7 +61,9 @@ import { ContactComponent } from '../pages/contact/contact.component';
 		ApiProvider,
 		WebRequestProvider,
 		HelperProvider,
-		WebRequestProcessor
+		WebRequestProcessor,
+		ContactServiceProvider,
+		ConstantsProvider
 	],
 	bootstrap: [AppComponent]
 })

@@ -33,6 +33,10 @@ body {
 	padding: 0;
 }
 
+.color-theme {
+	color: #2e3191;
+}
+
 #header #company {
 	float: left;
 	padding-left: 150px;
@@ -519,6 +523,10 @@ form {
 	height: 50px;
 	margin: 0 auto;
 	width: 50px;
+}
+
+.text-center {
+	text-align: center;
 }
 
 #text-hidden {

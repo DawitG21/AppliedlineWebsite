@@ -8,9 +8,9 @@
 
 <section id="letusknow">
 	<!-- <h1>Let us know what you think</h1>-->
-	<form name="user-update">
-		<h2 class="inquiry-text">Need software? We got you</h2>
-		<input type="text" placeholder="What's on your mind...">
+	<form name="whatOnMind" (ngSubmit)="onSubmit()" #whatOnMind="ngForm">
+		<h2 class="inquiry-text">Need great apps? We got you</h2>
+		<input type="text" name="message" [(ngModel)]="message" placeholder="What's on your mind..." autocomplete="off">
 		<button type="submit" class="button">Submit</button>
 	</form>
 </section>
@@ -172,7 +172,7 @@
 		<div class="mySlides fade">
 			<div class="numbertext"></div>
 			<img alt="" src="assets/graphics/events_cc_2.jpg">
-			<div class="caption-text">CargoCanal session with MD Sabrina Transit PLC</div>
+			<div class="caption-text">CargoCanal session with MD Cruise Logistics PLC</div>
 		</div>
 		
 		<div class="mySlides fade">
