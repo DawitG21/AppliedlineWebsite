@@ -27,6 +27,9 @@ export class ContentAreaComponent implements OnInit {
 	ngOnInit() {
 		scroll(0, 0);
 
+		// clear broadcast message
+		this.contactBroadcast.updateMessage('');
+
 		const letUsKnowDiv = document.getElementById('letusknow');
 		const letUsKnowTopOffset = letUsKnowDiv.offsetTop;
 
