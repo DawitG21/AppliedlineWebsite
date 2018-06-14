@@ -3,7 +3,7 @@
     "short_name": "Appliedline",
     "start_url": "index.html",
     "background_color": "#fff",
-    "theme_color": "#3d3d3d",
+    "theme_color": "#2e3191",
     "icons": [
         {
             "sizes": "300x300",
