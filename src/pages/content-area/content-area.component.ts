@@ -30,17 +30,18 @@ export class ContentAreaComponent implements OnInit {
 		// clear broadcast message
 		this.contactBroadcast.updateMessage('');
 
+		const letUsKnowWr = document.getElementById('letusknow-wr');
 		const letUsKnowDiv = document.getElementById('letusknow');
-		const letUsKnowTopOffset = letUsKnowDiv.offsetTop;
+		const letUsKnowWrTopOffset = letUsKnowWr.offsetTop;
 
 		// fix the div if topOffset is about 0
-		this.fixLetUsKnowDiv(letUsKnowDiv, letUsKnowTopOffset);
+		this.fixLetUsKnowDiv(letUsKnowDiv, letUsKnowWrTopOffset);
 		this.beginSlideshow();
 	}
 
-	fixLetUsKnowDiv(letUsKnowDiv, letUsKnowTopOffset) {
+	fixLetUsKnowDiv(letUsKnowDiv, letUsKnowWrTopOffset) {
 		window.onscroll = function () {
-			if (window.scrollY >= letUsKnowTopOffset + 30) {
+			if (window.scrollY >= letUsKnowWrTopOffset + 30) {
 				letUsKnowDiv.classList.add('myfixed');
 			} else {
 				letUsKnowDiv.classList.remove('myfixed');

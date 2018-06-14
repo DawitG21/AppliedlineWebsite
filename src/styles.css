@@ -228,34 +228,6 @@ img {
 
 /* The dots/bullets/indicators */
 
-#letusknow {
-	position: absolute;
-	left: 0;
-	right: 0;
-	padding: 7px;
-	color: white;
-	background: hsl(0, 0%, 24%);
-}
-
-#letusknow .inquiry-text {
-	float: left;
-	color: white;
-	padding-left: 150px;
-	margin-top: 0;
-}
-
-#letusknow form {
-	text-align: center;
-	padding-top: 13px;
-}
-
-#letusknow input[type="text"] {
-	background: white;
-	padding: 4px;
-	height: 22px;
-	width: 250px;
-}
-
 .button {
 	height: 33.5px;
 	background: #6a5acd;

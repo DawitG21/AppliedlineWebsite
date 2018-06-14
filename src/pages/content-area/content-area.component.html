@@ -1,49 +1,45 @@
-<section #firstshow id="firstshow">
-	<div id="container">
-		<div class="blinking">
+<!-- contains the landing image  -->
+<section #firstshow id="firstshow"></section>
 
-		</div>
-	</div>
+<section id="letusknow-wr">
+	<section id="letusknow">
+		<form name="whatOnMind" (ngSubmit)="onSubmit()" #whatOnMind="ngForm">
+			<h2 class="inquiry-text">Need great apps? We got you</h2>
+			<input type="text" name="message" [(ngModel)]="message" placeholder="What's on your mind..." autocomplete="off">
+			<button type="submit" class="button">Submit</button>
+		</form>
+	</section>
 </section>
 
-<section id="letusknow">
-	<!-- <h1>Let us know what you think</h1>-->
-	<form name="whatOnMind" (ngSubmit)="onSubmit()" #whatOnMind="ngForm">
-		<h2 class="inquiry-text">Need great apps? We got you</h2>
-		<input type="text" name="message" [(ngModel)]="message" placeholder="What's on your mind..." autocomplete="off">
-		<button type="submit" class="button">Submit</button>
-	</form>
-</section>
-
-<section class="icons expertise-top-100">
+<section class="icons">
 	<div class="container1">
 		<div class="one">
 			<h3>
 				<span class="expertise-color">Desktop</span> Application</h3>
 			<img alt="" src="assets/graphics/9.6e.png">
-			<p>Programs designed to perform a group of coordinated functions, tasks, or activities for the benefit of the user. Designed
-				to help people to perform maintenance or general-purpose.</p>
+			<p>Programs designed to run on a PC or Mac independently without the need for an Internet connection. 
+				Work anywhere, anytime at your pace.</p>
 		</div>
 		<div class="one">
 			<h3>
 				<span class="expertise-color">Mobile</span> Application</h3>
 			<img alt="" src="assets/graphics/18.png">
-			<p>Applications designed to run on a mobile device such as a smart phone / tablet or watch. Apps are generally small, individual
-				software units with limited function.</p>
+			<p>Applications designed to run on a mobile device such as a smart phone, tablet or watch. 
+				Apps are generally small, individual software units with limited function.</p>
 		</div>
 		<div class="one">
 			<h3>
 				<span class="expertise-color">Cloud</span> Service</h3>
 			<img alt="" src="assets/graphics/14.1.png">
-			<p>Cloud services involves professional services that enable customers to deploy the various types of cloud services.Consulting
-				firms and to help their clients adopt cloud-based technology.</p>
+			<p>Software-as-a-Service that can be consumed without having to invest in 
+				hardware, development and maintenance. Save cost and be more productive.</p>
 		</div>
 		<div class="one">
 			<h3>
 				<span class="expertise-color">Storage</span> Service</h3>
 			<img alt="" src="assets/graphics/13.1.png">
-			<p>We provides computer storage space and related management services. We also offer periodic backup and archiving. Advantages
-				of managed storage are that more space can be ordered as required.</p>
+			<p>We provides computer storage space and related management services. We also offer periodic 
+				backup and archiving. You can scale up or down as desired.</p>
 		</div>
 	</div>
 </section>
@@ -67,7 +63,7 @@
 			<h3>Software
 				<span class="expertise-color">Development</span>
 			</h3>
-			<p>Conceiving, specifying, designing, programming, testing, documenting, and bug fix 
+			<p>Conceiving, analyzing, designing, coding, testing, documenting, and bug fixes 
 				with industry practice of continuous integration, continuous delivery and continuous deployment.</p>
 		</div>
 
@@ -77,7 +73,7 @@
 			<h3>Database
 				<span class="expertise-color">Architecture</span>
 			</h3>
-			<p>We provide database designs that are secure and scalable with guaranteed optimal performance. From on-premise MS Sql Server to Azure Database or MongoDB.</p>
+			<p>We provide database designs that are secure and scalable with guaranteed optimal performance.</p>
 		</div>
 
 		<div class="one">
@@ -85,7 +81,8 @@
 			<h3>
 				System <span class="expertise-color">Integration</span>
 			</h3>
-			<p>Providing process of bringing together the component sub-systems into one system and ensuring that the subsystems function
+			<p>We provide seamless workflow of integrating new component sub-system
+				into existing systems and ensure that the subsystems function
 				together as a unit.</p>
 		</div>
 
@@ -94,7 +91,7 @@
 			<h3>Software
 				<span class="expertise-color">Consulting</span>
 			</h3>
-			<p>We provide software assessment, code review, corporate consultancy, UX and UI, customization and knowledge transfer.</p>
+			<p>We provide software assessment, code review, corporate consultancy, UX and UI design, and training.</p>
 		</div>
 
 	</div>
