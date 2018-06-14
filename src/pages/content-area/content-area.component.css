@@ -121,8 +121,9 @@ img {
 #letusknow input[type="text"] {
 	background: white;
 	padding: 4px;
-	height: 22px;
+	height: 24px;
 	width: 250px;
+	border: none;
 }
 
 /* tablet size */
