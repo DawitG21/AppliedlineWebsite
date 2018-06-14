@@ -134,6 +134,9 @@ img {
 	.ethics-notes {
 		width: 100%;
 	}
+	#letusknow input[type="text"] {
+		width: 165px;
+	}
 	#letusknow .inquiry-text {
 		padding-left: 20px;
 	}

@@ -390,7 +390,7 @@ form {
 		margin: auto;
 		overflow: hidden;
 	}
-	#header #company, #header nav, #header nav li, .icons2 .one, .icons .one, .icons2 .two, .icons .three, .icons .client, #text .info {
+	#header nav, #header nav li, .icons2 .one, .icons .one, .icons2 .two, .icons .three, .icons .client, #text .info {
 		float: none;
 		text-align: center;
 		width: 100%;
@@ -431,6 +431,11 @@ form {
 	}
 	h1 {
 		font-size: 26px;
+	}
+	#header #company {
+		float: none;
+		text-align: center;
+		width: 100%;
 	}
 	.underline {
 		width: 68px;
