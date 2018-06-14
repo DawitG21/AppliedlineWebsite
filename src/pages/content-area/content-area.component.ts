@@ -7,12 +7,13 @@ import { ContactServiceProvider } from '../../providers/contact.service.provider
 	templateUrl: './content-area.component.html',
 	styleUrls: ['./content-area.component.css']
 })
+/**
+ *
+ */
 export class ContentAreaComponent implements OnInit {
 
 	message: string;
-	/**
-	 *
-	 */
+
 	constructor(private router: Router,
 		private contactBroadcast: ContactServiceProvider
 	) { }
@@ -62,8 +63,11 @@ export class ContentAreaComponent implements OnInit {
 			}
 
 			for (let i = 0; i < slides.length; i++) {
-				slides[i].classList.add('hidden');
-				slides[i].classList.remove('show');
+				const currentSlide = slides[i];
+				if (currentSlide) {
+					currentSlide.classList.add('hidden');
+					currentSlide.classList.remove('show');
+				}
 			}
 
 			slideIndex++;
@@ -76,9 +80,13 @@ export class ContentAreaComponent implements OnInit {
 				dots[i].className = dots[i].className.replace(' active', '');
 			}
 
-			slides[slideIndex - 1].classList.add('show');
-			slides[slideIndex - 1].classList.remove('hidden');
-			dots[slideIndex - 1].className += ' active';
+			const prevSlide = slides[slideIndex - 1];
+
+			if (prevSlide) {
+				prevSlide.classList.add('show');
+				prevSlide.classList.remove('hidden');
+				dots[slideIndex - 1].className += ' active';
+			}
 
 			// Change image every few seconds
 			setTimeout(showSlides, 5000);
