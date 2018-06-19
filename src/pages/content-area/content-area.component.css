@@ -49,6 +49,7 @@
 	text-align: center;
 	color: white;
 	padding: 50px 0;
+	position: relative;
 }
 
 #firstshow {
@@ -126,6 +127,17 @@ img {
 	border: none;
 }
 
+.hero-base-wr{
+	position: absolute;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+}
+.hero-base-wr button{
+	height: 48px;
+	width: 180px;
+}
+
 /* tablet size */
 @media only screen and (max-width: 1080px) {
 	.ethics-jumbotron {
@@ -145,7 +157,7 @@ img {
 
 /* On smaller screens */
 @media only screen and (max-width: 480px) {
-	#letusknow {
+	#letusknow-wr {
 		display: none;
 	}
 	.icons {
