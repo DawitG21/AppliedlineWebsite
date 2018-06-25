@@ -10,12 +10,6 @@
         margin-top: 0;
         border-bottom: 1px solid #ccc;
     }
-    /* #header ul {
-        position: absolute;
-        top: 15px;
-        left: 0;
-        width: 100%;
-    } */
     #header li, #header li.nav-left {
         top: 15px;
         left: 0;
