@@ -40,7 +40,7 @@ import { DailogComponent } from '../pages/dialogs/dialog.component';
 		HttpModule,
 		Ng2CarouselamosModule,
 		AgmCoreModule.forRoot({
-			apiKey: 'AIzaSyC5TiZoTEwEcB_HUZRhe_rXrcSWW1Z5x8I'
+			apiKey: 'AIzaSyACUBbhWj2AZpFTGKVu9czrVnKY73V-R3w'
 		}),
 		RouterModule.forRoot([
 			{

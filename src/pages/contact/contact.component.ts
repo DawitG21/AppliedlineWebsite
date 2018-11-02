@@ -12,8 +12,8 @@ import { WebContact } from '../../models/webcontact.model';
 })
 export class ContactComponent implements OnInit {
 
-	latitude = 8.988759;
-	longtiude = 38.788968;
+	latitude = 8.9887529;
+	longtiude = 38.7890061;
 
 	contact: IWebContact;
 	processing: boolean;
