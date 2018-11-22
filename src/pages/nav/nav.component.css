@@ -5,12 +5,16 @@
     cursor: pointer;
 }
 
+#img-logo {
+    display: none;
+}
+
 @media screen and (max-width:480px) {
     #header {
         margin-top: 0;
         border-bottom: 1px solid #ccc;
     }
-    #header li, #header li.nav-left {
+    /* #header li, #header li.nav-left {
         top: 15px;
         left: 0;
         float: left;
@@ -21,8 +25,23 @@
         float: right;
         right: 0;
         left: auto;
-    }
+    } */
     #header #company {
         padding: 0;
+    }
+
+    #img-logo {
+        display: inline-block;
+    }
+
+    #logo-title {
+        display: none;
+    }
+    #header ul {
+        margin: 0;
+        padding: 0;
+        top: 20px;
+        left: 20%;
+        position: absolute;
     }
 }

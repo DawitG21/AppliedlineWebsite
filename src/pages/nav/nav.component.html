@@ -1,20 +1,23 @@
+<!doctype html>
 <header id="header">
-    <div id="company">
-        <h1 id="logo-title" (click)="routeHome()">
-            Applied<span class="color-theme">line</span>
-        </h1>
-    </div>
-
-    <nav>
-        <ul>
-            <li class="nav-left">
-                <a routerLink="/contact">CONTACT</a>
-            </li>
-            <li class="nav-right">
-                <a routerLink="/about">ABOUT</a>
-            </li>
-
-        </ul>
-    </nav>
+  <div id="company">
+    <h1 id="logo-title" (click)="routeHome()">
+      Applied<span class="color-theme">line</span>
+    </h1>
+    <img id="img-logo" src="../../assets/global/images/appliedline_logo_64_transparent.png" (click)="routeHome()">
+  </div>
+  <nav>
+    <ul>
+      <li class="nav-left">
+        <a routerLink="/contact">Contact</a>
+      </li>
+      <li class="nav-right">
+        <a routerLink="/about">About</a>
+      </li>
+      <li class="nav-right">
+        <a routerLink="/events">Event</a>
+      </li>
+    </ul>
+  </nav>
 
 </header>

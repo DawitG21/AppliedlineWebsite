@@ -22,6 +22,9 @@ import { FooterComponent } from '../pages/footer/footer.component';
 import { AboutComponent } from '../pages/about/about.component';
 import { ContactComponent } from '../pages/contact/contact.component';
 import { DailogComponent } from '../pages/dialogs/dialog.component';
+import { MediaAreaComponent } from '../pages/media-area/media-area.component';
+import { CargocanalEventComponent} from '../pages/cargocanal-event/cargocanal-event.component';
+import { MediaareaPipe } from './mediaarea.pipe';
 
 
 @NgModule({
@@ -32,7 +35,10 @@ import { DailogComponent } from '../pages/dialogs/dialog.component';
 		FooterComponent,
 		AboutComponent,
 		ContactComponent,
-		DailogComponent
+		DailogComponent,
+		MediaAreaComponent,
+		CargocanalEventComponent,
+		MediaareaPipe
 	],
 	imports: [
 		BrowserModule,
@@ -54,6 +60,14 @@ import { DailogComponent } from '../pages/dialogs/dialog.component';
 			{
 				path: 'contact',
 				component: ContactComponent
+			},
+			{
+				path: 'events',
+				component: MediaAreaComponent
+			},
+			{
+				path: 'cargocanal',
+				component: CargocanalEventComponent
 			}
 		])
 	],

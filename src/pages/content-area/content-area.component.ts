@@ -18,7 +18,6 @@ export class ContentAreaComponent implements OnInit {
 		private contactBroadcast: ContactServiceProvider
 	) { }
 
-
 	onSubmit() {
 		this.contactBroadcast.updateMessage(this.message);
 		this.message = '';
