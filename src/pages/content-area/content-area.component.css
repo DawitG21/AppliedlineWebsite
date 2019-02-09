@@ -2,7 +2,7 @@
   color: #20ad65;
 }
 
-#ethics-wr {
+.ethics-wr {
   overflow: hidden;
   width: 100%;
   padding: 70px 30px;
@@ -16,9 +16,31 @@
   text-align: center;
 }
 
+.parallax-app-text {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  width: 40%;
+  text-align: right;
+  text-shadow: 0 0 20px #fff;
+}
+
+.ethics-jumbotron.parallax-app-text h1{
+  color: red;
+}
+
+.ethics-jumbotron.parallax-app-text h3{
+  font-size: 24px;
+  color: #333333;
+}
+
+.text-right{
+  text-align: right;
+}
 .ethics-jumbotron h1 {
   font-size: inherit;
   margin: 30px 0 60px;
+  color: inherit;
 }
 
 .ethics-notes {
@@ -87,11 +109,8 @@ img {
 .slideshow-container,
 .dots {
   display: none;
+  position: relative;
 }
-
-/* .dots {
-  display: none;
-} */
 
 .slideshow-container img {
   width: 100%;
@@ -143,41 +162,49 @@ img {
   width: 180px;
 }
 
+.container-effects-wr{
+  position: relative;
+  background-color: #fff;
+}
+
 .container-effects {
-  margin-left: 40%;
+  margin-left: 20%;
   position: relative;
   width: 360px;
   height: 640px;
-  background: rgb(61, 58, 58);
+  background-color: rgb(61, 58, 58);
+  background: url('../../assets/graphics/circuit_board.jpg');
   transform: rotate(-30deg) skew(25deg) scale(.8);
   transition: 0.5s;
 }
 
+
 .container-effects img {
   position: absolute;
-  width: 100%;
+  width: 360px;
   transition: 0.5s;
 }
 
-.container-effects:hover img:nth-child(4) {
+.container-effects-wr:hover img:nth-child(4) {
   transform: translate(160px, -160px);
   opacity: 1;
 }
 
-.container-effects:hover img:nth-child(3) {
+.container-effects-wr:hover img:nth-child(3) {
   transform: translate(120px, -120px);
   opacity: .8;
 }
 
-.container-effects:hover img:nth-child(2) {
+.container-effects-wr:hover img:nth-child(2) {
   transform: translate(80px, -80px);
   opacity: .6;
 }
 
-.container-effects:hover img:nth-child(1) {
+.container-effects-wr:hover img:nth-child(1) {
   transform: translate(40px, -40px);
   opacity: .4;
 }
+
 
 
 
@@ -185,6 +212,11 @@ img {
 @media only screen and (max-width: 1080px) {
   .ethics-jumbotron {
     display: none;
+  }
+
+  .ethics-jumbotron.parallax-app-text {
+    display: block;
+    width: 100%;
   }
 
   .slideshow-container,
@@ -229,7 +261,7 @@ img {
 	display: block;  
   } */
 
-  .container-effects {
+  .container-effects-wr {
     display: none;
   }
 

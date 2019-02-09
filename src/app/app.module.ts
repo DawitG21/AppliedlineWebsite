@@ -46,7 +46,8 @@ import { MediaareaPipe } from './mediaarea.pipe';
 		HttpModule,
 		Ng2CarouselamosModule,
 		AgmCoreModule.forRoot({
-			apiKey: 'AIzaSyACUBbhWj2AZpFTGKVu9czrVnKY73V-R3w'
+			apiKey: 'AIzaSyA2tgD5aHakakIM-B-AMjEoqUnI_UpuSbA' // production key
+			// apiKey: 'AIzaSyACUBbhWj2AZpFTGKVu9czrVnKY73V-R3w' // test key
 		}),
 		RouterModule.forRoot([
 			{

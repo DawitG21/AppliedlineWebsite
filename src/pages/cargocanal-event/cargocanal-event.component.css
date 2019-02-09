@@ -3,9 +3,8 @@
 }
 
 .slideImage {
-    width: 55%;
+    width: 100%;
     height: auto;
-    margin-left: 20%;  
 }
 
 .container {
@@ -13,38 +12,39 @@
 }
 
 .mySlides{
+    width: 55%;
+    margin: 0 auto;
+    margin-bottom: 10px;
     display: none;
 }
 
 .previous, .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 40%;
     width: 5%;
     height: 10%;
     text-align: center;
-    /* padding: 16%; */
-    margin-top: -50px;
-    color: black;
+    margin-top: -40px;
+    color: #444444;
     font-size: 40px;
     font-weight: bold;
-    font-size: 20px;
     border-radius: 50%;
     user-select: none;
-    /* background-color : rgba(0, 0, 0, 0.8); */
+}
+
+.next:hover, .previous:hover {
+    color: #cccccc;
 }
 
 .next {
-    right: 15%;
+    right: 10%;
 }
 
 .previous {
     left: 10%;
 }
 
-/* .previous:hover, .next:hover {
-    background-color : rgba(0, 0, 0, 0.8);
-} */
 
 .numberText{
     color: #f2f2f2;
@@ -99,21 +99,22 @@
 }
 
 .header {
-	font-size: 1.5em;
-	color: #555
+    font-size: 1.5em;
+    font-weight: 600;
+	color: #2e3191;
 }
 
 .article {
     width : 70%;
-    margin-left: 15%;
+    background-color: #fff;
+    margin: 0 auto;
 }
 
 #clip {
-    background-size: contain;
-    background-color: white;
-    width: 75%;
+    background-color: #fff;
+    width: 70%;
     height: 80%;
-    margin-left: 15%;
+    margin: 0 auto;
 }
 
 iframe {
@@ -125,39 +126,34 @@ iframe {
     .slideImage {
         width: 75%;
         height: auto;
-        margin-left: 12%;  
     }
 
-    .next {
-        right: 7%;
-    }
-    
-    .previous {
-        left: 6%;
-    }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
+    .article, #clip {
+        width : 100%;
+    }
+
+    .article {
+        padding: 15px;
+    }
+
+    .mySlides{
+        width: 100%;
+    }
+
     .slideImage {
-        width: 85%;
-        height: auto;
-        margin-left: 8%;  
+        width: inherit;
+        height: auto; 
     }
 
-    .next {
-        right: 2%;
-    }
-    
-    .previous {
-        left: 2%;
-    }
-
-    #clip {
-        background-size: contain;
-        background-color: white;
-        width: 75%;
-        height: 100%;
-        margin-left: 15%;
+    .next,
+    .next:hover, 
+    .previous,
+    .previous:hover {
+        color: #ffffff;
+        text-shadow: 0 0 10px #000000;
     }
 
     iframe {

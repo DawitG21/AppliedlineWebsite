@@ -3,87 +3,84 @@ import { Router } from '@angular/router';
 import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
-selector: 'app-content-area',
-templateUrl: './media-area.component.html',
-styleUrls: ['./media-area.component.css']
+	selector: 'app-content-area',
+	templateUrl: './media-area.component.html',
+	styleUrls: ['./media-area.component.css']
 })
 /**
  *
  */
 export class MediaAreaComponent implements OnInit {
 
-/* embed: 'XRXQwgga5DM'; */
+	/* embed: 'XRXQwgga5DM'; */
 
-videoInfo = [
-{
-date: '',
-name: 'CargoCanal App',
-description: 'Official launch',
-description_2: '#Ethiopia #Maritime #Freightforwarding',
-calendarUrl: '../../assets/graphics/calendar.png',
-locationUrl: '../../assets/graphics/placeholder.png'
-},
-];
+	videoInfo = [
+		{
+			date: 'October 25, 2018',
+			name: 'CargoCanal',
+			description: 'Official launch',
+			description_2: '#Ethiopia #Maritime #Freightforwarding',
+			calendarUrl: '../../assets/graphics/calendar.png',
+			locationUrl: '../../assets/graphics/placeholder.png'
+		}
+	];
 
-eventsList = [
-{
-event_1: 'CargoCanal Launch',
-eventUrl: '../../assets/graphics/ccz.JPG',
-}
-];
+	eventsList = [
+		{
+			event_1: 'CargoCanal Launch',
+			eventUrl: '../../assets/graphics/ccz.JPG',
+		}
+	];
 
-newsList = [
-{
-newsTitle: 'Merry Christmass** and',
-newsUrl: '../../assets/graphics/xmas.png',
-news_Description: '** Happy New Year',
-newsTitle_2: 'CargoCanal',
-newsDescription_2: 'Now on Google Play & App Store',
-newsUrl_2: '../../assets/graphics/ccan.png',
-}
-];
+	newsList = [
+		{
+			newsTitle: 'CargoCanal on iOS and Android',
+			newsUrl: '../../assets/graphics/ccan.png',
+			// newsDescription: 'Now on Google Play & App Store'
+		}
+	];
 
-archivesList = [
-{
-archive_1: 'Seekerfit',
-archive_2: 'Cost Estimator',
-seekerUrl: '../../assets/graphics/seekerfit.png',
-}
-];
+	archivesList = [
+		{
+			archive_1: 'Seekerfit',
+			archive_2: 'Cost Estimator',
+			seekerUrl: '../../assets/graphics/seekerfit.png',
+		}
+	];
 
-constructor(private router: Router, private sanitizer: DomSanitizer) { }
-ngOnInit() {
-/* this.getEmbedUrl(this.item); */
-this.ShowEvents(0);
-}
+	constructor(private router: Router, private sanitizer: DomSanitizer) { }
 
-/*  getEmbedUrl(item) {
-             return this.sanitizer.bypassSecurityTrustUrl('https://www.youtube.com/embed/' + item.embed + '');
-         } */
-navigate() {
-this.router.navigate(['/cargocanal']);
-}
+	ngOnInit() {
+		/* this.getEmbedUrl(this.item); */
+		scroll(0, 0);
+		this.ShowEvents(0);
+	}
 
-ShowEvents(y) {
-const x = document.querySelectorAll('.events');
-for (let i = 0; i < x.length; i++) {
-x[i].classList.remove('show');
-x[i].classList.add('hide');
-}
-x[y].classList.add('show');
-x[y].classList.remove('hide');
-}
+	/*  getEmbedUrl(item) {
+				 return this.sanitizer.bypassSecurityTrustUrl('https://www.youtube.com/embed/' + item.embed + '');
+			 } */
+	navigate() {
+		this.router.navigate(['/cargocanal']);
+	}
 
-scrollright() {
-let a;
-a = document.getElementById('scroll');
-a.scrollLeft += 400;
-}
+	ShowEvents(y: number) {
+		const x = document.querySelectorAll('.events');
+		for (let i = 0; i < x.length; i++) {
+			x[i].classList.remove('show');
+			x[i].classList.add('hide');
+		}
+		x[y].classList.add('show');
+		x[y].classList.remove('hide');
+	}
 
-scrollleft() {
-let a;
-a = document.getElementById('scroll');
-a.scrollLeft -= 400;
-}
+	scrollright() {
+		const a = document.getElementById('scroll');
+		a.scrollLeft += 400;
+	}
+
+	scrollleft() {
+		const a = document.getElementById('scroll');
+		a.scrollLeft -= 400;
+	}
 
 }

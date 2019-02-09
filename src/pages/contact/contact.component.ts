@@ -56,7 +56,6 @@ export class ContactComponent implements OnInit {
 			}).catch(() => {
 				// error: redirect to error page
 				this.processing = false;
-				console.log('catch error');
 			});
 	}
 

@@ -220,7 +220,7 @@ a:hover div.column_events {
 }
 
 .next,
-.preview {
+.previous {
   position: absolute;
   color: black;
   top: 110%;
@@ -231,7 +231,7 @@ a:hover div.column_events {
   border-radius: 50%
 }
 
-.preview {
+.previous {
   margin-left: 5%;
 }
 
@@ -280,7 +280,7 @@ div.scrollmenu a {
   height: 100%;
   display: inline-block;
   text-align: center;
-  margin-left: 4%;
+  margin-left: 10px;
 }
 
 .eventTypeimg {
@@ -363,7 +363,7 @@ div.scrollmenu a {
     height: 400px;
   }
 
-  .preview,
+  .previous,
   .next {
     display: none;
   }

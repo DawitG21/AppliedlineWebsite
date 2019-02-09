@@ -31,7 +31,7 @@
           <img [src]="item.calendarUrl" class="res_img"/>
         </div>
         <div class="cal-desc">
-          <p class="h4">October 25, 2018</p>
+          <p class="h4">{{item.date}}</p>
         </div>
       </div>
       <div class="share-video location">
@@ -68,8 +68,8 @@
 
   <!-- Start of events -->
   <div class="events">
-    <div class="eventType" id="scroll" *ngFor="let event of eventsList">
-      <a>
+    <div class="eventType" id="scroll">
+      <a *ngFor="let event of eventsList">
         <div class="event eventText" (click)="navigate()">
           <div class="eventTypeimg">
             <img [src]="event.eventUrl" class="event_picture" />
@@ -87,8 +87,8 @@
 
   <!-- Start of announcements -->
   <div class="events">
-    <div class="eventType" id="scroll" *ngFor="let news of newsList">
-      <a>
+    <div class="eventType" id="scroll">
+      <a *ngFor="let news of newsList">
         <div class="event eventText">
           <div class="eventTypeimg">          
             <img [src]="news.newsUrl" class="event_picture" />
@@ -96,20 +96,7 @@
           <div class="eventDescription">
             <p class="ptag">
               {{ news.newsTitle }}<br>
-              {{ news.news_Description }}
-            </p>
-          </div>
-        </div>
-      </a>
-      <a>
-        <div class="event eventText">
-          <div class="eventTypeimg">
-            <img [src]="news.newsUrl_2" class="event_picture" />
-          </div>
-          <div class="eventDescription">
-            <p class="ptag">
-              {{ news.newsTitle_2 }}<br>
-              {{ news.newsDescription_2 }}
+              {{ news.newsDescription }}
             </p>
           </div>
         </div>
