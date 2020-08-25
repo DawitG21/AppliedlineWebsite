@@ -1,13 +1,11 @@
 import { Injectable } from '@angular/core';
-import { Http, Response } from '@angular/http';
+import { HttpClient, HttpResponse } from '@angular/common/http';
 import { ApiProvider } from './api.provider';
 import { IWebContact } from '../interfaces/webcontact.interface';
-import { Observable } from 'rxjs';
+import { Observable } from 'rxjs-compat/Observable';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
-import 'rxjs/add/Observable/throw';
 import 'rxjs/add/operator/timeout';
-
 
 /**
  *
@@ -17,9 +15,8 @@ export class WebRequestProvider {
 
 	private readonly routeContact = 'contacts/';
 
-	constructor(private http: Http, private api: ApiProvider
-	) {
-	}
+	constructor(private http: HttpClient, private api: ApiProvider
+	) { }
 
 	sendRequest(contact: IWebContact): Observable<IWebContact> {
 		const url = this.api.apiUrl + this.routeContact;
@@ -27,7 +24,7 @@ export class WebRequestProvider {
 		console.log(url);
 		return this.http.post(url, contact)
 			.timeout(10000)
-			.map((response: Response) => <IWebContact>response.json())
+			.map((response) => <IWebContact>response)
 			.catch(this.handleError);
 	}
 

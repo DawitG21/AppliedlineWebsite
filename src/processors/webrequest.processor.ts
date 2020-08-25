@@ -7,33 +7,30 @@ import { IWebContact } from '../interfaces/webcontact.interface';
 @Injectable()
 export class WebRequestProcessor implements IWebRequestProcessor {
 
-	/**
-	 *
-	 */
-	constructor(private request: WebRequestProvider,
-		private helper: HelperProvider
-	) {
-	}
+    constructor(private request: WebRequestProvider,
+        private helper: HelperProvider
+    ) {
+    }
 
-	sendRequest(webcontact: IWebContact): Promise<IWebContact> {
+    sendRequest(webcontact: IWebContact): Promise<IWebContact> {
 
-		if (webcontact.ContactName.length === 0
-			|| !this.helper.emailIsValid(webcontact.Email)
-			|| !this.helper.phoneIsValid(webcontact.Phone)
-			|| webcontact.MessageText.length === 0
-			|| webcontact.RequestType.length === 0
-		) {
-			throw new Error();
-		}
+        if (webcontact.ContactName.length === 0
+            || !this.helper.emailIsValid(webcontact.Email)
+            || !this.helper.phoneIsValid(webcontact.Phone)
+            || webcontact.MessageText.length === 0
+            || webcontact.RequestType.length === 0
+        ) {
+            throw new Error();
+        }
 
-		return new Promise<IWebContact>((resolve, reject) => {
-			this.request.sendRequest(webcontact)
-				.subscribe((data) => {
-					resolve(data);
-				}, (error) => {
-					// error occured
-					reject(error);
-				});
-		});
-	}
+        return new Promise<IWebContact>((resolve, reject) => {
+            this.request.sendRequest(webcontact)
+                .subscribe((data) => {
+                    resolve(data);
+                }, (error) => {
+                    // error occured
+                    reject(error);
+                });
+        });
+    }
 }

@@ -1,4 +1,0 @@
-# crawler info for SEO
-
-User-agent: *
-Allow: *

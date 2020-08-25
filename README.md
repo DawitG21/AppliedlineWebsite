@@ -1,6 +1,6 @@
-# Second
+# AAAITWebsite
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
 
 ## Development server
 
@@ -12,11 +12,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-> ng-build --base-href="/" --prod
-
-Ensure you change the endpoint in api.provider.ts from 192.168.0.101 to your computer IP Address for testing or to the server address for production.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 ## Running unit tests
 
