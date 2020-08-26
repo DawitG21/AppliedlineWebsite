@@ -131,6 +131,10 @@ textarea {
   width: 55%;
 }
 
+iframe {
+  width: 100%;
+}
+
 #responsive-texts .one {
   float: none;
   text-align: center;

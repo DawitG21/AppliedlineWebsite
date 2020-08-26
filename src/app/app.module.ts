@@ -22,6 +22,7 @@ import { ContentAreaComponent } from '../components/content-area/content-area.co
 import { CargocanalEventComponent } from '../components/cargocanal-event/cargocanal-event.component';
 import { MediaAreaComponent } from '../components/media-area/media-area.component';
 import { DialogComponent } from '../components/dialog/dialog.component';
+import { TermsofserviceComponent } from '../components/termsofservice/termsofservice.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { DialogComponent } from '../components/dialog/dialog.component';
     ContentAreaComponent,
     CargocanalEventComponent,
     MediaAreaComponent,
-    DialogComponent
+    DialogComponent,
+    TermsofserviceComponent
   ],
   imports: [
     BrowserModule,
