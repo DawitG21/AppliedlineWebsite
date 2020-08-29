@@ -11,7 +11,7 @@
 #aboutpage {
   box-sizing: border-box;
   padding: 15px;
-  width: 70%;
+  /* width: 70%; */
   /* height: 659px; */
   float: left;
 }
@@ -34,7 +34,7 @@
 .row-left {
   width: 30%;
   float: left;
-  /* position: fixed; */
+  position: fixed;
   padding-right: 55px;
   top: 110px;
 }
@@ -208,18 +208,11 @@
 }
 
 @media (min-width: 768px) {
-  .col-md-6 {
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-
   .mt-md-4,
   .my-md-4 {
     margin-top: 1.5rem !important;
   }
-}
 
-@media (min-width: 768px) {
   #aboutpage {
     margin: 0;
     width: 100%;
@@ -255,7 +248,7 @@
 
 @media (max-width: 1295px) {
   .row-right {
-    margin-left: 28%;
+    margin-left: 35%;
   }
 }
 

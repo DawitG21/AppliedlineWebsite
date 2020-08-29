@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { HelperProvider } from 'src/providers/helper.provider';
 
 @Component({
   selector: 'app-footer',
@@ -7,14 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router, private helper: HelperProvider) { }
 
   ngOnInit(): void {
   }
 
-  topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+  openTC() {
+    this.helper.topFunction();
+    this.router.navigate(['/terms&conditions']);
   }
 
 }

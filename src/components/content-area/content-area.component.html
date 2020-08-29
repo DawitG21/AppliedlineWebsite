@@ -3,7 +3,7 @@
 <section #firstshow id="firstshow"></section>
 
 <section id="letusknow-wr">
-  <section id="letusknow">
+  <section id="letusknow" (click)="scroll(client)">
     <form name="whatOnMind" (ngSubmit)="onSubmit()" #whatOnMind="ngForm">
       <h2 class="inquiry-text">Need great apps? Let's do it</h2>
       <input type="text" name="message" [(ngModel)]="message" placeholder="What's on your mind..." autocomplete="off">
@@ -156,17 +156,17 @@
     <div class="row">
       <article>
         <img alt="" src="assets/graphics/icons/4.png">
-        <strong style="color:#6a5acd; ">DESIGN</strong>
+        <strong class="title">DESIGN</strong>
         <p>After all the preparation steps, the hard work begins.</p>
       </article>
       <article>
         <img alt="" src="assets/graphics/icons/5.png">
-        <strong style="color:#6a5acd; ">IMPLEMENTATION</strong>
+        <strong class="title">IMPLEMENTATION</strong>
         <p>Our developers translate the design into interactive software.</p>
       </article>
       <article>
         <img alt="" src="assets/graphics/icons/6.png">
-        <strong style="color:#6a5acd; ">TESTING</strong>
+        <strong class="title">TESTING</strong>
         <p>All functionality are thoroughly tested before rolling out to production.</p>
       </article>
     </div>
@@ -183,8 +183,7 @@
   </div>
 
   <div class="ethics-jumbotron parallax-app-text">
-    <h1>Cutting</h1>
-    <h1>Edge</h1>
+    <h1>Cutting Edge</h1>    
     <h1>Designs</h1>
     <h3>- Painstaking designs for easy use</h3>
   </div>
@@ -234,24 +233,23 @@
   <span class="dot"></span>
 </div>
 
-<section class="icons2">
+<section class="icons2" #client>
   <div class="container1">
     <div class="clients">
-      <h1>Clientele</h1>
+      <h1>Our Clients</h1>
+      <p class="client-p">Since our founding in 2006, we have worked closely and successfully with government
+        departments and major companies, and pride ourselves on meeting and exceeding our clients high expectations.
+        Here, you can find a selection of the many client organisations we already work closely alongside.</p>
     </div>
-
-    <div class="one clientele">
-      <img alt="" src="assets/graphics/9.9.png">
-    </div>
-
-    <div class="one clientele">
-      <img alt="" src="assets/graphics/5.5.png">
-    </div>
-
-    <div class="one clientele">
-      <img alt="" src="assets/graphics/2.PNG">
-    </div>
+    <!-- <div *ngFor="let client of clients">
+      <div class="one clientele">
+        <img alt="" src=" {{client.image}}">
+      </div>
+    </div> -->
+    <ng-image-slider [images]="clients" [imageSize]="{width: 300, height: 300}" #nav>
+    </ng-image-slider>
+    <!-- <button (click)="prevImageClick()">Prev</button>
+    <button (click)="nextImageClick()">Next</button> -->
 
   </div>
-
 </section>

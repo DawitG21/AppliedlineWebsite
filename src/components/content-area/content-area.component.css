@@ -2,6 +2,14 @@
   color: #20ad65;
 }
 
+.process-color {
+  color: #6a5acd;
+}
+
+.client-p {
+  text-align: center;
+}
+
 .ethics-wr {
   overflow: hidden;
   width: 100%;
@@ -80,6 +88,7 @@
   background: url("../../assets/graphics/home_banner.png") no-repeat;
   background-position: center;
   background-size: contain;
+  background-attachment: fixed;
   background-color: #fff;
 }
 
@@ -87,6 +96,7 @@
   background: url("../../assets/graphics/7.7.png") no-repeat;
   background-position: center;
   background-size: contain;
+  background-attachment: fixed;
   background-color: #fff;
 }
 
@@ -94,6 +104,7 @@
   background: url("../../assets/graphics/6.6.png") no-repeat;
   background-position: center;
   background-size: contain;
+  background-attachment: fixed;
   background-color: #fff;
 }
 
@@ -269,4 +280,13 @@ img {
     background-size: contain;
     background-color: #fff;
   }
+
+  #firstshow2 {
+    background-attachment: initial;
+  }
+
+  #firstshow3 {
+    background-attachment: initial;
+  }
+
 }

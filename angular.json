@@ -26,11 +26,13 @@
               "src/manifest.json"
             ],
             "styles": [
-              "src/styles.css",
+              "src/styles.css",              
               "src/assets/fontawesome-4.6.3.min.css",
-              "src/assets/social2.css"
+              "src/assets/social2.css"              
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -95,7 +97,9 @@
               "src/assets/fontawesome-4.6.3.min.css",
               "src/assets/social2.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js"
+            ]
           }
         },
         "lint": {

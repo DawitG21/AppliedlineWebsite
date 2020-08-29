@@ -5,6 +5,8 @@ import { AgmCoreModule } from '@agm/core';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { Ng2CarouselamosModule } from 'ng2-carouselamos';
+import { NgImageSliderModule } from 'ng-image-slider';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { ApiProvider } from '../providers/api.provider';
 import { WebRequestProvider } from '../providers/webrequest.provider';
@@ -12,6 +14,8 @@ import { HelperProvider } from '../providers/helper.provider';
 import { ContactServiceProvider } from '../providers/contact.service.provider';
 import { ConstantsProvider } from '../providers/constants.provider';
 import { WebRequestProcessor } from '../processors/webrequest.processor';
+import { DebugService } from 'src/providers/debug.service';
+import { APP_BASE_HREF, PlatformLocation } from '@angular/common';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from '../components/footer/footer.component';
@@ -23,6 +27,7 @@ import { CargocanalEventComponent } from '../components/cargocanal-event/cargoca
 import { MediaAreaComponent } from '../components/media-area/media-area.component';
 import { DialogComponent } from '../components/dialog/dialog.component';
 import { TermsofserviceComponent } from '../components/termsofservice/termsofservice.component';
+import { LanguageComponent } from '../components/language/language.component';
 
 @NgModule({
   declarations: [
@@ -35,27 +40,37 @@ import { TermsofserviceComponent } from '../components/termsofservice/termsofser
     CargocanalEventComponent,
     MediaAreaComponent,
     DialogComponent,
-    TermsofserviceComponent
+    TermsofserviceComponent,
+    LanguageComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule,   
+    FormsModule,
+    NgbModule,   
     HttpClientModule,
     AppRoutingModule,
+    NgImageSliderModule,
     Ng2CarouselamosModule,
     AgmCoreModule.forRoot({
-			apiKey: 'AIzaSyA2tgD5aHakakIM-B-AMjEoqUnI_UpuSbA' // production key
-			// apiKey: 'AIzaSyACUBbhWj2AZpFTGKVu9czrVnKY73V-R3w' // test key
-		}),
+      apiKey: 'AIzaSyA2tgD5aHakakIM-B-AMjEoqUnI_UpuSbA' // production key
+      // apiKey: 'AIzaSyACUBbhWj2AZpFTGKVu9czrVnKY73V-R3w' // test key
+    })
   ],
   providers: [
+    {
+      provide: APP_BASE_HREF,
+      useFactory: (s: PlatformLocation) => s.getBaseHrefFromDOM(),
+      deps: [PlatformLocation],
+    },
     ApiProvider,
     WebRequestProvider,
     HelperProvider,
     WebRequestProcessor,
     ContactServiceProvider,
-    ConstantsProvider
+    ConstantsProvider,
+    DebugService
   ],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }

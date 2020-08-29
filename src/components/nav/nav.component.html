@@ -17,7 +17,28 @@
       <li class="nav-left">
         <a routerLink="/contact">Contact</a>
       </li>
+      <li>
+        <span class="fa fa-globe"></span>&nbsp;<a href="#modal1">Language</a>      
+      </li>
     </ul>
   </nav>
-
 </header>
+
+<div class="overlay" id="modal1">
+  <a class="cancel" href="#_"></a>
+  <div class="overlay__content">
+    <ul class="navbar-nav">
+      <h2>Select Language</h2>
+      <hr>
+      <ng-container *ngFor="let lang of languages">
+        <li class="list-body border">
+          <a class="nav-item" (click)="gotoLocale(lang)">
+            <span class="fas fa-globe"></span>
+            &nbsp;{{lang.label}}
+          </a>
+        </li>
+      </ng-container>
+    </ul>
+  </div>
+</div>
+

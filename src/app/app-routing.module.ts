@@ -9,12 +9,14 @@ import { CargocanalEventComponent } from 'src/components/cargocanal-event/cargoc
 import { TermsofserviceComponent } from 'src/components/termsofservice/termsofservice.component';
 
 const routes: Routes = [
-  { path: '', component: ContentAreaComponent },
+  { path: '', component: ContentAreaComponent },  
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'events', component: MediaAreaComponent },
   { path: 'cargocanal', component: CargocanalEventComponent },
-  { path: 'terms&conditions', component: TermsofserviceComponent }
+  { path: 'terms&conditions', component: TermsofserviceComponent },
+  { path: 'home', component: ContentAreaComponent },
+  {path: '**', redirectTo: '/'}
 ];
 
 @NgModule({

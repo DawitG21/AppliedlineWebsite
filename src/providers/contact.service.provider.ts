@@ -13,4 +13,5 @@ export class ContactServiceProvider {
 	updateMessage(message: string) {
 		this.messageSource.next(message);
 	}
+	
 }
