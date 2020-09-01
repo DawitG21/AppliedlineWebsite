@@ -138,3 +138,9 @@
     left: 50%;
   }
 }
+
+/* @media screen and (max-width:614px) {
+  #modal1{
+    display: none;
+  }
+} */

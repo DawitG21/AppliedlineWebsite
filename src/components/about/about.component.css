@@ -1,8 +1,67 @@
 #aboutpage {
   box-sizing: border-box;
   padding: 15px;
-  width: 70%;
+  /* width: 55%;
+  float: left; */
+}
+
+#aboutImg {
+  /*  min-height: 420px; */
+  min-height: 500px;
+  text-align: center;
+  color: white;
+  padding: 50px 0;
+  position: relative;
+}
+
+#aboutImg {
+  background: url("../../assets/graphics/wp-about.PNG") no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+  background-color: #fff;
+}
+
+.ethics-wr {
+  overflow: hidden;
+  width: 100%;
+  padding: 70px 30px;
+  box-sizing: border-box;
+  /* background-color: #fff; */
+}
+
+.about-icons {
+  width: 50px;
+  height: 50px;
+}
+
+.ethics-jumbotron {
   float: left;
+  width: 30%;
+  font-size: 5em;
+  text-align: center;
+}
+
+.ethics-notes {
+  float: left;
+  /* width: 70%; */
+}
+
+.ethics-notes article {
+  float: left;
+  width: 25%;
+  min-height: 200px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.ethics-notes .title {
+  color: #6a5acd;
+  font-weight: bold;
+}
+
+.row {
+  overflow: auto;
 }
 
 #sidebar-wr {
@@ -28,6 +87,41 @@ aside#sidebar-wr .sidebar {
   margin: 0 auto;
 }
 
+#letusknow-wr {
+  position: relative;
+  height: 83px;
+}
+
+#letusknow {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 7px;
+  color: white;
+  background-color: #1c3474;
+  ;
+}
+
+#letusknow .inquiry-text {
+  float: left;
+  color: white;
+  padding-left: 65px;
+  margin-top: 0;
+}
+
+#letusknow form {
+  text-align: center;
+  padding-top: 13px;
+}
+
+#letusknow input[type="text"] {
+  background: white;
+  padding: 4px;
+  height: 24px;
+  width: 250px;
+  border: none;
+}
+
 /*For the About Page containertimer */
 
 .container-timeline {
@@ -51,6 +145,10 @@ aside#sidebar-wr .sidebar {
   bottom: 0;
   left: 50%;
   margin-left: -3px;
+}
+
+.show-480 {
+  display: none;
 }
 
 /* Container around content */
@@ -141,7 +239,44 @@ aside#sidebar-wr .sidebar {
   opacity: .85;
 }
 
-@media screen and (max-width: 768px) {
+/* On smaller screens */
+@media only screen and (max-width: 480px) {
+  #aboutImg {
+    min-height: 250px !important;
+    background: url("../../assets/graphics/ph1.png") no-repeat;
+    background-position: center;
+    background-size: contain !important;
+    background-color: #fff;
+    background-attachment: initial !important;
+  }
+
+  #letusknow-wr {
+    display: none;
+  }
+
+  .ethics-notes article {
+    width: 100%;
+  }
+
+  .ethics-wr {
+    padding: 20px 30px;
+  }
+
+  .show-480 {
+    padding: 0px 0px 0px 18px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 480px){
+  #aboutImg {
+    min-height: 350px;
+    background: url("../../assets/graphics/ph1.png") no-repeat;
+    background-size: contain;
+    background-color: #fff;
+    background-attachment: fixed;
+  }
+
   #aboutpage {
     margin: 0;
     width: 100%;
@@ -164,6 +299,10 @@ aside#sidebar-wr .sidebar {
     left: 0;
   }
 
+  .ethics-notes article {
+    width: 50%;
+  }
+
   aside#sidebar-wr,
   #schedule .timeline::after,
   #schedule .container3::after,
@@ -172,8 +311,36 @@ aside#sidebar-wr .sidebar {
   #schedule .left::before,
   #schedule .left::after {
     display: none;
-  } 
+  }
+
   .schedule-year {
     text-align: center;
+  }
+
+  .mx-768 {
+    display: none;
+  }
+
+  .ethics-wr {
+    padding: 20px 30px;
+  }
+
+  .show-480 {
+    padding: 0px 0px 0px 18px;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  #letusknow input[type="text"] {
+    width: 165px;
+  }
+
+  #letusknow .inquiry-text {
+    padding-left: 20px;
+  }
+
+  .ethics-notes {
+    width: 100%;
   }
 }
