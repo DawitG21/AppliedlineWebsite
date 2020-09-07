@@ -85,10 +85,10 @@
               "browserTarget": "AAAITWebsite:build:production"
             },
             "am": {
-              "browserTarget": "iniblawebsite:build:am"
+              "browserTarget": "AAAITWebsite:build:am"
             },
             "fr": {
-              "browserTarget": "iniblawebsite:build:fr"
+              "browserTarget": "AAAITWebsite:build:fr"
             }
           }
         },
@@ -145,10 +145,10 @@
               "devServerTarget": "AAAITWebsite:serve:production"
             },
             "am": {
-              "devServerTarget": "iniblawebsite:serve:am"
+              "devServerTarget": "AAAITWebsite:serve:am"
             },
             "fr": {
-              "devServerTarget": "iniblawebsite:serve:fr"
+              "devServerTarget": "AAAITWebsite:serve:fr"
             }
           }
         }

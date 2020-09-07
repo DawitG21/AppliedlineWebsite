@@ -1,10 +1,12 @@
 <!doctype html>
 
 <section #firstshow id="firstshow">
-  <div id="right-div"><a routerLink="/" title="Return to HomePage">
-      POWERED BY<br><img src="../../assets/graphics/youtube.png" style="margin-left:13%">
-      Applied<span class="span-theme">line</span></a></div>
-
+  <div id="right-div">
+    <a routerLink="/" title="Return to HomePage" i18n> POWERED BY<br><img src="../../assets/graphics/youtube.png"
+        style="margin-left:13%">Applied
+      <span class="span-theme">line</span>
+    </a>
+  </div>
 </section>
 
 <section id="video-content">
@@ -39,7 +41,7 @@
           <img [src]="item.locationUrl" class="res_img" />
         </div>
         <div class="cal-desc">
-          <p class="h4">UN Economic Commission for Africa</p>
+          <p class="h4" i18n>UN Economic Commission for Africa</p>
         </div>
       </div>
     </div>
@@ -51,17 +53,17 @@
   <div class="row">
     <a (click)="ShowEvents(0)">
       <div class="column_events">
-        <h3 style="text-align:center;text-transform: uppercase">Events</h3>
+        <h3 style="text-align:center;text-transform: uppercase" i18n>Events</h3>
       </div>
     </a>
     <a (click)="ShowEvents(1)">
       <div class="column_events">
-        <h3 style="text-align:center;text-transform: uppercase">News</h3>
+        <h3 style="text-align:center;text-transform: uppercase" i18n>News</h3>
       </div>
     </a>
     <a (click)="ShowEvents(2)">
       <div class="column_events">
-        <h3 style="text-align:center;text-transform: uppercase">Archives</h3>
+        <h3 style="text-align:center;text-transform: uppercase" i18n>Archives</h3>
       </div>
     </a>
   </div>

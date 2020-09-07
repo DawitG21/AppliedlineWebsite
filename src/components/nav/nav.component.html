@@ -9,16 +9,16 @@
   <nav>
     <ul>
       <li class="nav-right">
-        <a routerLink="/about">About</a>
+        <a routerLink="/about" i18n>About</a>
       </li>
       <li class="nav-right">
-        <a routerLink="/events">Event</a>
+        <a routerLink="/events" i18n>Event</a>
       </li>
       <li class="nav-left">
-        <a routerLink="/contact">Contact</a>
+        <a routerLink="/contact" i18n>Contact</a>
       </li>
       <li>
-        <span class="fa fa-globe"></span>&nbsp;<a href="#modal1">en-us</a>      
+        <span class="fa fa-globe"></span>&nbsp;<a href="#modal1" i18n>en-us</a>      
       </li>
     </ul>
   </nav>
@@ -28,7 +28,7 @@
   <a class="cancel" href="#_"></a>
   <div class="overlay__content">
     <ul class="navbar-nav">
-      <h2>Select Language</h2>
+      <h2 i18n>Select Language</h2>
       <hr>
       <ng-container *ngFor="let lang of languages">
         <li class="list-body border">

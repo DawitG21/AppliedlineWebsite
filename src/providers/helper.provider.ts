@@ -93,4 +93,15 @@ export class HelperProvider {
 		document.body.scrollTop = 0;
 		document.documentElement.scrollTop = 0;
 	}
+
+	fixLetUsKnowDiv(letUsKnowDiv: any, letUsKnowWrTopOffset: any) {
+		window.onscroll = function () {
+			if (window.scrollY >= letUsKnowWrTopOffset + 30) {
+				letUsKnowDiv.classList.add('myfixed');
+			} else {
+				letUsKnowDiv.classList.remove('myfixed');
+			}
+		};
+	}
+	
 }

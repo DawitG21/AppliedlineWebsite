@@ -29,7 +29,7 @@
   top: 20%;
   right: 0;
   width: 40%;
-  text-align: right;
+  /* text-align: right; */
   text-shadow: 0 0 20px #fff;
 }
 
@@ -47,8 +47,10 @@
 }
 
 .ethics-jumbotron h1 {
-  font-size: inherit;
-  margin: 30px 0 60px;
+  /* font-size: inherit; */
+  font-size: -webkit-xxx-large;
+  /* margin: 30px 0 60px; */
+  margin: 30px 0 0;
   color: inherit;
 }
 
@@ -112,20 +114,21 @@ img {
   vertical-align: middle;
 }
 
-.one.clientele {
-  width: 33.33%;
+.section-background {
+  background: gainsboro;
 }
 
-/* Slideshow container */
-
-.slideshow-container,
-.dots {
-  display: none;
+.one img {
+  width: 160px;
   position: relative;
 }
 
-.slideshow-container img {
-  width: 100%;
+.one.clientele {
+  width: 40%;
+  /*  border:1px solid black;  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  */
 }
 
 #letusknow-wr {
@@ -216,6 +219,22 @@ img {
   opacity: .4;
 }
 
+#container {
+  width: 100%;
+  margin: 5em auto;
+  padding: 0;
+}
+
+.items {
+  max-width: 300px;
+  height: 300px;
+}
+
+#left,
+#right {
+  margin: 30px;
+}
+
 /* tablet size */
 @media only screen and (max-width: 1080px) {
   .ethics-jumbotron {
@@ -227,10 +246,6 @@ img {
     width: 100%;
   }
 
-  .slideshow-container,
-  .dots {
-    display: none;
-  }
 
   .ethics-notes {
     width: 100%;
@@ -253,11 +268,6 @@ img {
 
   .icons {
     padding: 0;
-  }
-
-  .slideshow-container,
-  .dots {
-    display: block;
   }
 
   .container-effects-wr {

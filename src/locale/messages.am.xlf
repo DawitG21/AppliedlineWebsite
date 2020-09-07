@@ -1,0 +1,1201 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2"
+  xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="ngb.alert.close" datatype="html">
+        <source>Close</source>
+        <target>ገጠመ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/alert/alert.d.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.previous" datatype="html">
+        <source>Previous</source>
+        <target>ቀዳሚ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/carousel/carousel.d.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.next" datatype="html">
+        <source>Next</source>
+        <target>ቀጣይ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/carousel/carousel.d.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.previous-month" datatype="html">
+        <source>Previous month</source>
+        <target>ያለፈው ወር</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation.d.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation.d.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.next-month" datatype="html">
+        <source>Next month</source>
+        <target>በሚቀጥለው ወር</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation.d.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation.d.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-month" datatype="html">
+        <source>Select month</source>
+        <target>ወር ይምረጡ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation-select.d.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation-select.d.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-year" datatype="html">
+        <source>Select year</source>
+        <target>ዓመት ይምረጡ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation-select.d.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation-select.d.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first" datatype="html">
+        <source>««</source>
+        <target>««</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous" datatype="html">
+        <source>«</source>
+        <target>«</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next" datatype="html">
+        <source>»</source>
+        <target>»</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last" datatype="html">
+        <source>»»</source>
+        <target>»»</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first-aria" datatype="html">
+        <source>First</source>
+        <target>አንደኛ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous-aria" datatype="html">
+        <source>Previous</source>
+        <target>ቀዳሚ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next-aria" datatype="html">
+        <source>Next</source>
+        <target>ቀጣይ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last-aria" datatype="html">
+        <source>Last</source>
+        <target>የመጨረሻው</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.progressbar.value" datatype="html">
+        <source>
+          <x id="INTERPOLATION" equiv-text="{{getValue() / max | percent}}"/>
+        </source>
+        <target>
+          <x id="INTERPOLATION" equiv-text="{{getValue() / max | percent}}"/>
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/progressbar/progressbar.d.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-hours" datatype="html">
+        <source>Increment hours</source>
+        <target>ሰዓቶችን ይጨምሩ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.HH" datatype="html">
+        <source>HH</source>
+        <target>HH</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.hours" datatype="html">
+        <source>Hours</source>
+        <target>ሰዓታት</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-hours" datatype="html">
+        <source>Decrement hours</source>
+        <target>ሰዓታት ቀንስ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-minutes" datatype="html">
+        <source>Increment minutes</source>
+        <target>ደቂቃዎችን ጨምር</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.MM" datatype="html">
+        <source>MM</source>
+        <target>MM</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.minutes" datatype="html">
+        <source>Minutes</source>
+        <target>ደቂቃዎች</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-minutes" datatype="html">
+        <source>Decrement minutes</source>
+        <target>ደቂቃዎችን ቀንስ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-seconds" datatype="html">
+        <source>Increment seconds</source>
+        <target>ሰከንድ ጨምር</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.SS" datatype="html">
+        <source>SS</source>
+        <target>SS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.seconds" datatype="html">
+        <source>Seconds</source>
+        <target>ሰከንዶች</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-seconds" datatype="html">
+        <source>Decrement seconds</source>
+        <target>ሰከንዶችን ቀንስ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.PM" datatype="html">
+        <source>
+          <x id="INTERPOLATION" equiv-text="{{ i18n.getAfternoonPeriod() }}"/>
+        </source>
+        <target>
+          <x id="INTERPOLATION" equiv-text="{{ i18n.getAfternoonPeriod() }}"/>
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.AM" datatype="html">
+        <source>
+          <x id="INTERPOLATION" equiv-text="{{ i18n.getMorningPeriod() }}"/>
+        </source>
+        <target>
+          <x id="INTERPOLATION" equiv-text="{{ i18n.getMorningPeriod() }}"/>
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.toast.close-aria" datatype="html">
+        <source>Close</source>
+        <target>ገጠመ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/toast/toast.d.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f9d2911dffd08f4bf489d50b99bbecfd84cfe04c" datatype="html">
+        <source>© 2018 AAAIT &amp; Appliedline</source>
+        <target>© 2018 AAAIT &amp; Appliedline</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/footer/footer.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="57522efe009a0409ade6328c4dd29a26233f67b3" datatype="html">
+        <source>
+          <x id="START_SMALL_TEXT" ctype="x-small" equiv-text="&lt;small&gt;"/>
+Terms of Service<x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt;/small&gt;"/>
+        </source>
+        <target>
+          <x id="START_SMALL_TEXT" ctype="x-small" equiv-text="&lt;small&gt;"/>
+የአገልግሎት ውሎች          <x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt;/small&gt;"/>
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/footer/footer.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="004b222ff9ef9dd4771b777950ca1d0e4cd4348a" datatype="html">
+        <source>About</source>
+        <target>ስለ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/nav/nav.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a20835f355331a7398ce79b54cff3c57e96b3c75" datatype="html">
+        <source>Event</source>
+        <target>ዝግጅቶች</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/nav/nav.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="34746fb1c7f3d2194d99652bdff89e6e14c9c4f4" datatype="html">
+        <source>Contact</source>
+        <target>እውቂያ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/nav/nav.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d214b600006bb868987228597da834fc3a63ec62" datatype="html">
+        <source>en-us</source>
+        <target>አማርኛ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/nav/nav.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="65f3c9045a86c9daedfe950eebe44ce2392607de" datatype="html">
+        <source>Select Language</source>
+        <target>ቋንቋ ይምረጡ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/nav/nav.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="847171f94c5e932a67df0c3b4d57e4e10d844b52" datatype="html">
+        <source>About Us</source>
+        <target>ስለ እኛ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f9034ad3c7190140ec439071674b42c345eeddfc" datatype="html">
+        <source>Appliedline™ is the software development branch of AA Advanced Information Technology PLC® (AAAIT),
+          specialized
+          in software development for goverment, corporate and individual organizations.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+          AAAIT PLC has been in the business of IT hardware and service deliverables since 2006 before incubating its
+          software
+          development unit in 2009. In 2015, AAAIT PLC decided to let its software development unit run independently as
+          Appliedline
+          with a vision to be incorporated by 2020.
+        </source>
+        <target>
+        Appliedline™ ለገዢው ኮርፖሬት እና ለግለሰብ ድርጅቶች በሶፍትዌር ልማት ልዩ የ “AA Advanced Information Technology PLC®” (AAAIT) የሶፍትዌር ልማት ቅርንጫፍ ነው.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+          AAAIT PLC ጀምሮ በኢንፎርሜሽን ቴክኖሎጂ ሃርድዌር እና በአገልግሎት ማሰራጫዎች ሥራ ውስጥ ነበር 2006 የሶፍትዌሩን ልማት ክፍል በ 2009 ከማጠናከሩ በፊት. በ 2015 እ.ኤ.አ. AAAIT PLC የሶፍትዌር ማጎልበቻ ክፍሉ ራሱን ችሎ እንዲሠራ ለማድረግ ወሰነ
+          Appliedline በ 2020 እንዲካተት ከሚደረግ ራዕይ ጋር.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="eae63e6a4684a3da1954ecd57ed52961dbfd5285" datatype="html">
+        <source>Our Core values are precision, synergy, professionalism and continuous learning. Our goal is to exceed the
+          expectations
+          of every client by offering outstanding customer service and great value that puts their bussiness at a
+          competitive
+          advantage as well as eliminate outlined bussiness problems.
+        </source>
+        <target>
+        የእኛ ዋና እሴቶች ትክክለኛነት, ቅንጅት, ሙያዊነት እና ቀጣይነት ያለው ትምህርት ናቸው. 
+ግባችን የደንበኞቻቸውን የላቀ አገልግሎት እና የሥራ ጫወታቸውን በተወዳዳሪነት ተጠቃሚ የሚያደርጋቸውን እንዲሁም የተገለጹትን የሥራ ጫወታ ችግሮችን በማስወገድ የላቀ ዋጋ ያለው የደንበኛ አገልግሎት ከሚጠበቁት በላይ መሆን ነው.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="276ef768069db1f705f72f493fde419f6a60ea4d" datatype="html">
+        <source>At Appliedline, we value our customers hence we invest a lot in hiring developers that have solid and vast
+          experience in the software development industry. Our team have deep industry knowledge in technologies such as ASP.NET
+          MVC, .NET Core, AngularJS &amp; Angular, NodeJS, cross-platform and hybrid app development (Xamarin and Cordova), UX and
+          UI design,
+          RDBMS &amp; NoSql databases, Microsoft Azure and many more.
+        </source>
+        <target>        
+በ Appliedline, ለደንበኞቻችን ዋጋ እንሰጣለን ስለሆነም በሶፍትዌር ልማት ኢንዱስትሪ ውስጥ ጠንካራ እና ሰፊ ልምድ ያላቸውን ገንቢዎች በመቅጠር ብዙ ኢንቬስት እናደርጋለን. Our team have deep industry knowledge in technologies such as ASP.NET
+          MVC, .NET Core, AngularJS &amp; Angular, NodeJS, የመስቀል-መድረክ እና የተዳቀለ መተግበሪያ ልማት (Xamarin እና Cordova), UX እና UI ዲዛይን, RDBMS &amp; NoSql የመረጃ ቋቶች, Microsoft Azure እና ብዙ ተጨማሪ.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="911eed84cd262a0106348b831829e15975fb0c4c" datatype="html">
+        <source>In order to meet the demand of our ever growing clientele, Appliedline maintains a wide
+          range of technology development programmes to keep its employees up-to-date with the latest tools and resources in the software development
+          industry. Technical expertise along with vast and deep industry knowledge makes Appliedline the
+          ideal choice for a software development company to provide custom software services and products to your company.
+        </source>
+        <target>
+ከጊዜ ወደ ጊዜ እያደገ የመጣውን የደንበኞቻችንን ፍላጎት ለማርካት, Appliedline 
+ሰራተኞቹን በሶፍትዌር ልማት ኢንዱስትሪ ውስጥ ካሉ የቅርብ ጊዜ መሳሪያዎች እና ሀብቶች ጋር ወቅታዊ እንዲሆኑ ለማድረግ ሰፋ ያለ የቴክኖሎጂ ልማት ፕሮግራሞችን ይይዛል. 
+ቴክኒካዊ ዕውቀት ከሰፋ እና ጥልቅ የኢንዱስትሪ ዕውቀት ጋር በመሆን አፕላይድላይን ለሶፍትዌር ልማት ኩባንያ ብጁ የሶፍትዌር አገልግሎቶችን እና ምርቶችን ለኩባንያዎ ለማቅረብ ጥሩ ምርጫ ያደርገዋል.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0c437a67dee995b4e5cefc298410a99865d993ce" datatype="html">
+        <source>Our Products</source>
+        <target>የእኛ ምርቶች</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ab1712ff0ee44494f9806b84a91d79b586f2fc35" datatype="html">
+        <source>Doceipt</source>
+        <target>Doceipt</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="34cff45e097e8a1113cd95cc14fee3cfc611ecb3" datatype="html">
+        <source>An invoicing app that allows businesses invoice their customers and receive payments on the platform.
+        </source>
+        <target>ንግዶች ደንበኞቻቸውን እንዲጠይቁ እና በመድረኩ ላይ ክፍያዎችን እንዲቀበሉ የሚያስችል የሂሳብ መጠየቂያ መተግበሪ.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7faf85675572b1a6ca53e8baebb28c47a971a5be" datatype="html">
+        <source>Inibla</source>
+        <target>Inibla</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3ddae187d24d48d0e4d3fee8431926b6d62d9fc1" datatype="html">
+        <source>An app that allows you to order grocery products in Addis Ababa and get them delivered in a few minutes.
+        </source>
+        <target>
+በአዲስ አበባ ውስጥ የምግብ ሸቀጣ ሸቀጦችን ለማዘዝ እና በጥቂት ደቂቃዎች ውስጥ እንዲደርሱ የሚያስችልዎ መተግበሪያ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5f2c50e6ca837ab981582a8c67f36a7766ef5b48" datatype="html">
+        <source>CargoCanal</source>
+        <target>CargoCanal</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5fd6acf85e7b4a030fdd184b8ba0f64b33adfe3d" datatype="html">
+        <source>A system designed to solve gross logistics and excessive demurraage cost problems faced by Ethiopian
+            Maritime Authority.</source>
+        <target>የኢትዮጵያ ማሪታይም ባለሥልጣን የገጠማቸውን አጠቃላይ ሎጅስቲክስ እና ከመጠን በላይ የመጥፋት ወጪ ችግሮችን ለመፍታት የተቀየሰ ሥርዓት</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ac112df32bd79c91782c23cfc4e0c1e9ac6ccc27" datatype="html">
+        <source>eZembil</source>
+        <target>eZembil</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a4b066f809a9b76576bef5ded7f6278bd9150634" datatype="html">
+        <source>An online shopping platform.Buy products or services over the Internet. Shopping from the
+            comfort of your home or office.</source>
+        <target>የመስመር ላይ የግብይት መድረክ ከበይነመረቡ ግብይት ምርቶችን ወይም አገልግሎቶችን በቤትዎ ወይም በቢሮዎ ምቾት ይግዙ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="27b2d04a60f5600b47b6ea449431ba8f0da0115e" datatype="html">
+        <source>Crystal Cheque</source>
+        <target>Crystal Cheque</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b31dfa4690c4bcd6dc124cc4673a4565adf505a8" datatype="html">
+        <source>A cheque writing software that allows you to print on your bank cheques. It&apos;s main goal is to eliminate
+            problems related to errors while writing cheques by hand.</source>
+        <target>
+በባንክ ቼኮችዎ ላይ ለማተም የሚያስችል የቼክ ጽሑፍ ሶፍትዌር. ዋና ግቡ ቼኮችን በእጅ በሚጽፉበት ጊዜ ከስህተቶች ጋር የተያያዙ ችግሮችን ማስወገድ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ec09560e820aff683fc4afecbfca8758cff2642a" datatype="html">
+        <source>Seekerfit</source>
+        <target>Seekerfit</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6dbcfaa64e84ab17a742b75fb3018211e97ab5db" datatype="html">
+        <source>An online job portal accessible from a web browser. Seekerfit&apos;s goal is to allow applicants apply for jobs
+            and meet physically with employers regardless of location.</source>
+        <target>ከድር አሳሽ ተደራሽ የሆነ የመስመር ላይ የሥራ መግቢያ በር. የፍላጎት ዓላማ አመልካቾች ለሥራ እንዲያመለክቱ መፍቀድ እና ቦታው ምንም ይሁን ምን ከአሠሪዎች ጋር በአካል መገናኘት ነው</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">100</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="eac78e341745d435bc0e3efc74cf50d6c08eab6b" datatype="html">
+        <source>Millenium Browser</source>
+        <target>Millenium Browser</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">105</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="36c6692c7542d8a3ac482597a0f915ae0ac2f8f0" datatype="html">
+        <source>A web browser designed and released in the Ethiopian millennium to help the Ethiopian natives surf the
+            Internet by typing in their native language &quot;geez&quot;.</source>
+        <target>የኢትዮጵያ ተወላጆች በአፍ መፍቻ ቋንቋቸው በመተየብ በኢንተርኔት እንዲጠቀሙ ለመርዳት በኢትዮጵያ ሚሊኒየም ውስጥ የተቀየሰና የተለቀቀ የድር አሳሽ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d82e7365a040f35e853d1eb4039e7d4f8ff4054f" datatype="html">
+        <source>Qeek WMS</source>
+        <target>Qeek WMS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5e81befad8a29f3886a5cff44f7560e4c1d43a00" datatype="html">
+        <source>A warehouse management system designed with one of the most powerful serverside technologies in the world,
+            Microsoft ASP.NET MVC.</source>
+        <target>በዓለም ላይ ካሉ እጅግ በጣም ኃይለኛ ከሆኑት የአገልጋዮች ቴክኖሎጂዎች በአንዱ የተነደፈ የመጋዘን አስተዳደር ስርዓት,Microsoft ASP.NET MVC.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/about/about.component.html</context>
+          <context context-type="linenumber">112</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="31e8226ad30ec040f4460a05a22e20d87ae7200d" datatype="html">
+        <source>Get in touch!</source>
+        <target>ይገናኙ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/contact/contact.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4b0ca852bafa5037c4e64c7b18f9cd1e14b799de" datatype="html">
+        <source>Subject</source>
+        <target>ርዕሰ ጉዳይ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/contact/contact.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c8ac022dae267e926db44cb2a8481e1927af5f74" datatype="html">
+        <source>Project</source>
+        <target>ፕሮጀክት</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/contact/contact.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4604e5822ba84a95aec8892f27764b577e5537d0" datatype="html">
+        <source>Purchase</source>
+        <target>ግዢ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/contact/contact.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a082fc1727280b251cc0f26da676d88d8502db85" datatype="html">
+        <source>Inquiry</source>
+        <target>ምርመራ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/contact/contact.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3ec88737802269bcef0c5cfcec11e9fe3a04e60d" datatype="html">
+        <source>Quote</source>
+        <target>ጥቅስ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/contact/contact.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ed6283b90d495dba95b8ea1c42455acc1d4916a4" datatype="html">
+        <source>Training</source>
+        <target>ስልጠና</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/contact/contact.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2e77ab4db0c90cd71b6a0ef856724b21e4a53218" datatype="html">
+        <source>Others</source>
+        <target>ሌሎች</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/contact/contact.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7d175f1b7310aecce08c1141c9ba8588b8642a99" datatype="html">
+        <source>Send Message</source>
+        <target>መልዕክት ላክ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/contact/contact.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="92dffb34cc6adb9e20a5ac0c931f1fc539fcd9e2" datatype="html">
+        <source>Need great apps? Let&apos;s do it</source>
+        <target>ምርጥ መተግበሪያዎች ይፈልጋሉ? እናድርገው</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="71c77bb8cecdf11ec3eead24dd1ba506573fa9cd" datatype="html">
+        <source>Submit</source>
+        <target>አስገባ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9bd0571f2d18434cbbb78445a720b2596ab14afa" datatype="html">
+        <source>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+Desktop<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+ Application</source>
+        <target>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+ዴስክቶፕ          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+ ማመልከቻ
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d8f4faa4029648e189a3427f55aa362ebabb9183" datatype="html">
+        <source>Programs designed to run on a PC or Mac independently without the need for an Internet connection.
+        Work anywhere, anytime at your pace.</source>
+        <target>        
+በ ላይ እንዲሰሩ የተቀየሱ ፕሮግራሞች PC ወይም MAC ያለ በይነመረብ ግንኙነት ሳያስፈልግ በተናጥል. በየትኛውም ቦታ , በማንኛውም ጊዜ በእርስዎ ፍጥነት ይሥሩ
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4c2d5639b2d8a52a0b9869da9924e7aab65cb47d" datatype="html">
+        <source>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+Mobile<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+ Application</source>
+        <target>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+
+ሞባይል          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+ ማመልከቻ
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="417b7c3fdf8d9592f7372c51d67c52b50144a695" datatype="html">
+        <source>Applications designed to run on a mobile device such as a smart phone, tablet or watch.
+        Apps are generally small, individual software units with limited function.</source>
+        <target>
+        እንደ ስማርት ስልክ, ታብሌት ወይም ሰዓት ባሉ በሞባይል መሳሪያ ላይ እንዲሰሩ የተቀየሱ መተግበሪያዎች, መተግበሪያዎች በአጠቃላይ አነስተኛ, የግለሰባዊ የሶፍትዌር ክፍሎች ውስን ተግባር ያላቸው ናቸው
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3c21b34800d20fba1d21fcfbb25b6c38cc4281d3" datatype="html">
+        <source>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+Cloud<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+ Service</source>
+        <target>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+ደመና          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+ አገልግሎት
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f9b23b1d985280586e0c6a26bd4c5cfb00c007b5" datatype="html">
+        <source>Software-as-a-Service that can be consumed without having to invest in
+        hardware, development and maintenance. Save cost and be more productive.</source>
+        <target>        
+ሶፍትዌር በሃርድዌር, በልማት እና በጥገና ላይ መዋዕለ ንዋይ ሳያስፈልግ ሊበላ የሚችል አገልግሎት እንደ አገልግሎት, ወጪን ይቆጥቡ እና የበለጠ ውጤታማ ይሁኑ
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9debad4a6d909843d10fc2713c5a61423dc43bac" datatype="html">
+        <source>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+Storage<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+ Service</source>
+        <target>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+ማከማቻ          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+ አገልግሎት
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9788d3cdb85034ebe30f9066a3681e526e428d29" datatype="html">
+        <source>We provides computer storage space and related management services. We also offer periodic
+        backup and archiving. You can scale up or down as desired.</source>
+        <target>
+        የኮምፒተር ማከማቻ ቦታ እና ተዛማጅ የአስተዳደር አገልግሎቶችን እንሰጣለን, እኛ ደግሞ ወቅታዊ የመጠባበቂያ ቅጂ እና ማህደር እንሰጣለን, እንደተፈለገው ከፍ ማድረግ ወይም መቀነስ ይችላሉ.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="de9ec8776cdf9f3ac156642497e8a07c9f9b9aa0" datatype="html">
+        <source>
+      Seekerfit
+          <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+find jobs • post jobs • hire<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+        </source>
+        <target>
+         Seekerfit
+          <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+ሥራዎችን ፈልግ • ሥራዎችን መለጠፍ • መቅጠር          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="802222cb4754d74846b18f651b1f94e21576185d" datatype="html">
+        <source>Get Started</source>
+        <target>መጀመር</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5686076ff45bb2619ce38bb80faade41ce9835ac" datatype="html">
+        <source>Software
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+Development<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+        </source>
+        <target>
+        ሶፍትዌር
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+ልማት          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="04b8f184c914dd32afe3a0a85c6c0d40e8d27271" datatype="html">
+        <source>Conceiving, analyzing, designing, coding, testing, documenting, and bug fixes
+        with industry practice of continuous integration and continuous delivery.</source>
+        <target>  
+ቀጣይነት ያለው ውህደት እና ቀጣይነት ያለው አቅርቦት ከኢንዱስትሪ ልምዶች ጋር መፀነስ , መተንተን , ዲዛይን ማውጣት , ኮድ ማውጣት , ሙከራ ማድረግ , መመዝገብ እና የሳንካ ጥገናዎች
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3d06671caf30b428c29c3d70574821ae420b61d9" datatype="html">
+        <source>Database
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+Architecture<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+        </source>
+        <target>        
+የውሂብ ጎታ          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+ሥነ-ሕንፃ          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="84de245dde1a1b70870e364f619971d792a38677" datatype="html">
+        <source>We provide database designs that are secure,
+        scalable with reduced data redundancy, improved data integrity
+        and guaranteed optimal performance.
+        </source>
+        <target>
+        ደህንነታቸው የተጠበቀ , በተቀነሰ የውሂብ ቅነሳ የሚለዋወጥ , የተሻሻለ የመረጃ ታማኝነት እና የተስተካከለ አፈፃፀም ዋስትና ያላቸው የመረጃ ቋት ዲዛይኖችን እናቀርባለን.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3e2f19ca0a5849c1ec406366b59c0ea1735f6d57" datatype="html">
+        <source>
+        System <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+Integration<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+      </source>
+      <target>
+      ስርዓት        <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+ውህደት        <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+      </target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+        <context context-type="linenumber">85</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="9df3087653fa0be4379eb790753cd6c32a1139fa" datatype="html">
+      <source>We provide seamless integration of new component sub-system
+        into existing systems and ensure the subsystems function
+        together as a unit.</source>
+      <target>
+      የአዳዲስ አካላት ንዑስ ሲስተም እንከን-አልባ ውህደትን ወደ ነባር ስርዓቶች እናቀርባለን እንዲሁም ንዑስ ስርዓቶቹ እንደ ዩኒት አብረው እንዲሰሩ እናደርጋለን
+      </target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+        <context context-type="linenumber">88</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="75e6d7116f9270ed16dfc83ee026019ea5ee84e7" datatype="html">
+      <source>Software
+        <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+Consulting<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+      </source>
+      <target>
+      ሶፍትዌር
+        <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+ማማከር        <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+      </target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+        <context context-type="linenumber">94</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="1ead6cc1963517028cf620b33d94bd1371863675" datatype="html">
+      <source>We provide software assessment, code review, corporate consultancy,
+        UX and UI design, and software development knowledge transfer.</source>
+      <target>      
+እኛ የሶፍትዌር ግምገማ , የኮድ ግምገማ , የኮርፖሬት አማካሪ , UI 
+እና UX ዩአይ ዲዛይን እና የሶፍትዌር ልማት እውቀት ሽግግር እናቀርባለን
+      </target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+        <context context-type="linenumber">97</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="00bef479c4a6e6de7ef6e967b43794bec15afee5" datatype="html">
+      <source>
+        eZembil
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+buy • sell • anytime<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+      </source>
+      <target>
+      eZembil
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+ይግዙ • መሸጥ • 
+በማንኛውም ጊዜ        <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+      </target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+        <context context-type="linenumber">106</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="b8cf60a9eb8fc19851f8bec50ea50b0fa0e9df0b" datatype="html">
+      <source>Shop Now</source>
+      <target>አሁን ግዛ</target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+        <context context-type="linenumber">115</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="6b3a9de149b72db9166e9e02813df365481dfb09" datatype="html">
+      <source>Ethics</source>
+      <target>ሥነምግባር</target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+        <context context-type="linenumber">122</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="6b6a341244987842b9a398da39530352bb9dab9f" datatype="html">
+      <source>Process</source>
+      <target>ሂደት</target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+        <context context-type="linenumber">124</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="60f5bcd8296011ad489f673c14902b94871a4b2c" datatype="html">
+      <source>INITIAL REQUIRMENT</source>
+      <target>የመጀመሪያ ጥያቄ</target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+        <context context-type="linenumber">130</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="708685bbde37139641409d3b0fbe403e276896c0" datatype="html">
+      <source>Scribble your specific cause and ideas to help you visualise your objectives.</source>
+      <target>
+      ዓላማዎችዎን በዓይነ ሕሊናዎ እንዲመለከቱ ለማገዝ የእርስዎን የተወሰነ ምክንያት እና ሀሳቦች ይጻፉ.
+      </target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+        <context context-type="linenumber">131</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="c450e5f5cccd8e68df8f2ff21b5662eb034bbcc0" datatype="html">
+      <source>ANALYSIS</source>
+      <target>ትንተና</target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+        <context context-type="linenumber">135</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="2ca916b060358343aa87af018511f2c108ef0b50" datatype="html">
+      <source>Thoroughly examine your requirement and draft an implementation plan.</source>
+      <target>
+      የእርስዎን ፍላጎት በደንብ ይመርምሩ እና የአተገባበር ዕቅድ ያርቁ.
+      </target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+        <context context-type="linenumber">136</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="f3dea21dad66210d09e5cccf9fc2c4590571ca46" datatype="html">
+      <source>BRAINSTORMING</source>
+      <target>የአእምሮ ማጎልበት</target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+        <context context-type="linenumber">140</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="f21d8f5f341bb626059a3717439946ecf5d75993" datatype="html">
+      <source>All our great minds are brought together for your benefit.</source>
+      <target></target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+        <context context-type="linenumber">141</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="design" datatype="html">
+      <source>DESIGN</source>
+      <target>ዲዛይን</target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+        <context context-type="linenumber">147</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="b154eae453931bf5d2f302ac8250bf58959d596b" datatype="html">
+      <source>After all the preparation steps, the hard work begins.</source>
+      <target>ሁሉም ታላላቅ አዕምሯችን ለእርስዎ ጥቅም ሲባል አንድ ላይ ተሰብስበዋል</target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+        <context context-type="linenumber">148</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="8057e7722318ae9fd542450b2505a346759f84ef" datatype="html">
+      <source>IMPLEMENTATION</source>
+      <target>ተግባራዊነት</target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+        <context context-type="linenumber">152</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="9a3772a5dabc0b8a4dcce7a074cadc0411a8bee8" datatype="html">
+      <source>Our developers translate the design into interactive software.</source>
+      <target>የእኛ ገንቢዎች ንድፉን ወደ በይነተገናኝ ሶፍትዌር ይተረጉማሉ</target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+        <context context-type="linenumber">153</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="b5e2c24e97eb9e8ca8797bc3bf6c70d849547648" datatype="html">
+      <source>TESTING</source>
+      <target>ሙከራ</target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+        <context context-type="linenumber">157</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="ca4ad8bc06783b541a33d3f6939b2dab7c2a2406" datatype="html">
+      <source>All functionality are thoroughly tested before rolling out to production.</source>
+      <target>ወደ ምርት ከመጀመሩ በፊት ሁሉም ተግባራት በጥልቀት ይሞከራሉ</target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+        <context context-type="linenumber">158</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="4a6c51ac27eae0a06d5735f3765c9cec2c2bb257" datatype="html">
+      <source>Cutting Edge</source>
+      <target>ጠርዝን መቁረጥ</target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+        <context context-type="linenumber">172</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="8c90b7173e9a205daa0485b4f228eb5445909ecb" datatype="html">
+      <source>Designs</source>
+      <target>ዲዛይኖች</target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+        <context context-type="linenumber">173</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="2b4c912ede67b9cd58a23419e4cd81a66701efd0" datatype="html">
+      <source>- Painstaking designs for easy use</source>
+      <target>- ለቀላል አጠቃቀም ሥዕል ነዳፊ ንድፎች</target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+        <context context-type="linenumber">174</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="dd77e63f384a716fab6ff42ce56f547b52ad465b" datatype="html">
+      <source>Our Clients</source>
+      <target>ደንበኞቻችን</target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+        <context context-type="linenumber">181</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="74d263d87b8fad1424c9b5369f96730da19e31ca" datatype="html">
+      <source>Since our founding in 2006, we have worked closely and successfully with government
+        departments and major companies, and pride ourselves on meeting and exceeding our clients high expectations.
+        Here, you can find a selection of the many client organisations we already work closely alongside.</source>
+      <target>      
+እ.ኤ.አ. ከ 2006 ከተመሰረትንበት ጊዜ አንስቶ ከመንግስት ዲፓርትመንቶች እና ከዋና ዋና ኩባንያዎች ጋር ተቀራርበን እና በተሳካ ሁኔታ ሰርተናል , እናም ደንበኞቻችንን የሚጠብቁትን ከፍተኛ ስብሰባዎች በማሟላት እና በማለፍ እንኮራለን . እዚህ ጋር ቀድሞውኑ ከቅርብ ጋር ተቀራርበን የምንሠራባቸውን በርካታ የደንበኛ ድርጅቶች ምርጫን ማግኘት ይችላሉ
+      </target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+        <context context-type="linenumber">182</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="7cc70e8f3f279082d85851c52a86a37d4b641e52" datatype="html">
+      <source>CargoCanal official launch</source>
+      <target>የካርጎ ካናል ኦፊሴላዊ ማስጀመሪያ</target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/components/cargocanal-event/cargocanal-event.component.html</context>
+        <context context-type="linenumber">63</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="481bdf859a56cc092a0fb3d52f2d6f3bb4853d54" datatype="html">
+      <source>October 25, 2018</source>
+      <target>ጥቅምት 25, 2018</target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/components/cargocanal-event/cargocanal-event.component.html</context>
+        <context context-type="linenumber">64</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="18b22ff71aa6d341ea0589090b0bcd779ca5f719" datatype="html">
+      <source>
+      CargoCanal is a platform enhances management as well as improve the logistics service
+      of the country by facilitating the information exchange between maritime, freight forwarders,
+      consignees and other stakeholders in the freight forwarding industry. It is also
+      designed to help other stakeholders like national banks, customs and ministry of
+      transportation to address the issues they experience relating to import and export.
+      This service was launched on the 25th of October at UNECA with guests invited from
+      different sectors of the industry.
+      </source>
+      <target>      
+በካርጎ ካናል በባህር ፣ በጭነት አስተላላፊዎች ፣ በተላላኪዎች እና በጭነት ማስተላለፍ ኢንዱስትሪ ውስጥ ባሉ ሌሎች ባለድርሻ አካላት መካከል ያለውን የመረጃ ልውውጥ በማቀላጠፍ የአስተዳደርን ደረጃ ከፍ የሚያደርግ እንዲሁም የአገሪቱን የሎጂስቲክስ አገልግሎት የሚያሻሽል ነው ፡፡ እንዲሁም እንደ ሀገር አቀፍ ባንኮች ፣ ጉምሩክ እና የትራንስፖርት ሚኒስቴር ያሉ ሌሎች ባለድርሻ አካላትን ከውጭ ለማስመጣት እና ወደ ውጭ ለመላክ የሚረዱ ጉዳዮችን ለመፍታት እንዲረዳ ታስቦ ነው. ይህ አገልግሎት የተጀመረው እ.ኤ.አ. 25 ጥቅምት በ UNECA 
+ከተለያዩ የኢንዱስትሪ ዘርፎች ከተጋበዙ እንግዶች ጋር</target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/components/cargocanal-event/cargocanal-event.component.html</context>
+        <context context-type="linenumber">66</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="abc55b4be84b6984cc16460dcc76cc04bd49e1b7" datatype="html">
+      <source>
+      As mentioned in the ceremony &quot;Ethiopia is 170th among 176 countries in the quality of logistics service.&quot;
+      One of the main reasons for this is lack of fast and real time information exchange between stakeholders and
+      actors in the industry. CargoCanal shows the location and status of each cargo; it will help
+      solve many problems in the industry.
+      </source>
+      <target>
+      በክብረ በዓሉ ላይ እንደተጠቀሰው ኢትዮጵያ በሎጂስቲክ አገልግሎት ጥራት ከ 176 አገራት መካከል 170 ቱ ነች . ለዚህም አንዱና ዋነኛው ምክንያት በኢንዱስትሪው ውስጥ ባሉ ባለድርሻ አካላት እና ተዋንያን መካከል ፈጣንና እውነተኛ ጊዜ የመረጃ ልውውጥ አለመኖር ነው .
+ካርጎ ካናል የእያንዳንዱ ጭነት ቦታ እና ሁኔታን ያሳያል - በኢንዱስትሪው ውስጥ ብዙ ችግሮችን ለመፍታት ይረዳል.
+      </target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/components/cargocanal-event/cargocanal-event.component.html</context>
+        <context context-type="linenumber">75</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="e9264354386ddfb9dfe229ba2a2aacc6810ba501" datatype="html">
+      <source>
+      At the launching ceremony, the Director General of Ethiopian Maritime Affairs Authority (EMMA),
+      Mr. Mekonen Abera, said &quot;logistics without information is impossible. The platform we are launching
+      today is going to digitalize and modernize the logistcs service.&quot;<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+      Mr. Alemayehu Tolosa, one of the investors in the industry, said &quot;we were not be able to
+      trace our cargo and it was very hard to get our cargo after being moved to one of the dry ports, but now we can
+      get such kind of information near real time.&quot;
+      </source>
+      <target>      
+በምረቃ ሥነ ሥርዓቱ ላይ የኢትዮጵያ ማሪታይም ጉዳዮች ባለሥልጣን ዋና ዳይሬክተር (EMAA),Mr. Mekonen Abera, አለ "ያለ መረጃ ሎጅስቲክስ የማይቻል ነው ፡፡ ዛሬ የምንጀምረው መድረክ የሎጅስቲክስ አገልግሎትን ዲጂታል ሊያደርገው እና ​​ዘመናዊ ለማድረግ ነው."
+        <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+ Mr. Alemayehu Tolosa, በኢንዱስትሪው ውስጥ ካሉት ባለሀብቶች አንዱ, አለ "ሸቀጣችንን መከታተል አልቻልንም እናም ወደ ደረቅ ወደቦች ወደ አንዱ ከተዘዋወርን በኋላ ሸቀጣችንን ለማግኘት በጣም ከባድ ነበር ፣ አሁን ግን በእውነቱ ጊዜ እንዲህ ዓይነቱን መረጃ ማግኘት እንችላለን"
+      </target>
+      <context-group purpose="location">
+        <context context-type="sourcefile">src/components/cargocanal-event/cargocanal-event.component.html</context>
+        <context context-type="linenumber">89</context>
+      </context-group>
+    </trans-unit>
+    <trans-unit id="1931bf4825ef11b1b7c706c0c628e2df50192435" datatype="html">
+      <source> POWERED BY<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+      <x id="TAG_IMG" ctype="image" equiv-text="&lt;img/&gt;"/>
+Applied
+      <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+line<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+    </source>
+    <target>
+    ስፖንሰር ተደርጓል      <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+      <x id="TAG_IMG" ctype="image" equiv-text="&lt;img/&gt;"/>
+Applied
+      <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+line<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+    </target>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/media-area/media-area.component.html</context>
+      <context context-type="linenumber">5</context>
+    </context-group>
+  </trans-unit>
+  <trans-unit id="57912d22c21399332fdc33728da3e2dbecbf9f2a" datatype="html">
+    <source>UN Economic Commission for Africa</source>
+    <target>UN ለአፍሪካ ኢኮኖሚክስ ማስተዳደር</target>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/media-area/media-area.component.html</context>
+      <context context-type="linenumber">44</context>
+    </context-group>
+  </trans-unit>
+  <trans-unit id="af88c1e95a1d16d3cdbb7210981e0bfb6dc1d137" datatype="html">
+    <source>Events</source>
+    <target>ዝግጅቶች</target>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/media-area/media-area.component.html</context>
+      <context context-type="linenumber">56</context>
+    </context-group>
+  </trans-unit>
+  <trans-unit id="1d0974afae70914072a4fbf19e53328e517bae73" datatype="html">
+    <source>News</source>
+    <target>ዜና</target>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/media-area/media-area.component.html</context>
+      <context context-type="linenumber">61</context>
+    </context-group>
+  </trans-unit>
+  <trans-unit id="c748ac656af9f13998206ef2c52018dd418b0483" datatype="html">
+    <source>Archives</source>
+    <target>ማህደሮች</target>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/media-area/media-area.component.html</context>
+      <context context-type="linenumber">66</context>
+    </context-group>
+  </trans-unit>
+</body>
+</file>
+</xliff>

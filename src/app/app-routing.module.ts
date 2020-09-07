@@ -16,7 +16,7 @@ const routes: Routes = [
   { path: 'cargocanal', component: CargocanalEventComponent },
   { path: 'terms&conditions', component: TermsofserviceComponent },
   { path: 'home', component: ContentAreaComponent },
-  {path: '**', redirectTo: '/'}
+  { path: '**', redirectTo: '/' }
 ];
 
 @NgModule({
