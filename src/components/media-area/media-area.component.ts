@@ -18,22 +18,22 @@ export class MediaAreaComponent implements OnInit {
       name: 'CargoCanal',
       description: 'Official launch',
       description_2: '#Ethiopia #Maritime #Freightforwarding',
-      calendarUrl: '../../assets/graphics/calendar.png',
-      locationUrl: '../../assets/graphics/placeholder.png'
+      calendarUrl: 'assets/graphics/calendar.png',
+      locationUrl: 'assets/graphics/placeholder.png'
     }
   ];
 
   eventsList = [
     {
       event_1: 'CargoCanal Launch',
-      eventUrl: '../../assets/graphics/ccz.JPG',
+      eventUrl: 'assets/graphics/ccz.JPG',
     }
   ];
 
   newsList = [
     {
       newsTitle: 'CargoCanal on iOS and Android',
-      newsUrl: '../../assets/graphics/ccan.png',
+      newsUrl: 'assets/graphics/ccan.png',
       // newsDescription: 'Now on Google Play & App Store'
     }
   ];
@@ -42,7 +42,7 @@ export class MediaAreaComponent implements OnInit {
     {
       archive_1: 'Seekerfit',
       archive_2: 'Cost Estimator',
-      seekerUrl: '../../assets/graphics/seekerfit.png',
+      seekerUrl: 'assets/graphics/seekerfit.png',
     }
   ];
 

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "AAAITWebsite": {
+    "aaaitwebsite": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/AAAITWebsite",
+            "outputPath": "dist/aaaitwebsite",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -78,24 +78,24 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "AAAITWebsite:build"
+            "browserTarget": "aaaitwebsite:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "AAAITWebsite:build:production"
+              "browserTarget": "aaaitwebsite:build:production"
             },
             "am": {
-              "browserTarget": "AAAITWebsite:build:am"
+              "browserTarget": "aaaitwebsite:build:am"
             },
             "fr": {
-              "browserTarget": "AAAITWebsite:build:fr"
+              "browserTarget": "aaaitwebsite:build:fr"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "AAAITWebsite:build"
+            "browserTarget": "aaaitwebsite:build"
           }
         },
         "test": {
@@ -138,24 +138,24 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "AAAITWebsite:serve"
+            "devServerTarget": "aaaitwebsite:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "AAAITWebsite:serve:production"
+              "devServerTarget": "aaaitwebsite:serve:production"
             },
             "am": {
-              "devServerTarget": "AAAITWebsite:serve:am"
+              "devServerTarget": "aaaitwebsite:serve:am"
             },
             "fr": {
-              "devServerTarget": "AAAITWebsite:serve:fr"
+              "devServerTarget": "aaaitwebsite:serve:fr"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "AAAITWebsite",
+  "defaultProject": "aaaitwebsite",
   "cli": {
     "analytics": false
   }

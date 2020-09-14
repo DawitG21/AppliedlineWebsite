@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './cargocanal-event.component.html',
   styleUrls: ['./cargocanal-event.component.css']
 })
+
 export class CargocanalEventComponent implements OnInit {
 
   index = 1;

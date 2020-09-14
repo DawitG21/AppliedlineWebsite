@@ -6,7 +6,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { Ng2CarouselamosModule } from 'ng2-carouselamos';
 import { NgImageSliderModule } from 'ng-image-slider';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { ApiProvider } from '../providers/api.provider';
 import { WebRequestProvider } from '../providers/webrequest.provider';
@@ -39,12 +38,11 @@ import { TermsofserviceComponent } from '../components/termsofservice/termsofser
     CargocanalEventComponent,
     MediaAreaComponent,
     DialogComponent,
-    TermsofserviceComponent   
+    TermsofserviceComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    NgbModule,   
     HttpClientModule,
     AppRoutingModule,
     NgImageSliderModule,
@@ -58,7 +56,7 @@ import { TermsofserviceComponent } from '../components/termsofservice/termsofser
     {
       provide: APP_BASE_HREF,
       useFactory: (s: PlatformLocation) => s.getBaseHrefFromDOM(),
-      deps: [PlatformLocation],
+      deps: [PlatformLocation]
     },
     ApiProvider,
     WebRequestProvider,

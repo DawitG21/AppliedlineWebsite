@@ -366,7 +366,7 @@ Terms of Service<x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt;/small&
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
-          <context context-type="linenumber">16</context>
+          <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
       <trans-unit id="eae63e6a4684a3da1954ecd57ed52961dbfd5285" datatype="html">
@@ -382,7 +382,7 @@ Terms of Service<x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt;/small&
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
-          <context context-type="linenumber">25</context>
+          <context context-type="linenumber">28</context>
         </context-group>
       </trans-unit>
       <trans-unit id="276ef768069db1f705f72f493fde419f6a60ea4d" datatype="html">
@@ -398,7 +398,7 @@ Terms of Service<x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt;/small&
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
-          <context context-type="linenumber">31</context>
+          <context context-type="linenumber">35</context>
         </context-group>
       </trans-unit>
       <trans-unit id="911eed84cd262a0106348b831829e15975fb0c4c" datatype="html">
@@ -413,7 +413,7 @@ Terms of Service<x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt;/small&
 ቴክኒካዊ ዕውቀት ከሰፋ እና ጥልቅ የኢንዱስትሪ ዕውቀት ጋር በመሆን አፕላይድላይን ለሶፍትዌር ልማት ኩባንያ ብጁ የሶፍትዌር አገልግሎቶችን እና ምርቶችን ለኩባንያዎ ለማቅረብ ጥሩ ምርጫ ያደርገዋል.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
-          <context context-type="linenumber">39</context>
+          <context context-type="linenumber">45</context>
         </context-group>
       </trans-unit>
       <trans-unit id="0c437a67dee995b4e5cefc298410a99865d993ce" datatype="html">
@@ -433,7 +433,7 @@ Terms of Service<x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt;/small&
         <target>Doceipt</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
-          <context context-type="linenumber">67</context>
+          <context context-type="linenumber">74</context>
         </context-group>
       </trans-unit>
       <trans-unit id="34cff45e097e8a1113cd95cc14fee3cfc611ecb3" datatype="html">
@@ -442,7 +442,7 @@ Terms of Service<x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt;/small&
         <target>ንግዶች ደንበኞቻቸውን እንዲጠይቁ እና በመድረኩ ላይ ክፍያዎችን እንዲቀበሉ የሚያስችል የሂሳብ መጠየቂያ መተግበሪ.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
-          <context context-type="linenumber">68</context>
+          <context context-type="linenumber">75</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7faf85675572b1a6ca53e8baebb28c47a971a5be" datatype="html">
@@ -450,7 +450,7 @@ Terms of Service<x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt;/small&
         <target>Inibla</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
-          <context context-type="linenumber">73</context>
+          <context context-type="linenumber">81</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3ddae187d24d48d0e4d3fee8431926b6d62d9fc1" datatype="html">
@@ -460,7 +460,7 @@ Terms of Service<x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt;/small&
 በአዲስ አበባ ውስጥ የምግብ ሸቀጣ ሸቀጦችን ለማዘዝ እና በጥቂት ደቂቃዎች ውስጥ እንዲደርሱ የሚያስችልዎ መተግበሪያ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
-          <context context-type="linenumber">74</context>
+          <context context-type="linenumber">82</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5f2c50e6ca837ab981582a8c67f36a7766ef5b48" datatype="html">
@@ -468,7 +468,7 @@ Terms of Service<x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt;/small&
         <target>CargoCanal</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
-          <context context-type="linenumber">79</context>
+          <context context-type="linenumber">88</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5fd6acf85e7b4a030fdd184b8ba0f64b33adfe3d" datatype="html">
@@ -477,7 +477,7 @@ Terms of Service<x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt;/small&
         <target>የኢትዮጵያ ማሪታይም ባለሥልጣን የገጠማቸውን አጠቃላይ ሎጅስቲክስ እና ከመጠን በላይ የመጥፋት ወጪ ችግሮችን ለመፍታት የተቀየሰ ሥርዓት</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
-          <context context-type="linenumber">80</context>
+          <context context-type="linenumber">89</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ac112df32bd79c91782c23cfc4e0c1e9ac6ccc27" datatype="html">
@@ -485,7 +485,7 @@ Terms of Service<x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt;/small&
         <target>eZembil</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
-          <context context-type="linenumber">85</context>
+          <context context-type="linenumber">94</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a4b066f809a9b76576bef5ded7f6278bd9150634" datatype="html">
@@ -494,7 +494,7 @@ Terms of Service<x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt;/small&
         <target>የመስመር ላይ የግብይት መድረክ ከበይነመረቡ ግብይት ምርቶችን ወይም አገልግሎቶችን በቤትዎ ወይም በቢሮዎ ምቾት ይግዙ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
-          <context context-type="linenumber">86</context>
+          <context context-type="linenumber">95</context>
         </context-group>
       </trans-unit>
       <trans-unit id="27b2d04a60f5600b47b6ea449431ba8f0da0115e" datatype="html">
@@ -502,7 +502,7 @@ Terms of Service<x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt;/small&
         <target>Crystal Cheque</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
-          <context context-type="linenumber">93</context>
+          <context context-type="linenumber">102</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b31dfa4690c4bcd6dc124cc4673a4565adf505a8" datatype="html">
@@ -512,7 +512,7 @@ Terms of Service<x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt;/small&
 በባንክ ቼኮችዎ ላይ ለማተም የሚያስችል የቼክ ጽሑፍ ሶፍትዌር. ዋና ግቡ ቼኮችን በእጅ በሚጽፉበት ጊዜ ከስህተቶች ጋር የተያያዙ ችግሮችን ማስወገድ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
-          <context context-type="linenumber">94</context>
+          <context context-type="linenumber">103</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ec09560e820aff683fc4afecbfca8758cff2642a" datatype="html">
@@ -520,7 +520,7 @@ Terms of Service<x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt;/small&
         <target>Seekerfit</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
-          <context context-type="linenumber">99</context>
+          <context context-type="linenumber">109</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6dbcfaa64e84ab17a742b75fb3018211e97ab5db" datatype="html">
@@ -529,7 +529,7 @@ Terms of Service<x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt;/small&
         <target>ከድር አሳሽ ተደራሽ የሆነ የመስመር ላይ የሥራ መግቢያ በር. የፍላጎት ዓላማ አመልካቾች ለሥራ እንዲያመለክቱ መፍቀድ እና ቦታው ምንም ይሁን ምን ከአሠሪዎች ጋር በአካል መገናኘት ነው</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
-          <context context-type="linenumber">100</context>
+          <context context-type="linenumber">110</context>
         </context-group>
       </trans-unit>
       <trans-unit id="eac78e341745d435bc0e3efc74cf50d6c08eab6b" datatype="html">
@@ -537,7 +537,7 @@ Terms of Service<x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt;/small&
         <target>Millenium Browser</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
-          <context context-type="linenumber">105</context>
+          <context context-type="linenumber">116</context>
         </context-group>
       </trans-unit>
       <trans-unit id="36c6692c7542d8a3ac482597a0f915ae0ac2f8f0" datatype="html">
@@ -546,7 +546,7 @@ Terms of Service<x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt;/small&
         <target>የኢትዮጵያ ተወላጆች በአፍ መፍቻ ቋንቋቸው በመተየብ በኢንተርኔት እንዲጠቀሙ ለመርዳት በኢትዮጵያ ሚሊኒየም ውስጥ የተቀየሰና የተለቀቀ የድር አሳሽ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
-          <context context-type="linenumber">106</context>
+          <context context-type="linenumber">117</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d82e7365a040f35e853d1eb4039e7d4f8ff4054f" datatype="html">
@@ -554,7 +554,7 @@ Terms of Service<x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt;/small&
         <target>Qeek WMS</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
-          <context context-type="linenumber">111</context>
+          <context context-type="linenumber">123</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5e81befad8a29f3886a5cff44f7560e4c1d43a00" datatype="html">
@@ -563,7 +563,7 @@ Terms of Service<x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt;/small&
         <target>በዓለም ላይ ካሉ እጅግ በጣም ኃይለኛ ከሆኑት የአገልጋዮች ቴክኖሎጂዎች በአንዱ የተነደፈ የመጋዘን አስተዳደር ስርዓት,Microsoft ASP.NET MVC.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
-          <context context-type="linenumber">112</context>
+          <context context-type="linenumber">124</context>
         </context-group>
       </trans-unit>
       <trans-unit id="31e8226ad30ec040f4460a05a22e20d87ae7200d" datatype="html">

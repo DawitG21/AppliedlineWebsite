@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { IWebContact } from 'src/interfaces/webcontact.interface';
 import { WebRequestProcessor } from 'src/processors/webrequest.processor';
-import { ContactServiceProvider } from 'src/providers/contact.service.provider';
+// import { ContactServiceProvider } from 'src/providers/contact.service.provider';
 import { ConstantsProvider } from 'src/providers/constants.provider';
 import { WebContact } from '../../models/webcontact.model';
 
@@ -20,8 +20,9 @@ export class ContactComponent implements OnInit {
   showDialog: boolean;
   dialogMessage: string;
 
-  constructor(private processor: WebRequestProcessor,
-    private contactBroadcast: ContactServiceProvider,
+  constructor(
+    private processor: WebRequestProcessor,
+    // private contactBroadcast: ContactServiceProvider,
     private constants: ConstantsProvider
   ) {
   }
@@ -31,12 +32,12 @@ export class ContactComponent implements OnInit {
     this.initContactForm();
 
     // init listener
-    this.contactBroadcast.currentMessage.subscribe(message => {
+   /*  this.contactBroadcast.currentMessage.subscribe(message => {
       this.contact.MessageText = message;
       if (message.length > 0) {
         this.contact.RequestType = this.constants.PURCHASE;
       }
-    });
+    }); */
   }
 
   initContactForm(): any {

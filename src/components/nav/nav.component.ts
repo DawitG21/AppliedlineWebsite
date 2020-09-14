@@ -1,8 +1,8 @@
 import { Component, OnInit, LOCALE_ID, Inject } from '@angular/core';
 import { Router } from '@angular/router';
 import { HelperProvider } from 'src/providers/helper.provider';
-import { ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
-// import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
+import { DebugService } from 'src/providers/debug.service';
+// import { ILanguage } from 'src/interface/ILanguage';
 
 @Component({
   selector: 'app-nav',
@@ -11,6 +11,7 @@ import { ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 })
 export class NavComponent implements OnInit {
 
+  // languages: ILanguage;
   languages = [
     { code: 'en-US', label: 'English' },
     { code: 'am', label: 'Amharic' },
@@ -18,16 +19,25 @@ export class NavComponent implements OnInit {
   ];
 
   storedlocale: string;
-  closeResult: string;
 
   constructor(
+    @Inject(LOCALE_ID) private _localeId: string,    
     private router: Router,
-    private helper: HelperProvider,
-    // private modalService: NgbModal,
-    @Inject(LOCALE_ID) private _localeId: string
-  ) { }
+    private helper: HelperProvider,    
+    private _consoleService: DebugService,
+  ) {
+    this.storedlocale = localStorage.getItem('locale');
+    // this.languages = new ILangua
+   }
 
-  ngOnInit(): void { }
+  ngOnInit() {
+    this._consoleService.consoleLocale(this.storedlocale, this._localeId);
+    // stored locale exists    
+    if (this.storedlocale && this.storedlocale !== this._localeId) {
+      this._consoleService.consoleMessage('redirecting');
+      this.helper.redirect();
+    }
+  }
 
   routeHome(): void {
     this.helper.topFunction();
@@ -37,8 +47,9 @@ export class NavComponent implements OnInit {
   cacheLocalePreference(locale: string) {
     localStorage.setItem('locale', locale);
   }
-  
+
   gotoLocale(lang: any): void {
+    // First: close any dialog window
     // redirect if selected lang is different from current locale
     if (lang.code !== this._localeId) {
       this.cacheLocalePreference(lang.code);

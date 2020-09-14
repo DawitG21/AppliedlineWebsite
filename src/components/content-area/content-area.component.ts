@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { ContactServiceProvider } from 'src/providers/contact.service.provider';
+// import { ContactServiceProvider } from 'src/providers/contact.service.provider';
 import { HelperProvider } from 'src/providers/helper.provider';
 
 @Component({
@@ -12,12 +12,11 @@ import { HelperProvider } from 'src/providers/helper.provider';
 export class ContentAreaComponent implements OnInit {
 
   items: Array<any> = []
-
   message: string;
 
   constructor(
     private router: Router,
-    private contactBroadcast: ContactServiceProvider,
+   // private contactBroadcast: ContactServiceProvider,
     private helper: HelperProvider
   ) {
     this.items = [
@@ -52,7 +51,7 @@ export class ContentAreaComponent implements OnInit {
   ngOnInit(): void {
 
     // clear broadcast message
-    this.contactBroadcast.updateMessage('');
+   // this.contactBroadcast.updateMessage('');
     const letUsKnowWr = document.getElementById('letusknow-wr');
     const letUsKnowDiv = document.getElementById('letusknow');
     const letUsKnowWrTopOffset = letUsKnowWr.offsetTop;
@@ -62,7 +61,7 @@ export class ContentAreaComponent implements OnInit {
   }
 
   onSubmit() {
-    this.contactBroadcast.updateMessage(this.message);
+   // this.contactBroadcast.updateMessage(this.message);
     this.message = '';
     this.helper.topFunction();
     this.router.navigate(['/contact']);

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { ContactServiceProvider } from 'src/providers/contact.service.provider';
+// import { ContactServiceProvider } from 'src/providers/contact.service.provider';
 import { HelperProvider } from 'src/providers/helper.provider';
 
 @Component({
@@ -15,11 +15,11 @@ export class AboutComponent implements OnInit {
 
   constructor(
     private router: Router,
-    private contactBroadcast: ContactServiceProvider,
+   // private contactBroadcast: ContactServiceProvider,
     private helper: HelperProvider
   ) { }
 
-  ngOnInit(): void {
+  ngOnInit() {
     scroll(0, 0);
     const letUsKnowWr = document.getElementById('letusknow-wr');
     const letUsKnowDiv = document.getElementById('letusknow');
@@ -30,7 +30,7 @@ export class AboutComponent implements OnInit {
   }
 
   onSubmit() {
-    this.contactBroadcast.updateMessage(this.message);
+   // this.contactBroadcast.updateMessage(this.message);
     this.message = '';
     this.helper.topFunction();
     this.router.navigate(['/contact']);
