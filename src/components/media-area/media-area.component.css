@@ -271,7 +271,8 @@ div.scrollmenu a {
   padding-right: 3%;
   box-sizing: border-box;
   overflow: auto;
-  display: block;
+  /* display: block; */
+  display: initial;
   white-space: nowrap;
 }
 

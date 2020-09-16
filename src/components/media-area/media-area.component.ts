@@ -13,13 +13,22 @@ export class MediaAreaComponent implements OnInit {
   /* embed: 'XRXQwgga5DM'; */
 
   videoInfo = [
-    {
+ /*    {
       date: 'October 25, 2018',
       name: 'CargoCanal',
       description: 'Official launch',
       description_2: '#Ethiopia #Maritime #Freightforwarding',
       calendarUrl: 'assets/graphics/calendar.png',
       locationUrl: 'assets/graphics/placeholder.png'
+    }, */
+    {
+      date: 'September 12, 2020',
+      name: 'Happy New Year',
+      description: 'New Year Greetings',
+      description_2: '#2013 #happy #newyear',
+      calendarUrl: 'assets/graphics/calendar.png',
+      locationUrl: 'assets/graphics/placeholder.png',
+      url: 'https://www.youtube.com/watch?v=p6aV-d8GZoc',
     }
   ];
 
@@ -32,9 +41,18 @@ export class MediaAreaComponent implements OnInit {
 
   newsList = [
     {
-      newsTitle: 'CargoCanal on iOS and Android',
-      newsUrl: 'assets/graphics/ccan.png',
-      // newsDescription: 'Now on Google Play & App Store'
+      newsTitle: 'Melkam Addis Amet 2013',
+      url: 'https://www.youtube.com/watch?v=p6aV-d8GZoc',
+      newsUrl: 'assets/graphics/melkam.png',   
+    },{
+      newsTitle: 'Coming Soon',
+      url: 'https://doceipt.com/',
+      newsUrl: 'assets/graphics/doci.png',   
+    },
+    {
+      newsTitle: 'Coming Soon',
+      url: 'http://inibla.com/',
+      newsUrl: 'assets/graphics/ini.png',   
     }
   ];
 
@@ -43,6 +61,13 @@ export class MediaAreaComponent implements OnInit {
       archive_1: 'Seekerfit',
       archive_2: 'Cost Estimator',
       seekerUrl: 'assets/graphics/seekerfit.png',
+      url: 'https://seekerfit.com/#!/'
+    },    
+    {
+      archive_1: 'CargoCanal on iOS and Android',
+      archive_2: 'Mobile App',
+      seekerUrl: 'assets/graphics/ccan.png',
+      url: 'https://play.google.com/store/apps/details?id=com.appliedline.cargocanal'
     }
   ];
 
