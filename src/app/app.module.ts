@@ -10,6 +10,7 @@ import { NgImageSliderModule } from 'ng-image-slider';
 import { ApiProvider } from '../providers/api.provider';
 import { WebRequestProvider } from '../providers/webrequest.provider';
 import { HelperProvider } from '../providers/helper.provider';
+import { DataProvider } from '../providers/data.provider';
 import { ContactServiceProvider } from '../providers/contact.service.provider';
 import { ConstantsProvider } from '../providers/constants.provider';
 import { WebRequestProcessor } from '../processors/webrequest.processor';
@@ -61,6 +62,7 @@ import { TermsofserviceComponent } from '../components/termsofservice/termsofser
     ApiProvider,
     WebRequestProvider,
     HelperProvider,
+    DataProvider,
     WebRequestProcessor,
     ContactServiceProvider,
     ConstantsProvider,

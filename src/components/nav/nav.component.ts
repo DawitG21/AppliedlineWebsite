@@ -2,6 +2,7 @@ import { Component, OnInit, LOCALE_ID, Inject } from '@angular/core';
 import { Router } from '@angular/router';
 import { HelperProvider } from 'src/providers/helper.provider';
 import { DebugService } from 'src/providers/debug.service';
+import { DataProvider } from 'src/providers/data.provider';
 // import { ILanguage } from 'src/interface/ILanguage';
 
 @Component({
@@ -11,24 +12,19 @@ import { DebugService } from 'src/providers/debug.service';
 })
 export class NavComponent implements OnInit {
 
-  // languages: ILanguage;
-  languages = [
-    { code: 'en-US', label: 'English' },
-    { code: 'am', label: 'Amharic' },
-    { code: 'fr', label: 'French' }
-  ];
-
+  languages = [];
   storedlocale: string;
 
   constructor(
-    @Inject(LOCALE_ID) private _localeId: string,    
+    @Inject(LOCALE_ID) private _localeId: string,
     private router: Router,
-    private helper: HelperProvider,    
+    private helper: HelperProvider,
+    private data: DataProvider,
     private _consoleService: DebugService,
   ) {
     this.storedlocale = localStorage.getItem('locale');
-    // this.languages = new ILangua
-   }
+    this.languages = this.data.languages;
+  }
 
   ngOnInit() {
     this._consoleService.consoleLocale(this.storedlocale, this._localeId);

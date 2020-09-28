@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { DomSanitizer } from '@angular/platform-browser';
+import { DataProvider } from 'src/providers/data.provider';
 
 @Component({
   selector: 'app-media-area',
@@ -9,69 +10,18 @@ import { DomSanitizer } from '@angular/platform-browser';
 })
 
 export class MediaAreaComponent implements OnInit {
-
-  /* embed: 'XRXQwgga5DM'; */
-
-  videoInfo = [
- /*    {
-      date: 'October 25, 2018',
-      name: 'CargoCanal',
-      description: 'Official launch',
-      description_2: '#Ethiopia #Maritime #Freightforwarding',
-      calendarUrl: 'assets/graphics/calendar.png',
-      locationUrl: 'assets/graphics/placeholder.png'
-    }, */
-    {
-      date: 'September 12, 2020',
-      name: 'Happy New Year',
-      description: 'New Year Greetings',
-      description_2: '#2013 #happy #newyear',
-      calendarUrl: 'assets/graphics/calendar.png',
-      locationUrl: 'assets/graphics/placeholder.png',
-      url: 'https://www.youtube.com/watch?v=p6aV-d8GZoc',
-    }
-  ];
-
-  eventsList = [
-    {
-      event_1: 'CargoCanal Launch',
-      eventUrl: 'assets/graphics/ccz.JPG',
-    }
-  ];
-
-  newsList = [
-    {
-      newsTitle: 'Melkam Addis Amet 2013',
-      url: 'https://www.youtube.com/watch?v=p6aV-d8GZoc',
-      newsUrl: 'assets/graphics/melkam.png',   
-    },{
-      newsTitle: 'Coming Soon',
-      url: 'https://doceipt.com/',
-      newsUrl: 'assets/graphics/doci.png',   
-    },
-    {
-      newsTitle: 'Coming Soon',
-      url: 'http://inibla.com/',
-      newsUrl: 'assets/graphics/ini.png',   
-    }
-  ];
-
-  archivesList = [
-    {
-      archive_1: 'Seekerfit',
-      archive_2: 'Cost Estimator',
-      seekerUrl: 'assets/graphics/seekerfit.png',
-      url: 'https://seekerfit.com/#!/'
-    },    
-    {
-      archive_1: 'CargoCanal on iOS and Android',
-      archive_2: 'Mobile App',
-      seekerUrl: 'assets/graphics/ccan.png',
-      url: 'https://play.google.com/store/apps/details?id=com.appliedline.cargocanal'
-    }
-  ];
-
-  constructor(private router: Router, private sanitizer: DomSanitizer) { }
+ 
+  videoInfo = []
+  eventsList = []
+  newsList = []
+  archivesList = []
+  
+  constructor(private router: Router, private sanitizer: DomSanitizer, private data: DataProvider) {
+    this.videoInfo = this.data.videoInfo
+    this.eventsList = this.data.eventsList
+    this.newsList = this.data.newsList
+    this.archivesList = this.data.archivesList
+   }
 
   ngOnInit(): void {
     scroll(0, 0);
