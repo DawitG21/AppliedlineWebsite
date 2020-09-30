@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { WebRequestProcessor } from 'src/processors/webrequest.processor';
-// import { ContactServiceProvider } from 'src/providers/contact.service.provider';
+import { ContactServiceProvider } from 'src/providers/contact.service.provider';
 import { ConstantsProvider } from 'src/providers/constants.provider';
 import { IWebContact } from 'src/interfaces/webcontact.interface';
 import { WebContact } from '../../models/webcontact.model';
@@ -27,7 +27,7 @@ export class ContactComponent implements OnInit {
 
   constructor(
     private processor: WebRequestProcessor,
-    // private contactBroadcast: ContactServiceProvider,
+   private contactBroadcast: ContactServiceProvider,
     private constants: ConstantsProvider
   ) {
     this.initRecapture();
@@ -38,12 +38,12 @@ export class ContactComponent implements OnInit {
     this.initContactForm();
 
     // init listener
-    /*  this.contactBroadcast.currentMessage.subscribe(message => {
+     this.contactBroadcast.currentMessage.subscribe(message => {
        this.contact.MessageText = message;
        if (message.length > 0) {
          this.contact.RequestType = this.constants.PURCHASE;
        }
-     }); */
+     });
   }
 
   initRecapture(): any {
