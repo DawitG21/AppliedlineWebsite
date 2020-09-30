@@ -1,9 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { IWebContact } from 'src/interfaces/webcontact.interface';
 import { WebRequestProcessor } from 'src/processors/webrequest.processor';
 // import { ContactServiceProvider } from 'src/providers/contact.service.provider';
 import { ConstantsProvider } from 'src/providers/constants.provider';
+import { IWebContact } from 'src/interfaces/webcontact.interface';
 import { WebContact } from '../../models/webcontact.model';
+import { Recapture } from '../../models/googlerecapture.model';
+import { IRecapture } from 'src/interfaces/googlerecapture.interface';
+
 
 @Component({
   selector: 'app-contact',
@@ -14,7 +17,9 @@ export class ContactComponent implements OnInit {
 
   latitude = 8.9887529;
   longtiude = 38.7890061;
-
+  googleRecapture: IRecapture;
+  // recaptcha: any;
+  show: boolean = false;
   contact: IWebContact;
   processing: boolean;
   showDialog: boolean;
@@ -25,6 +30,7 @@ export class ContactComponent implements OnInit {
     // private contactBroadcast: ContactServiceProvider,
     private constants: ConstantsProvider
   ) {
+    this.initRecapture();
   }
 
   ngOnInit() {
@@ -32,17 +38,34 @@ export class ContactComponent implements OnInit {
     this.initContactForm();
 
     // init listener
-   /*  this.contactBroadcast.currentMessage.subscribe(message => {
-      this.contact.MessageText = message;
-      if (message.length > 0) {
-        this.contact.RequestType = this.constants.PURCHASE;
-      }
-    }); */
+    /*  this.contactBroadcast.currentMessage.subscribe(message => {
+       this.contact.MessageText = message;
+       if (message.length > 0) {
+         this.contact.RequestType = this.constants.PURCHASE;
+       }
+     }); */
   }
+
+  initRecapture(): any {
+    this.googleRecapture = new Recapture();
+    this.googleRecapture.siteKey = '6LcqBNIZAAAAAGm50pk57ZZtt7zzNQ4BVxuY_Qv5';
+    this.googleRecapture.theme = 'Light';
+    this.googleRecapture.size = 'Normal';
+  }
+
+  /* resolved(captchaResponse: any[]) {
+    this.recaptcha = captchaResponse;
+    console.log('this.recaptcha');   
+  } */
 
   initContactForm(): any {
     this.contact = new WebContact();
     this.contact.RequestType = this.constants.SUBJECT;
+  }
+
+  showSendButton() {
+   this.show = true;    
+    console.log(this.show);
   }
 
   onSubmit(): void {

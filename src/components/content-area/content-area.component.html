@@ -2,12 +2,11 @@
 <!-- contains the landing image  -->
 <section #firstshow id="firstshow"></section>
 
-<section id="letusknow-wr">
-  <!--  <section id="letusknow" (click)="scroll(client)"> -->
+<section id="letusknow-wr"> 
   <section id="letusknow">
     <form name="whatOnMind" (ngSubmit)="onSubmit()" #whatOnMind="ngForm">
       <h2 class="inquiry-text" i18n>Need great apps? Let's do it</h2>
-      <input type="text" name="message" [(ngModel)]="message" placeholder="What's on your mind..." autocomplete="off">
+      <input type="text" name="message" [(ngModel)]="message" autocomplete="off">
       <button type="submit" class="button" i18n>Submit</button>
     </form>
   </section>
@@ -162,19 +161,22 @@
   </div>
 </section>
 
-<div class="ethics-wr container-effects-wr">
-  <div class="container-effects">
-    <img src="assets/graphics/1.png">
-    <img src="assets/graphics/1.png">
-    <img src="assets/graphics/1.png">
-    <img src="assets/graphics/1.png">
+<section id="firstshow4">
+  <div class="container">
+    <a href="//doceipt.com" title="doceipt.com" target="_blank" rel="noopener">
+      <h2 class="banner-caption"  i18n ="@@tag">
+        Doceipt
+        <br>
+        <span class="banner-sub-caption">invoice &bull; payment &bull; receipt</span>
+      </h2>
+    </a>
   </div>
-  <div class="ethics-jumbotron parallax-app-text">
-    <h1 i18n>Cutting Edge</h1>
-    <h1 i18n>Designs</h1>
-    <h3 i18n>- Painstaking designs for easy use</h3>
+  <div class="mobile-only hero-base-wr">
+    <button class="button">
+      <a title="doceipt.com" href="//doceipt.com" target="_blank" rel="noopener" i18n>Shop Now</a>
+    </button>
   </div>
-</div>
+</section>
 
 <section class="icons2 section-background" #client>
   <div class="container1">

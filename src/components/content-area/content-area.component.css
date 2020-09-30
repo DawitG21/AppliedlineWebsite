@@ -78,7 +78,8 @@
 
 #firstshow,
 #firstshow2,
-#firstshow3 {
+#firstshow3,
+#firstshow4 {
   min-height: 500px;
   text-align: center;
   color: white;
@@ -106,6 +107,14 @@
   background: url("../../assets/graphics/6.6.png") no-repeat;
   background-position: center;
   background-size: contain;
+  background-attachment: fixed;
+  background-color: #fff;
+}
+
+#firstshow4 {
+  background: url("../../assets/graphics/doceipt.png") no-repeat;
+  background-position: center;
+  background-size: cover;
   background-attachment: fixed;
   background-color: #fff;
 }
@@ -299,4 +308,8 @@ img {
     background-attachment: initial;
   }
 
+  #firstshow4 {
+    /* background-attachment: initial; */
+    display: none;
+  }
 }

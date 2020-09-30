@@ -6,6 +6,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { Ng2CarouselamosModule } from 'ng2-carouselamos';
 import { NgImageSliderModule } from 'ng-image-slider';
+import { NgxCaptchaModule } from 'ngx-captcha';
+// import { RecaptchaModule } from 'ng-recaptcha';
 
 import { ApiProvider } from '../providers/api.provider';
 import { WebRequestProvider } from '../providers/webrequest.provider';
@@ -47,6 +49,8 @@ import { TermsofserviceComponent } from '../components/termsofservice/termsofser
     HttpClientModule,
     AppRoutingModule,
     NgImageSliderModule,
+    NgxCaptchaModule,
+    // RecaptchaModule,
     Ng2CarouselamosModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyA2tgD5aHakakIM-B-AMjEoqUnI_UpuSbA' // production key

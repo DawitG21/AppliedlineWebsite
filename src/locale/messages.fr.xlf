@@ -772,6 +772,24 @@ trouver des emplois • publier des emplois • embaucher<x id="CLOSE_TAG_SPAN" 
           <context context-type="linenumber">50</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="tag" datatype="html">
+        <source>
+      Doceipt
+          <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+invoice • payment • receipt<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+        </source>
+        <target>
+         Doceipt
+          <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+facture d'achat • paiement • le reçu          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+          <context context-type="linenumber">168</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="802222cb4754d74846b18f651b1f94e21576185d" datatype="html">
         <source>Get Started</source>
         <target>Commencer</target>
