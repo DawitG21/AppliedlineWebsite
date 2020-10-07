@@ -571,7 +571,7 @@ Un logiciel d'écriture de chèques qui vous permet d'imprimer sur vos chèques 
       </trans-unit>
       <trans-unit id="4b0ca852bafa5037c4e64c7b18f9cd1e14b799de" datatype="html">
         <source>Subject</source>
-        <target>Matière</target>
+        <target>Sélectionnez le sujet</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/contact/contact.component.html</context>
           <context context-type="linenumber">35</context>
@@ -630,7 +630,7 @@ Un logiciel d'écriture de chèques qui vous permet d'imprimer sur vos chèques 
         <target>Envoyer le message</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/contact/contact.component.html</context>
-          <context context-type="linenumber">51</context>
+          <context context-type="linenumber">63</context>
         </context-group>
       </trans-unit>
       <trans-unit id="92dffb34cc6adb9e20a5ac0c931f1fc539fcd9e2" datatype="html">
@@ -661,7 +661,7 @@ Application de <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">19</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d8f4faa4029648e189a3427f55aa362ebabb9183" datatype="html">
@@ -672,7 +672,7 @@ Programmes conçus pour fonctionner indépendamment sur un PC ou un Mac sans avo
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
-          <context context-type="linenumber">21</context>
+          <context context-type="linenumber">22</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4c2d5639b2d8a52a0b9869da9924e7aab65cb47d" datatype="html">
@@ -787,7 +787,7 @@ facture d'achat • paiement • le reçu          <x id="CLOSE_TAG_SPAN" ctype=
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
-          <context context-type="linenumber">168</context>
+          <context context-type="linenumber">171</context>
         </context-group>
       </trans-unit>
       <trans-unit id="802222cb4754d74846b18f651b1f94e21576185d" datatype="html">
@@ -1177,11 +1177,11 @@ line<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
 </context-group>
 </trans-unit>
 <trans-unit id="57912d22c21399332fdc33728da3e2dbecbf9f2a" datatype="html">
-<source>UN Economic Commission for Africa</source>
-<target>UN Commission économique pour l'Afrique</target>
+<source>AA Advanced Information Technology</source>
+<target>Technologie de l'information avancée AA</target>
 <context-group purpose="location">
 <context context-type="sourcefile">src/components/media-area/media-area.component.html</context>
-<context context-type="linenumber">44</context>
+<context context-type="linenumber">47</context>
 </context-group>
 </trans-unit>
 <trans-unit id="af88c1e95a1d16d3cdbb7210981e0bfb6dc1d137" datatype="html">
@@ -1206,6 +1206,46 @@ line<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
 <context-group purpose="location">
 <context context-type="sourcefile">src/components/media-area/media-area.component.html</context>
 <context context-type="linenumber">66</context>
+</context-group>
+</trans-unit>
+<trans-unit id="placeholderHome" datatype="html">
+<source>What's on your mind?</source>
+<target>A quoi es-ce que tu penses?</target>
+<context-group purpose="location">
+<context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+<context context-type="linenumber">9</context>
+</context-group>
+</trans-unit>
+<trans-unit id="textArea" datatype="html">
+<source>Type your message here.</source>
+<target>Tapez votre message ici.</target>
+<context-group purpose="location">
+<context context-type="sourcefile">src/components/contact/conntact.component.html</context>
+<context context-type="linenumber">54</context>
+</context-group>
+</trans-unit>
+<trans-unit id="subject" datatype="html">
+<source>Subject</source>
+<target>Matière</target>
+<context-group purpose="location">
+<context context-type="sourcefile">src/components/contact/conntact.component.html</context>
+<context context-type="linenumber">39</context>
+</context-group>
+</trans-unit>
+<trans-unit id="email" datatype="html">
+<source>Email</source>
+<target>Adresse électronique</target>
+<context-group purpose="location">
+<context context-type="sourcefile">src/components/contact/conntact.component.html</context>
+<context context-type="linenumber">20</context>
+</context-group>
+</trans-unit>
+<trans-unit id="contactName" datatype="html">
+<source>Company or personal name</source>
+<target>Entreprise ou nom personnel</target>
+<context-group purpose="location">
+<context context-type="sourcefile">src/components/contact/conntact.component.html</context>
+<context context-type="linenumber">15</context>
 </context-group>
 </trans-unit>
 </body>

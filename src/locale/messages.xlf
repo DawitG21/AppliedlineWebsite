@@ -546,7 +546,7 @@ Terms of Service<x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt;/small&
         <source>Send Message</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/contact/contact.component.html</context>
-          <context context-type="linenumber">51</context>
+          <context context-type="linenumber">63</context>
         </context-group>
       </trans-unit>
       <trans-unit id="92dffb34cc6adb9e20a5ac0c931f1fc539fcd9e2" datatype="html">
@@ -570,7 +570,7 @@ Desktop<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
  Application</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">19</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d8f4faa4029648e189a3427f55aa362ebabb9183" datatype="html">
@@ -578,7 +578,7 @@ Desktop<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
         Work anywhere, anytime at your pace.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
-          <context context-type="linenumber">21</context>
+          <context context-type="linenumber">22</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4c2d5639b2d8a52a0b9869da9924e7aab65cb47d" datatype="html">
@@ -656,7 +656,7 @@ invoice • payment • receipt<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text=
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
-          <context context-type="linenumber">168</context>
+          <context context-type="linenumber">171</context>
         </context-group>
       </trans-unit>
       <trans-unit id="802222cb4754d74846b18f651b1f94e21576185d" datatype="html">
@@ -963,10 +963,10 @@ line<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
     </context-group>
   </trans-unit>
   <trans-unit id="57912d22c21399332fdc33728da3e2dbecbf9f2a" datatype="html">
-    <source>UN Economic Commission for Africa</source>
+    <source>AA Advanced Information Technology</source>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/media-area/media-area.component.html</context>
-      <context context-type="linenumber">44</context>
+      <context context-type="linenumber">47</context>
     </context-group>
   </trans-unit>
   <trans-unit id="af88c1e95a1d16d3cdbb7210981e0bfb6dc1d137" datatype="html">
@@ -988,6 +988,48 @@ line<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/media-area/media-area.component.html</context>
       <context context-type="linenumber">66</context>
+    </context-group>
+  </trans-unit>
+  <trans-unit id="placeholderHome" datatype="html">
+    <source>What's on your mind?</source>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+      <context context-type="linenumber">9</context>
+    </context-group>
+  </trans-unit>
+  <trans-unit id="textArea" datatype="html">
+    <source>Type your message here.</source>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/contact/conntact.component.html</context>
+      <context context-type="linenumber">54</context>
+    </context-group>
+  </trans-unit>
+  <trans-unit id="textArea" datatype="html">
+    <source>Type your message here.</source>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/contact/conntact.component.html</context>
+      <context context-type="linenumber">54</context>
+    </context-group>
+  </trans-unit>
+  <trans-unit id="subject" datatype="html">
+    <source>Subject</source>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/contact/conntact.component.html</context>
+      <context context-type="linenumber">39</context>
+    </context-group>
+  </trans-unit>
+  <trans-unit id="email" datatype="html">
+    <source>Email</source>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/contact/conntact.component.html</context>
+      <context context-type="linenumber">20</context>
+    </context-group>
+  </trans-unit>
+  <trans-unit id="contactName" datatype="html">
+    <source>Company or personal name</source>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/contact/conntact.component.html</context>
+      <context context-type="linenumber">15</context>
     </context-group>
   </trans-unit>
 </body>

@@ -1,13 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AgmCoreModule } from '@agm/core';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { Ng2CarouselamosModule } from 'ng2-carouselamos';
 import { NgImageSliderModule } from 'ng-image-slider';
 import { NgxCaptchaModule } from 'ngx-captcha';
-// import { RecaptchaModule } from 'ng-recaptcha';
+import { NgxIntlTelInputModule } from 'ngx-intl-tel-input';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { TooltipModule } from 'ngx-bootstrap/tooltip';
+import { MatDialogModule } from '@angular/material/dialog';
 
 import { ApiProvider } from '../providers/api.provider';
 import { WebRequestProvider } from '../providers/webrequest.provider';
@@ -27,8 +30,9 @@ import { ContactComponent } from '../components/contact/contact.component';
 import { ContentAreaComponent } from '../components/content-area/content-area.component';
 import { CargocanalEventComponent } from '../components/cargocanal-event/cargocanal-event.component';
 import { MediaAreaComponent } from '../components/media-area/media-area.component';
-import { DialogComponent } from '../components/dialog/dialog.component';
+import { DialogComponent } from '../components/contact-dialog/dialog.component';
 import { TermsofserviceComponent } from '../components/termsofservice/termsofservice.component';
+import { LanguagesDialogComponent } from '../components/language-dialog/languages-dialog.component';
 
 @NgModule({
   declarations: [
@@ -41,16 +45,21 @@ import { TermsofserviceComponent } from '../components/termsofservice/termsofser
     CargocanalEventComponent,
     MediaAreaComponent,
     DialogComponent,
-    TermsofserviceComponent
+    TermsofserviceComponent,
+    LanguagesDialogComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
+    ReactiveFormsModule,
     HttpClientModule,
     AppRoutingModule,
     NgImageSliderModule,
     NgxCaptchaModule,
-    // RecaptchaModule,
+    NgxIntlTelInputModule,
+    BrowserAnimationsModule,
+    TooltipModule.forRoot(),
+    MatDialogModule,
     Ng2CarouselamosModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyA2tgD5aHakakIM-B-AMjEoqUnI_UpuSbA' // production key

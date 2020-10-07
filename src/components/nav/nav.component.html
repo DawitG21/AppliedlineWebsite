@@ -17,14 +17,16 @@
       <li class="nav-left">
         <a routerLink="/contact" i18n>Contact</a>
       </li>
-      <li>
-        <span class="fa fa-globe"></span>&nbsp;<a href="#modal1" i18n>en-us</a>      
+      <li>        
+        <span class="fa fa-globe"></span>&nbsp;<a (click)="openDialog()" i18n>en-us</a>
+        <!-- <span class="fa fa-globe"></span>&nbsp;<a href="#modal1" i18n>en</a> -->
       </li>
     </ul>
   </nav>
 </header>
 
-<div class="overlay" id="modal1">
+
+<!-- <div class="overlay" id="modal1">
   <a class="cancel" href="#_"></a>
   <div class="overlay__content">
     <ul class="navbar-nav">
@@ -40,5 +42,4 @@
       </ng-container>
     </ul>
   </div>
-</div>
-
+</div> -->

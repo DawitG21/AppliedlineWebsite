@@ -1,0 +1,13 @@
+<div mat-dialog-content>
+  <ul class="navbar-nav">
+    <h2 i18n class="border">Select Language</h2>
+    <ng-container *ngFor="let lang of languages">
+      <li class="list-body border">
+        <a (click)="gotoLocale(lang)">
+          <span class="fas fa-globe"></span>
+          &nbsp;{{lang.label}}
+        </a>
+      </li>
+    </ng-container>
+  </ul>
+</div>

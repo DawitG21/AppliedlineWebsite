@@ -1,8 +1,9 @@
-<div class="container">
+<div class="">
 
   <section #firstshow id="firstshow">
     <div id="right-div">
-      <a href="https://www.youtube.com/channel/UCu8PhdsLGRov5jDVejgRRrQ" target="blank" title="Return to HomePage" i18n>
+      <a href="https://www.youtube.com/channel/UCu8PhdsLGRov5jDVejgRRrQ" target="blank" title="Return to HomePage"
+        i18n="@@1931bf4825ef11b1b7c706c0c628e2df50192435">
         POWERED BY<br><img src="assets/graphics/youtube.png" style="margin-left:13%">Applied
         <span class="span-theme">line</span>
       </a>
@@ -13,15 +14,13 @@
     <ng-container *ngFor="let item of videoInfo">
 
       <div id="clip">
-        <!-- <iframe src="https://www.youtube.com/embed/XRXQwgga5DM" frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
         <iframe src="https://www.youtube.com/embed/p6aV-d8GZoc" frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
 
-      <div id="clip-description">        
-        <!-- <a (click)="navigate()" title="cargocanal.com" target="_blank" rel="noopener"> -->
-          <a [href]="item.url" target="_blank" rel="noopener">
+      <div id="clip-description">
+
+        <a [href]="item.url" target="_blank" rel="noopener">
           <h3 class="header_desc">
             {{ item.name }}
             <br>
@@ -42,8 +41,8 @@
           <div class="cal-img">
             <img [src]="item.locationUrl" class="res_img" />
           </div>
-          <div class="cal-desc">          
-            <p class="h4" i18n>AA Advanced Information Technology</p>
+          <div class="cal-desc">
+            <p class="h4" i18n="@@57912d22c21399332fdc33728da3e2dbecbf9f2a">AA Advanced Information Technology</p>
           </div>
         </div>
       </div>
@@ -55,17 +54,17 @@
     <div class="row">
       <a (click)="ShowEvents(0)">
         <div class="column_events">
-          <h3 style="text-align:center;text-transform: uppercase" i18n>Events</h3>
+          <h4 style="text-align:center;text-transform: uppercase" i18n>Events</h4>
         </div>
       </a>
       <a (click)="ShowEvents(1)">
         <div class="column_events">
-          <h3 style="text-align:center;text-transform: uppercase" i18n>News</h3>
+          <h4 style="text-align:center;text-transform: uppercase" i18n>News</h4>
         </div>
       </a>
       <a (click)="ShowEvents(2)">
         <div class="column_events">
-          <h3 style="text-align:center;text-transform: uppercase" i18n>Archives</h3>
+          <h4 style="text-align:center;text-transform: uppercase" i18n>Archives</h4>
         </div>
       </a>
     </div>

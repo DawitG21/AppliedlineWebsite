@@ -1,207 +1,217 @@
-<div class="container">
-<!-- contains the landing image  -->
-<section #firstshow id="firstshow"></section>
+<div class="">
+  <!-- contains the landing image  -->
+  <section #firstshow id="firstshow"></section>
 
-<section id="letusknow-wr"> 
-  <section id="letusknow">
-    <form name="whatOnMind" (ngSubmit)="onSubmit()" #whatOnMind="ngForm">
-      <h2 class="inquiry-text" i18n>Need great apps? Let's do it</h2>
-      <input type="text" name="message" [(ngModel)]="message" autocomplete="off">
-      <button type="submit" class="button" i18n>Submit</button>
-    </form>
+  <section id="letusknow-wr">
+    <section id="letusknow">
+      <form name="whatOnMind" (ngSubmit)="onSubmit()" #whatOnMind="ngForm">
+        <h2 class="inquiry-text" i18n>Need great apps? Let's do it</h2>
+        <input type="text" name="message" i18n-placeholder="@@placeholderHome" placeholder="What's on your mind?"
+          [(ngModel)]="message" autocomplete="off">
+        <button type="submit" class="button" i18n>Submit</button>
+      </form>
+    </section>
   </section>
-</section>
 
-<section class="icons">
-  <div class="container1">
-    <div class="one">
-      <h3 i18n>
-        <span class="color-theme">Desktop</span> Application</h3>
-      <img alt="" src="assets/graphics/9.6e.png">
-      <p i18n>Programs designed to run on a PC or Mac independently without the need for an Internet connection.
-        Work anywhere, anytime at your pace.</p>
-    </div>
-    <div class="one">
-      <h3 i18n>
-        <span class="color-theme">Mobile</span> Application</h3>
-      <img alt="" src="assets/graphics/18.png">
-      <p i18n>Applications designed to run on a mobile device such as a smart phone, tablet or watch.
-        Apps are generally small, individual software units with limited function.</p>
-    </div>
-    <div class="one">
-      <h3 i18n>
-        <span class="color-theme">Cloud</span> Service</h3>
-      <img alt="" src="assets/graphics/14.1.png">
-      <p i18n>Software-as-a-Service that can be consumed without having to invest in
-        hardware, development and maintenance. Save cost and be more productive.</p>
-    </div>
-    <div class="one">
-      <h3 i18n>
-        <span class="color-theme">Storage</span> Service</h3>
-      <img alt="" src="assets/graphics/13.1.png">
-      <p i18n>We provides computer storage space and related management services. We also offer periodic
-        backup and archiving. You can scale up or down as desired.</p>
-    </div>
-  </div>
-</section>
-
-<section id="firstshow2">
-  <a href="//seekerfit.com" title="seekerfit.com" target="_blank" rel="noopener">
-    <h2 class="banner-caption" i18n>
-      Seekerfit
-      <br>
-      <span class="banner-sub-caption">find jobs &bull; post jobs &bull; hire</span>
-    </h2>
-  </a>
-  <div class="mobile-only hero-base-wr">
-    <button class="button">
-      <a title="seekerfit.com" href="//seekerfit.com" target="_blank" rel="noopener" i18n>Get Started</a>
-    </button>
-  </div>
-</section>
-
-<section class="icons">
-  <div class="container1">
-    <div class="one">
-      <img alt="" src="assets/graphics/1.1.png">
-      <h3 i18n>Software
-        <span class="color-theme">Development</span>
-      </h3>
-      <p i18n>Conceiving, analyzing, designing, coding, testing, documenting, and bug fixes
-        with industry practice of continuous integration and continuous delivery.</p>
-    </div>
-    <div class="one">
-      <img alt="" src="assets/graphics/2.2.png">
-      <h3 i18n>Database
-        <span class="color-theme">Architecture</span>
-      </h3>
-      <p i18n>We provide database designs that are secure,
-        scalable with reduced data redundancy, improved data integrity
-        and guaranteed optimal performance.
-      </p>
-    </div>
-    <div class="one">
-      <img alt="" src="assets/graphics/3.3.png">
-      <h3 i18n>
-        System <span class="color-theme">Integration</span>
-      </h3>
-      <p i18n>We provide seamless integration of new component sub-system
-        into existing systems and ensure the subsystems function
-        together as a unit.</p>
-    </div>
-    <div class="one">
-      <img alt="" src="assets/graphics/4.4.png">
-      <h3 i18n>Software
-        <span class="color-theme">Consulting</span>
-      </h3>
-      <p i18n>We provide software assessment, code review, corporate consultancy,
-        UX and UI design, and software development knowledge transfer.</p>
-    </div>
-  </div>
-</section>
-
-<section id="firstshow3">
-  <div class="container">
-    <a href="//ezembil.com" title="eZembil.com" target="_blank" rel="noopener">
-      <h2 class="banner-caption" i18n>
-        eZembil
-        <br>
-        <span class="banner-sub-caption">buy &bull; sell &bull; anytime</span>
-      </h2>
-    </a>
-  </div>
-  <div class="mobile-only hero-base-wr">
-    <button class="button">
-      <a title="ezembil.com" href="//ezembil.com" target="_blank" rel="noopener" i18n>Shop Now</a>
-    </button>
-  </div>
-</section>
-
-<section class="ethics-wr">
-  <div class="ethics-jumbotron">
-    <h1 i18n>Ethics</h1>
-    <h1>&amp;</h1>
-    <h1 i18n>Process</h1>
-  </div>
-  <div class="ethics-notes">
-    <div class="row">
-      <article>
-        <img alt="" src="assets/graphics/icons/1.1.png">
-        <span class="title" i18n>INITIAL REQUIRMENT</span>
-        <p i18n>Scribble your specific cause and ideas to help you visualise your objectives.</p>
-      </article>
-      <article>
-        <img alt="" src="assets/graphics/icons/2.1.png">
-        <span class="title" i18n>ANALYSIS</span>
-        <p i18n>Thoroughly examine your requirement and draft an implementation plan.</p>
-      </article>
-      <article>
-        <img alt="" src="assets/graphics/icons/3.png">
-        <span class="title" i18n>BRAINSTORMING</span>
-        <p i18n>All our great minds are brought together for your benefit.</p>
-      </article>
-    </div>
-    <div class="row">
-      <article>
-        <img alt="" src="assets/graphics/icons/4.png">
-        <strong class="title" i18n ="@@design">DESIGN</strong>
-        <p i18n>After all the preparation steps, the hard work begins.</p>
-      </article>
-      <article>
-        <img alt="" src="assets/graphics/icons/5.png">
-        <strong class="title" i18n>IMPLEMENTATION</strong>
-        <p i18n>Our developers translate the design into interactive software.</p>
-      </article>
-      <article>
-        <img alt="" src="assets/graphics/icons/6.png">
-        <strong class="title" i18n>TESTING</strong>
-        <p i18n>All functionality are thoroughly tested before rolling out to production.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
-<section id="firstshow4">
-  <div class="container">
-    <a href="//doceipt.com" title="doceipt.com" target="_blank" rel="noopener">
-      <h2 class="banner-caption"  i18n ="@@tag">
-        Doceipt
-        <br>
-        <span class="banner-sub-caption">invoice &bull; payment &bull; receipt</span>
-      </h2>
-    </a>
-  </div>
-  <div class="mobile-only hero-base-wr">
-    <button class="button">
-      <a title="doceipt.com" href="//doceipt.com" target="_blank" rel="noopener" i18n>Shop Now</a>
-    </button>
-  </div>
-</section>
-
-<section class="icons2 section-background" #client>
-  <div class="container1">
-    <div class="clients">
-      <h1 i18n>Our Clients</h1>
-      <p class="client-p" i18n>Since our founding in 2006, we have worked closely and successfully with government
-        departments and major companies, and pride ourselves on meeting and exceeding our clients high expectations.
-        Here, you can find a selection of the many client organisations we already work closely alongside.</p>
-    </div>
-    <div id="container">
-      <div ng2-carouselamos class="slides-wrapper" [items]="items" [width]="900" [$prev]="prev" [$next]="next" [$item]="item">
+  <section class="icons">
+    <div class="container1">
+      <div class="one">
+        <h3 i18n="@@9bd0571f2d18434cbbb78445a720b2596ab14afa">
+          <span class="color-theme">Desktop</span> Application</h3>
+        <img alt="" src="assets/graphics/9.6e.png">
+        <p i18n="@@d8f4faa4029648e189a3427f55aa362ebabb9183">Programs designed to run on a PC or Mac independently
+          without the need for an Internet connection.
+          Work anywhere, anytime at your pace.</p>
       </div>
-      <ng-template #prev>
-        <img src="assets/graphics/icons/left-arrow.png" id="left">
-      </ng-template>
-      <ng-template #next>
-        <img src="assets/graphics/icons/right-arrow.png" id="right">
-      </ng-template>
-      <ng-template #item let-item let-i="index">
-        <div class="one clientele">
-          <img src="{{item.url}}">
-          <p>{{item.title}}</p>
-        </div>
-      </ng-template>
+      <div class="one">
+        <h3 i18n="@@4c2d5639b2d8a52a0b9869da9924e7aab65cb47d">
+          <span class="color-theme">Mobile</span> Application</h3>
+        <img alt="" src="assets/graphics/18.png">
+        <p i18n="@@417b7c3fdf8d9592f7372c51d67c52b50144a695">Applications designed to run on a mobile device such as a
+          smart phone, tablet or watch.
+          Apps are generally small, individual software units with limited function.</p>
+      </div>
+      <div class="one">
+        <h3 i18n="@@3c21b34800d20fba1d21fcfbb25b6c38cc4281d3">
+          <span class="color-theme">Cloud</span> Service</h3>
+        <img alt="" src="assets/graphics/14.1.png">
+        <p i18n="@@f9b23b1d985280586e0c6a26bd4c5cfb00c007b5">Software-as-a-Service that can be consumed without having
+          to invest in
+          hardware, development and maintenance. Save cost and be more productive.</p>
+      </div>
+      <div class="one">
+        <h3 i18n="@@9debad4a6d909843d10fc2713c5a61423dc43bac">
+          <span class="color-theme">Storage</span> Service</h3>
+        <img alt="" src="assets/graphics/13.1.png">
+        <p i18n="@@9788d3cdb85034ebe30f9066a3681e526e428d29">We provides computer storage space and related management
+          services. We also offer periodic
+          backup and archiving. You can scale up or down as desired.</p>
+      </div>
     </div>
-  </div> 
-</section>
+  </section>
+
+  <section id="firstshow2">
+    <div class="container">
+      <a href="//seekerfit.com" title="seekerfit.com" target="_blank" rel="noopener">
+        <h2 class="banner-caption" i18n="@@de9ec8776cdf9f3ac156642497e8a07c9f9b9aa0">
+          Seekerfit
+          <br>
+          <span class="banner-sub-caption">find jobs &bull; post jobs &bull; hire</span>
+        </h2>
+      </a>
+    </div>
+    <div class="mobile-only hero-base-wr">
+      <button class="button">
+        <a title="seekerfit.com" class="white" href="//seekerfit.com" target="_blank" rel="noopener" i18n="@@802222cb4754d74846b18f651b1f94e21576185d">Get
+          Started</a>
+      </button>
+    </div>
+  </section>
+
+  <section class="icons">
+    <div class="container1">
+      <div class="one">
+        <img alt="" src="assets/graphics/1.1.png">
+        <h3 i18n="@@5686076ff45bb2619ce38bb80faade41ce9835ac">Software
+          <span class="color-theme">Development</span>
+        </h3>
+        <p i18n="@@04b8f184c914dd32afe3a0a85c6c0d40e8d27271">Conceiving, analyzing, designing, coding, testing, documenting, and bug fixes
+          with industry practice of continuous integration and continuous delivery.</p>
+      </div>
+      <div class="one">
+        <img alt="" src="assets/graphics/2.2.png">
+        <h3 i18n="@@3d06671caf30b428c29c3d70574821ae420b61d9">Database
+          <span class="color-theme">Architecture</span>
+        </h3>
+        <p i18n="@@84de245dde1a1b70870e364f619971d792a38677">We provide database designs that are secure,
+          scalable with reduced data redundancy, improved data integrity
+          and guaranteed optimal performance.
+        </p>
+      </div>
+      <div class="one">
+        <img alt="" src="assets/graphics/3.3.png">
+        <h3 i18n="@@3e2f19ca0a5849c1ec406366b59c0ea1735f6d57">
+          System <span class="color-theme">Integration</span>
+        </h3>
+        <p i18n="@@9df3087653fa0be4379eb790753cd6c32a1139fa">We provide seamless integration of new component sub-system
+          into existing systems and ensure the subsystems function
+          together as a unit.</p>
+      </div>
+      <div class="one">
+        <img alt="" src="assets/graphics/4.4.png">
+        <h3 i18n="@@75e6d7116f9270ed16dfc83ee026019ea5ee84e7">Software
+          <span class="color-theme">Consulting</span>
+        </h3>
+        <p i18n="@@1ead6cc1963517028cf620b33d94bd1371863675">We provide software assessment, code review, corporate consultancy,
+          UX and UI design, and software development knowledge transfer.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="firstshow3">
+    <div class="container">
+      <a href="//ezembil.com" title="eZembil.com" target="_blank" rel="noopener">
+        <h2 class="banner-caption" i18n="@@00bef479c4a6e6de7ef6e967b43794bec15afee5">
+          eZembil
+          <br>
+          <span class="banner-sub-caption">buy &bull; sell &bull; anytime</span>
+        </h2>
+      </a>
+    </div>
+    <div class="mobile-only hero-base-wr">
+      <button class="button">
+        <a title="ezembil.com" class="white" href="//ezembil.com" target="_blank" rel="noopener" i18n>Shop Now</a>
+      </button>
+    </div>
+  </section>
+
+  <section class="ethics-wr">
+    <div class="ethics-jumbotron">
+      <h1 i18n>Ethics</h1>
+      <h1>&amp;</h1>
+      <h1 i18n>Process</h1>
+    </div>
+    <div class="ethics-notes">
+      <div class="row">
+        <article>
+          <img alt="" src="assets/graphics/icons/1.1.png">
+          <span class="title" i18n>INITIAL REQUIRMENT</span>
+          <p i18n>Scribble your specific cause and ideas to help you visualise your objectives.</p>
+        </article>
+        <article>
+          <img alt="" src="assets/graphics/icons/2.1.png">
+          <span class="title" i18n>ANALYSIS</span>
+          <p i18n>Thoroughly examine your requirement and draft an implementation plan.</p>
+        </article>
+        <article>
+          <img alt="" src="assets/graphics/icons/3.png">
+          <span class="title" i18n>BRAINSTORMING</span>
+          <p i18n>All our great minds are brought together for your benefit.</p>
+        </article>
+      </div>
+      <div class="row">
+        <article>
+          <img alt="" src="assets/graphics/icons/4.png">
+          <strong class="title" i18n="@@design">DESIGN</strong>
+          <p i18n>After all the preparation steps, the hard work begins.</p>
+        </article>
+        <article>
+          <img alt="" src="assets/graphics/icons/5.png">
+          <strong class="title" i18n>IMPLEMENTATION</strong>
+          <p i18n>Our developers translate the design into interactive software.</p>
+        </article>
+        <article>
+          <img alt="" src="assets/graphics/icons/6.png">
+          <strong class="title" i18n>TESTING</strong>
+          <p i18n>All functionality are thoroughly tested before rolling out to production.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="firstshow4">
+    <div class="container">
+      <a href="//doceipt.com" title="doceipt.com" target="_blank" rel="noopener">
+        <h2 class="banner-caption" i18n="@@tag">
+          Doceipt
+          <br>
+          <span class="banner-sub-caption">invoice &bull; payment &bull; receipt</span>
+        </h2>
+      </a>
+    </div>
+    <div class="mobile-only hero-base-wr">
+      <button class="button">
+        <a title="doceipt.com" class="white" href="//doceipt.com" target="_blank" rel="noopener" i18n>Shop Now</a>
+      </button>
+    </div>
+  </section>
+
+  <section class="icons2 section-background" #client>
+    <div class="container1">
+      <div class="clients">
+        <h1 i18n>Our Clients</h1>
+        <p class="client-p" i18n="@@74d263d87b8fad1424c9b5369f96730da19e31ca">Since our founding in 2006, we have worked closely and successfully with government
+          departments and major companies, and pride ourselves on meeting and exceeding our clients high expectations.
+          Here, you can find a selection of the many client organisations we already work closely alongside.</p>
+      </div>
+      <div id="container">
+        <div ng2-carouselamos class="slides-wrapper" [items]="items" [width]="900" [$prev]="prev" [$next]="next"
+          [$item]="item">
+        </div>
+        <ng-template #prev>
+          <img src="assets/graphics/icons/left-arrow.png" id="left">
+        </ng-template>
+        <ng-template #next>
+          <img src="assets/graphics/icons/right-arrow.png" id="right">
+        </ng-template>
+        <ng-template #item let-item let-i="index">
+          <div class="one clientele">
+            <img src="{{item.url}}">
+            <p>{{item.title}}</p>
+          </div>
+        </ng-template>
+      </div>
+    </div>
+  </section>
+
 </div>

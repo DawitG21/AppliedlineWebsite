@@ -10,11 +10,16 @@
   text-align: center;
 }
 
+.white {
+  color: #fff;
+}
+
 .ethics-wr {
   overflow: hidden;
   width: 100%;
   padding: 70px 30px;
   box-sizing: border-box;
+  background: #f0f2f5;
 }
 
 .ethics-jumbotron {
@@ -47,7 +52,6 @@
 }
 
 .ethics-jumbotron h1 {
-  /* font-size: inherit; */
   font-size: -webkit-xxx-large;
   /* margin: 30px 0 60px; */
   margin: 30px 0 0;
@@ -62,7 +66,7 @@
 .ethics-notes article {
   float: left;
   width: 33%;
-  min-height: 200px;
+  min-height: 150px;
   padding: 5px;
   box-sizing: border-box;
 }
@@ -80,7 +84,8 @@
 #firstshow2,
 #firstshow3,
 #firstshow4 {
-  min-height: 500px;
+  min-height: 615px;
+  /*  500px; */
   text-align: center;
   color: white;
   padding: 50px 0;
@@ -112,11 +117,15 @@
 }
 
 #firstshow4 {
-  background: url("../../assets/graphics/doceipt.png") no-repeat;
+  background: url("../../assets/graphics/doceipt1.png") no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
   background-color: #fff;
+}
+
+.mobile-only {
+  display: none;
 }
 
 img {
@@ -124,7 +133,7 @@ img {
 }
 
 .section-background {
-  background: gainsboro;
+  background: #f0f2f5;
 }
 
 .one img {
@@ -142,7 +151,7 @@ img {
 
 #letusknow-wr {
   position: relative;
-  height: 83px;
+  height: 73px;
 }
 
 #letusknow {
@@ -159,6 +168,7 @@ img {
   color: white;
   padding-left: 150px;
   margin-top: 0;
+  height: 32px;
 }
 
 #letusknow form {
@@ -169,7 +179,7 @@ img {
 #letusknow input[type="text"] {
   background: white;
   padding: 4px;
-  height: 24px;
+  /* height: 24px; */
   width: 250px;
   border: none;
 }
@@ -271,6 +281,10 @@ img {
 
 /* On smaller screens */
 @media only screen and (max-width: 480px) {
+  .mobile-only {
+    display: block;
+  }
+
   #letusknow-wr {
     display: none;
   }
@@ -309,7 +323,7 @@ img {
   }
 
   #firstshow4 {
-    /* background-attachment: initial; */
-    display: none;
+    /* display: none; */
+    background-attachment: initial;
   }
 }

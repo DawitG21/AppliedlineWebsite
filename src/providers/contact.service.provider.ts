@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-/* import { BehaviorSubject } from 'rxjs/BehaviorSubject'; */
-import { BehaviorSubject } from 'rxjs/Rx';
+import { BehaviorSubject } from 'rxjs/BehaviorSubject';
+// import { BehaviorSubject } from 'rxjs/Rx';
 
 @Injectable()
 export class ContactServiceProvider {

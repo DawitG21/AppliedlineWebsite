@@ -13,16 +13,15 @@ export class WebRequestProcessor implements IWebRequestProcessor {
     }
 
     sendRequest(webcontact: IWebContact): Promise<IWebContact> {
-
         if (webcontact.ContactName.length === 0
             || !this.helper.emailIsValid(webcontact.Email)
             || !this.helper.phoneIsValid(webcontact.Phone)
             || webcontact.MessageText.length === 0
             || webcontact.RequestType.length === 0
         ) {
-            throw new Error();
+            // throw new Error();
+            console.log('ApiSendFailed:', Error);
         }
-
         return new Promise<IWebContact>((resolve, reject) => {
             this.request.sendRequest(webcontact)
                 .subscribe((data) => {

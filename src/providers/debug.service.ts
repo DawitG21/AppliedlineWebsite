@@ -15,6 +15,12 @@ export class DebugService {
     }
   }
 
+  consoleContactForm(reason: any,message: any) {
+    if (!environment.production) {
+      console.log(reason, message);
+    }
+  }
+
   consoleBaseHref(message: any) {
     if (!environment.production) {
       console.log('baseHref', message);

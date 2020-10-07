@@ -11,6 +11,21 @@ button:disabled {
   opacity: 0.5;
 }
 
+:host ::ng-deep {
+  .custom {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;;
+  }
+
+  .iti input,
+  .iti input[type=text]:focus,
+  .iti input[type=tel]:focus {
+    width: 100vw;    
+  }
+}
+
 input[type='text'],
 [type='email'],
 [type='tel'],
@@ -110,10 +125,13 @@ textarea {
   transition: all 0.3s;
 }
 
-/* #form_button:hover {
-  background: #474544;
-  color: #F2F3EB;
-} */
+.ml-2 {
+  margin-left: 2px;
+}
+
+.lbl-color {
+  color: #5A5A5A;
+}
 
 .overflow-auto {
   clear: both;
@@ -124,6 +142,11 @@ textarea {
   width: 45%;
   padding: 25px 20px;
   box-sizing: border-box;
+}
+
+.img-fluid {
+  height: 550px;
+  padding-left: 15px;
 }
 
 .overflow-auto #contact_map {
@@ -159,5 +182,10 @@ iframe {
     width: 100%;
     padding: 15px;
     box-sizing: border-box;
+  }
+
+  .img-fluid {
+    height: 350px;
+    padding-left: 0px;
   }
 }

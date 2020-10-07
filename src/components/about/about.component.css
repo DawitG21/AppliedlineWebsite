@@ -1,17 +1,20 @@
 #aboutpage {
   box-sizing: border-box;
-  padding: 15px;
-  /* width: 55%;
-  float: left; */
+  padding: 15px;  
 }
 
 #aboutImg {
-  /*  min-height: 420px; */
-  min-height: 500px;
+ /*   min-height: 205px; */
+  min-height: 615px;
   text-align: center;
   color: white;
   padding: 50px 0;
   position: relative;
+}
+
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 #aboutImg {
@@ -50,7 +53,8 @@
 .ethics-notes article {
   float: left;
   width: 25%;
-  min-height: 200px;
+  min-height: 160px;
+  /* 200px */
   padding: 5px;
   box-sizing: border-box;
 }
@@ -268,7 +272,7 @@ aside#sidebar-wr .sidebar {
   }
 }
 
-@media screen and (max-width: 768px) and (min-width: 480px){
+@media screen and (max-width: 768px) and (min-width: 480px) {
   #aboutImg {
     min-height: 350px;
     background: url("../../assets/graphics/ph1.png") no-repeat;

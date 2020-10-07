@@ -15,22 +15,23 @@ export class AboutComponent implements OnInit {
 
   constructor(
     private router: Router,
-   // private contactBroadcast: ContactServiceProvider,
+    // private contactBroadcast: ContactServiceProvider,
     private helper: HelperProvider
-  ) { }
+  ) {
+  }
 
   ngOnInit() {
     scroll(0, 0);
     const letUsKnowWr = document.getElementById('letusknow-wr');
     const letUsKnowDiv = document.getElementById('letusknow');
     const letUsKnowWrTopOffset = letUsKnowWr.offsetTop;
-    
+
     // fix the div if topOffset is about 0
     this.helper.fixLetUsKnowDiv(letUsKnowDiv, letUsKnowWrTopOffset);
   }
 
   onSubmit() {
-   // this.contactBroadcast.updateMessage(this.message);
+    // this.contactBroadcast.updateMessage(this.message);
     this.message = '';
     this.helper.topFunction();
     this.router.navigate(['/contact']);

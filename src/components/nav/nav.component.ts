@@ -1,9 +1,10 @@
-import { Component, OnInit, LOCALE_ID, Inject } from '@angular/core';
 import { Router } from '@angular/router';
 import { HelperProvider } from 'src/providers/helper.provider';
-import { DebugService } from 'src/providers/debug.service';
+import { LanguagesDialogComponent } from '../language-dialog/languages-dialog.component';
+import { MatDialog } from '@angular/material/dialog';
 import { DataProvider } from 'src/providers/data.provider';
-// import { ILanguage } from 'src/interface/ILanguage';
+import { DebugService } from 'src/providers/debug.service';
+import { Component, OnInit, LOCALE_ID, Inject } from '@angular/core';
 
 @Component({
   selector: 'app-nav',
@@ -19,8 +20,9 @@ export class NavComponent implements OnInit {
     @Inject(LOCALE_ID) private _localeId: string,
     private router: Router,
     private helper: HelperProvider,
-    private data: DataProvider,
     private _consoleService: DebugService,
+    private data: DataProvider,
+    public dialog: MatDialog,
   ) {
     this.storedlocale = localStorage.getItem('locale');
     this.languages = this.data.languages;
@@ -33,6 +35,13 @@ export class NavComponent implements OnInit {
       this._consoleService.consoleMessage('redirecting');
       this.helper.redirect();
     }
+  }
+
+  openDialog() {
+    this.dialog.open(LanguagesDialogComponent, {
+      width: '450px',
+      data: this.languages
+    });
   }
 
   routeHome(): void {

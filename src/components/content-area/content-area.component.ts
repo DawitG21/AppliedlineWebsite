@@ -22,7 +22,7 @@ export class ContentAreaComponent implements OnInit {
     this.items = [
       {
         url: 'assets/graphics/et.png',
-        title: 'ET Airlines'
+        title: 'Airlines'
       },
       {
         url: 'assets/graphics/ebirr2.png',
@@ -39,11 +39,7 @@ export class ContentAreaComponent implements OnInit {
       },
       {
         url: 'assets/graphics/waafi.png',
-        title: 'Waafi Travels'
-      },
-      {
-        url: 'assets/graphics/ebirr2.png',
-        title: 'Mobile Money Transfer'
+        title: 'Travels'
       }
     ]
   }
