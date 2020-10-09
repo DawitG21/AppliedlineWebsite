@@ -189,10 +189,7 @@
   <section class="icons2 section-background" #client>
     <div class="container1">
       <div class="clients">
-        <h1 i18n>Our Clients</h1>
-        <p class="client-p" i18n="@@74d263d87b8fad1424c9b5369f96730da19e31ca">Since our founding in 2006, we have worked closely and successfully with government
-          departments and major companies, and pride ourselves on meeting and exceeding our clients high expectations.
-          Here, you can find a selection of the many client organisations we already work closely alongside.</p>
+        <h1 i18n>Our Clients</h1>        
       </div>
       <div id="container">
         <div ng2-carouselamos class="slides-wrapper" [items]="items" [width]="900" [$prev]="prev" [$next]="next"
@@ -206,8 +203,7 @@
         </ng-template>
         <ng-template #item let-item let-i="index">
           <div class="one clientele">
-            <img src="{{item.url}}">
-            <p>{{item.title}}</p>
+            <img src="{{item.url}}">          
           </div>
         </ng-template>
       </div>
