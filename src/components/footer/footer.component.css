@@ -1,7 +1,9 @@
-#footer {
+footer {
+  position: relative;
   padding: 20px 20px 1px;
-  color: white;
+  color: #FFFFFF;
   background-color: #3d3d3d;
+  min-height: 100px;
   text-align: center;
-
+  z-index: 9999;
 }
