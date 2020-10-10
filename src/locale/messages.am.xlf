@@ -996,7 +996,7 @@ buy • sell • anytime<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/s
     </trans-unit>
     <trans-unit id="f21d8f5f341bb626059a3717439946ecf5d75993" datatype="html">
       <source>All our great minds are brought together for your benefit.</source>
-      <target></target>
+      <target>ሁሉም ታላላቅ አዕምሯችን ለእርስዎ ጥቅም ሲባል አንድ ላይ ተሰብስበዋል</target>
       <context-group purpose="location">
         <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
         <context context-type="linenumber">141</context>

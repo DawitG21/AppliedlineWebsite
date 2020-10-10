@@ -1,8 +1,13 @@
 export class DataProvider {
-    languages = [
+   /*  languages = [
         { code: 'en-US', label: 'English' },
         { code: 'am', label: 'Amharic' },
         { code: 'fr', label: 'French' }
+    ]; */
+    languages = [
+        { code: 'en-US', label: 'English' },
+        { code: 'am', label: 'አማርኛ' },
+        { code: 'fr', label: 'Français' }
     ];
     
     videoInfo = [
