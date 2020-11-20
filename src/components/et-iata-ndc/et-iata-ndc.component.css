@@ -1,0 +1,292 @@
+#ndcCertificate {
+  min-height: 615px;
+  text-align: center;
+  color: white;
+  padding: 50px 0;
+  position: relative;
+}
+
+#ndcCertificate {
+  background: url("../../assets/graphics/iata.png") no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.visibility {
+  visibility: hidden;
+}
+
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.inibla-about1 span.video-play-icon {
+  background: var(--secondary-color);
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+}
+
+#aboutpage {
+  box-sizing: border-box;
+  padding: 15px;
+  /* width: 70%; */
+  /* height: 659px; */
+  float: left;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.mt-10 {
+  margin-top: 15px;
+}
+
+.text {
+  text-transform: uppercase;
+}
+
+.row-left {
+  width: 30%;
+  float: left;
+  position: fixed;
+  padding-right: 55px;
+  top: 110px;
+}
+
+.row-right {
+  /* width: 70%; */
+  margin-left: 32%;
+}
+
+.list-body li {
+  cursor: pointer;
+}
+
+.scroll-left-row {
+  overflow-y: scroll;
+  height: 70.5vh;
+}
+
+.align-self {
+  align-self: center;
+}
+
+.mt-2,
+.my-2 {
+  margin-top: 0.5rem !important;
+}
+
+.border {
+  border: 1px solid #dee2e6 !important;
+}
+
+.border-top-0 {
+  border-top: 0 !important;
+}
+
+.border-left-0 {
+  border-left: 0 !important;
+}
+
+.border-right-0 {
+  border-right: 0 !important;
+}
+
+.pt-4,
+.py-4 {
+  padding-top: 1.5rem !important;
+}
+
+.pr-4,
+.px-4 {
+  padding-right: 1.5rem !important;
+}
+
+.pb-4,
+.py-4 {
+  padding-bottom: 1.5rem !important;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12,
+.col,
+.col-auto,
+.col-sm-1,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm,
+.col-sm-auto,
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md,
+.col-md-auto,
+.col-lg-1,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg,
+.col-lg-auto,
+.col-xl-1,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl,
+.col-xl-auto {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+@media (max-width: 1080px) {
+  .inibla-about1 .section-width h2 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 991px) {
+  .inibla-about1 .section-width {
+    padding: 0 0px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .inibla-about1 .left-section,
+  .inibla-about1 .left-rider,
+  .inibla-about1 .left-restaurant,
+  .inibla-about1 .right-section,
+  .inibla-about1 .right-rider,
+  .inibla-about1 .right-restaurant {
+    min-height: 250px;
+
+  }
+}
+
+@media (max-width: 415px) {
+  .inibla-about1 .section-width h2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 375px) {
+  .inibla-about1 .section-width h2 {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .mt-md-4,
+  .my-md-4 {
+    margin-top: 1.5rem !important;
+  }
+
+  #aboutpage {
+    margin: 0;
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 994px) {
+  .row-left {
+    display: none;
+  }
+
+  .row-right {
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+
+@media (max-width: 995px) {
+  .row-right {
+    margin-left: 0% !important;
+  }
+
+}
+
+@media (max-width: 1295px) {
+  .row-right {
+    margin-left: 35%;
+  }
+}
+
+@media (min-width: 1296px) {
+  .row-right {
+    margin-left: 35%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #ndcCertificate {
+    background: url("../../assets/graphics/iata.png") no-repeat;
+    background-size: contain !important;
+    background-color: #fff;
+    background-attachment: initial !important;
+  }
+}

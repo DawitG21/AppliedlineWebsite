@@ -28,9 +28,9 @@ export class MediaAreaComponent implements OnInit {
     this.ShowEvents(0);
   }
 
-  navigate() {
+  /* navigate() {
     this.router.navigate(['/cargocanal']);
-  }
+  } */
 
   ShowEvents(y: number) {
     const x = document.querySelectorAll('.events');

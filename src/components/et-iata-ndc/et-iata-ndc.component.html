@@ -1,0 +1,84 @@
+<div class="container">
+  <!-- <div class="main-content-centered"> -->
+  <div class="">
+    <section id="aboutpage">
+      <div class="row row-left">
+        <div class="col-lg-12 col-md-6 align-self">
+          <p class="mt-2 border border-top-0 border-left-0 border-right-0" i18n="@@tblContent">Table of Contents</p>
+          <ol class="list-body scroll-left-row  border border-top-0 border-left-0 border-right-0">
+            <li class="mt-md-4 mt-3 border border-top-0 border-left-0 border-right-0" (click)="scroll(freetrial)">
+              IATA-NDC</li>
+
+            <li class="mt-md-4 mt-3 border border-top-0 border-left-0 border-right-0" (click)="scroll(useservices)"
+              i18n="@@h3Overview">
+              Project Overview</li>
+
+            <li class="mt-md-4 mt-3 border border-top-0 border-left-0 border-right-0" (click)="scroll(nonaaait)"
+              i18n="@@h3Tech">
+              Technology</li>
+
+            <li class="mt-md-4 mt-3 border border-top-0 border-left-0 border-right-0"
+              (click)="scroll(accesssubcription)" i18n="@@h3Scope">
+              NDC Scope</li>
+
+            <li class="mt-md-4 mt-3 border border-top-0 border-left-0 border-right-0" (click)="scroll(propertyrights)"
+              i18n="@@h3Cert">
+              NDC Certification</li>
+          </ol>
+        </div>
+      </div>
+      <div class="row row-right">
+        <div class="col-lg-12 col-md-6 align-self">
+          <h3 i18n="@@pageHeader"><b>Ethiopian Airlines Group</b></h3>
+          <hr>
+          <p class="mt-md-4 mt-3 mb-0" i18n="@@intro">The International Air Transport Association (IATA) is the
+            trade association for the world’s airlines, representing some 290 airlines or 82% of total air traffic. They
+            support many areas of aviation activity and help formulate industry policy on critical aviation issues.</p>
+        </div>
+        <div class="col-lg-12 col-md-6 align-self mt-10">
+          <h3 #freetrial i18n="@@h3IATA">IATA-New Distribution Capability</h3>
+          <b>
+            <p i18n="@@h3Update">Last updated: November 19, 2020</p>
+          </b>
+          <p class="mt-md-4 mt-3 mb-0" i18n="@@brief">Therefore, IATA-NDC (New Distribution Capability) is a
+            travel
+            industry-supported program (NDC Program) launched by IATA for the development and market adoption of a new,
+            XML-based data transmission standard (NDC Standard).
+            The NDC Standard enhances the capability of communications between airlines and travel agents.</p>
+          <section #ndcCertificate id="ndcCertificate"></section>
+        </div>
+
+        <div class="col-lg-12 col-md-6 align-self mt-10" #useservices>
+          <h3 class=""><b class="text" i18n="@@h3Overview">Project Overview</b></h3>
+          <p class="mt-md-4 mb-0" i18n="@@overview">Ethiopian Airlines quest to
+            be the first commercial
+            carrier in Africa to be NDC compatible, hence a partnership with AAAIT was borne in July 2018 to help
+            develop, deploy and transfer knowledge to the Ethiopian Airlines team.</p>
+        </div>
+
+        <div class="col-lg-12 col-md-6 align-self">
+          <h3 class="mt-3"><b class="text" i18n="@@h3Tech">Technology</b></h3>
+          <p class="mt-md-4 mb-0" #nonaaait i18n="@@technology">Developed in C# .Net Core 2.1
+            with a micro service
+            architecture running on Azure Service Fabric Cluster. However, this cluster has been moved to run on Azure
+            Kubernetes Service (AKS) by the Ethiopian Airlines team.</p>
+        </div>
+        <div class="col-lg-12 col-md-6 align-self">
+          <h3 class="mt-3"><b class="text" i18n="@@h3Scope">NDC Scope</b></h3>
+          <p class="mt-md-4 mb-0" #accesssubcription i18n="@@ndcscope">Ethiopian Airlines NDC API
+            supports NDC Shopping and partial Order Management at the moment, hence the level 3 certification. There are
+            future plans to include ancillary support, rich media and a full support of Order Management including
+            AirDocExchange, AirDocCancel and AirDocRefund with the current schema 17.2 and more recent schema versions
+            18.2, 19.2 and 20.2 to meet Level 4 and NDC@Scale certifications.</p>
+        </div>
+        <div class="col-lg-12 col-md-6 align-self" #propertyrights>
+          <h3 class="mt-3"><b class="text" i18n="@@h3Cert">NDC Certification</b></h3>
+          <p class="mt-md-4mb-0" i18n="@@ndccert">Addis Ababa Advanced Information
+            Technology
+            supported the Ethiopian Airlines team to ensure the API complies with all IATA NDC schema specifications for
+            version 17.2.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>

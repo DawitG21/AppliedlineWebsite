@@ -1,5 +1,5 @@
-<div class="">
-
+<div class=""> 
+  <!-- <router-outlet></router-outlet> -->
   <section #firstshow id="firstshow">
     <div id="right-div">
       <a href="https://www.youtube.com/channel/UCu8PhdsLGRov5jDVejgRRrQ" target="blank" title="Return to HomePage"
@@ -72,8 +72,9 @@
     <!-- Start of events -->
     <div class="events">
       <div class="eventType" id="scroll">
-        <a *ngFor="let event of eventsList">
-          <div class="event eventText" (click)="navigate()">
+        <a *ngFor="let event of eventsList" [href]="event.routerLink">
+         <!--  <a *ngFor="let event of eventsList" [routerLink]="event.routerLink">   -->     
+          <div class="event eventText">
             <div class="eventTypeimg">
               <img [src]="event.eventUrl" class="event_picture" />
             </div>

@@ -1185,7 +1185,7 @@ line<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
 </context-group>
 </trans-unit>
 <trans-unit id="af88c1e95a1d16d3cdbb7210981e0bfb6dc1d137" datatype="html">
-<source>Events</source>
+<source>Media</source>
 <target>Événements</target>
 <context-group purpose="location">
 <context context-type="sourcefile">src/components/media-area/media-area.component.html</context>
@@ -1248,6 +1248,150 @@ line<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
 <context context-type="linenumber">15</context>
 </context-group>
 </trans-unit>
+<trans-unit id="ndccert" datatype="html">
+<source>Addis Ababa Advanced Information
+            Technology
+            supported the Ethiopian Airlines team to ensure the API complies with all IATA NDC schema specifications for
+            version 17.2</source>
+<target>Addis Ababa Advanced Information Technology a soutenu l'équipe Ethiopian Airlines pour s'assurer que l'API est conforme à toutes les spécifications de schéma IATA NDC pour la version 17.2</target>
+<context-group purpose="location">
+<context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+<context context-type="linenumber">73</context>
+</context-group>
+</trans-unit>
+<trans-unit id="ndcscope" datatype="html">
+<source>Ethiopian Airlines NDC API
+            supports NDC Shopping and partial Order Management at the moment, hence the level 3 certification. There are
+            future plans to include ancillary support, rich media and a full support of Order Management including
+            AirDocExchange, AirDocCancel and AirDocRefund with the current schema 17.2 and more recent schema versions
+            18.2, 19.2 and 20.2 to meet Level 4 and NDC@Scale certifications.</source>
+<target>
+L'API Ethiopian Airlines NDC prend actuellement en charge NDC Shopping et la gestion partielle des commandes, d'où la certification de niveau 3. Il est prévu à l'avenir d'inclure une assistance auxiliaire, des contenus multimédias riches et une prise en charge complète de la gestion des commandes, y compris AirDocExchange, AirDocCancel et AirDocRefund avec le schéma actuel 17.2 et les versions de schéma plus récentes 18.2, 19.2 et 20.2 pour répondre aux certifications de niveau 4 et NDC @ Scale.</target>
+<context-group purpose="location">
+<context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+<context context-type="linenumber">65</context>
+</context-group>
+</trans-unit>
+<trans-unit id="technology" datatype="html">
+<source>Developed in C# .Net Core 2.1
+            with a micro service
+            architecture running on Azure Service Fabric Cluster. However, this cluster has been moved to run on Azure
+            Kubernetes Service (AKS) by the Ethiopian Airlines team.</source>
+<target>Développé en C # .Net Core 2.1 avec une architecture de micro-service s'exécutant sur Azure Service Fabric Cluster. Cependant, ce cluster a été déplacé pour s'exécuter sur Azure Kubernetes Service (AKS) par l'équipe ET</target>
+<context-group purpose="location">
+<context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+<context context-type="linenumber">58</context>
+</context-group>
+</trans-unit>
+<trans-unit id="overview" datatype="html">
+<source>Ethiopian Airlines quest to
+          be the first commercial
+          carrier in Africa to be NDC compatible, hence a partnership with AAAIT was borne in July 2018 to help
+          develop, deploy and transfer knowledge to the Ethiopian Airlines team.</source>
+<target>Ethiopian Airlines cherche à être le premier transporteur commercial en Afrique à être compatible NDC, c'est pourquoi un partenariat avec AAAIT a été conclu en juillet 2018 pour aider à développer, déployer et transférer des connaissances à l'équipe d'Ethiopian Airline </target>
+<context-group purpose="location">
+<context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+<context context-type="linenumber">50</context>
+</context-group>
+</trans-unit>
+<trans-unit id="brief" datatype="html">
+<source>Therefore, IATA-NDC (New Distribution Capability) is a
+            travel
+            industry-supported program (NDC Program) launched by IATA for the development and market adoption of a new,
+            XML-based data transmission standard (NDC Standard).
+            The NDC Standard enhances the capability of communications between airlines and travel agents.</source>
+<target>
+Par conséquent, IATA-NDC (Nouvelle capacité de distribution) est un programme soutenu par l'industrie du voyage (programme NDC) lancé par l'IATA pour le développement et l'adoption sur le marché d'une nouvelle norme de transmission de données basée sur XML (norme NDC). La norme NDC améliore la capacité de communication entre les compagnies aériennes et les agents de voyages</target>
+<context-group purpose="location">
+<context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+<context context-type="linenumber">40</context>
+</context-group>
+</trans-unit>
+<trans-unit id="intro" datatype="html">
+<source>The International Air Transport Association (IATA) is the
+            trade association for the world’s airlines, representing some 290 airlines or 82% of total air traffic. They
+            support many areas of aviation activity and help formulate industry policy on critical aviation issues.</source>
+<target>
+L’International Air Transport Association (IATA) est l’association commerciale des compagnies aériennes mondiales, qui représente quelque 290 compagnies aériennes ou 82% du trafic aérien total. Ils soutiennent de nombreux domaines de l'activité aéronautique et aident à formuler une politique de l'industrie sur des questions aéronautiques critiques.</target>
+<context-group purpose="location">
+<context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+<context context-type="linenumber">31</context>
+</context-group>
+</trans-unit>
+<trans-unit id="cookie" datatype="html">
+<source>Congratulations Ethiopian Airlines on your IATA-NDC certification. At Appliedline, we are proud to have helped
+  achieve this milestone
+  and look forward to greater achievements from this point on.</source>
+<target>Félicitations à Ethiopian Airlines pour votre certification IATA-NDC. Chez Appliedline, nous sommes fiers d'avoir contribué à atteindre ce jalon et nous attendons avec impatience de plus grandes réalisations à partir de ce moment</target>
+<context-group purpose="location">
+<context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+<context context-type="linenumber">3</context>
+</context-group>
+</trans-unit>
+  <trans-unit id="pageHeader" datatype="html">
+    <source>Ethiopian Airlines Group</source>
+    <target>Groupe Ethiopian Airlines</target>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+      <context context-type="linenumber">29</context>
+    </context-group>
+  </trans-unit> 
+   <trans-unit id="tblContent" datatype="html">
+    <source>Table of Contents</source>
+    <target>Table des matières</target>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+      <context context-type="linenumber">7</context>
+    </context-group>
+  </trans-unit> 
+   <trans-unit id="h3Overview" datatype="html">
+    <source>Project Overview</source>
+    <target>Aperçu du projet</target>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+      <context context-type="linenumber">12</context>
+    </context-group>
+  </trans-unit> 
+   <trans-unit id="h3Tech" datatype="html">
+    <source>Technology</source>
+    <target>La technologie</target>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+      <context context-type="linenumber">15</context>
+    </context-group>
+  </trans-unit> 
+   <trans-unit id="h3Cert" datatype="html">
+    <source>NDC Certification</source>
+    <target>Certification NDC</target>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+      <context context-type="linenumber">23</context>
+    </context-group>
+  </trans-unit> 
+   <trans-unit id="h3Update" datatype="html">
+    <source>Last updated: November 19, 2020</source>
+    <target>Dernière mise à jour: 19 novembre 2020</target>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+      <context context-type="linenumber">38</context>
+    </context-group>
+  </trans-unit> 
+   <trans-unit id="h3Scope" datatype="html">
+    <source>NDC Scope</source>
+    <target>Portée NDC</target>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+      <context context-type="linenumber">20</context>
+    </context-group>
+  </trans-unit>
+   <trans-unit id="h3IATA" datatype="html">
+    <source>IATA-New Distribution Capability</source>
+    <target>Nouvelle capacité de distribution IATA</target>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+      <context context-type="linenumber">39</context>
+    </context-group>
+  </trans-unit> 
 </body>
 </file>
 </xliff>

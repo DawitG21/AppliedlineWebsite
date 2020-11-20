@@ -1,15 +1,24 @@
 export class DataProvider {
-   /*  languages = [
-        { code: 'en-US', label: 'English' },
-        { code: 'am', label: 'Amharic' },
-        { code: 'fr', label: 'French' }
-    ]; */
+    /*  languages = [
+         { code: 'en-US', label: 'English' },
+         { code: 'am', label: 'Amharic' },
+         { code: 'fr', label: 'French' }
+     ]; */
     languages = [
         { code: 'en-US', label: 'English' },
         { code: 'am', label: 'አማርኛ' },
         { code: 'fr', label: 'Français' }
     ];
-    
+
+    bannerMsg = [
+        {
+            label: 'Congratulations Ethiopian Airlines on your IATA-NDC certification. We Appliedline are proud to have helped achieve this milestone' +
+                ' and look forward to greater achievements from this point on.',
+            description: 'Well, 2 years of development, planning, and pushing through barriers pays off with moments like this.',
+            hashTag: '#addisababa #ethiopianairlines #iatatraining #software #africatotheworld #africabusinessnews'
+        }
+    ];
+
     videoInfo = [
         {
             date: 'September 12, 2020',
@@ -24,8 +33,14 @@ export class DataProvider {
 
     eventsList = [
         {
+            event_1: 'Ethiopian Airlines NDC Certification',
+            eventUrl: 'assets/graphics/iata-event.png',
+            routerLink: 'etairlinesndc',
+        },
+        {
             event_1: 'CargoCanal Launch',
-            eventUrl: 'assets/graphics/ccz.JPG',
+            eventUrl: 'assets/graphics/ccz.JPG', 
+            routerLink: 'cargocanal'
         }
     ];
 

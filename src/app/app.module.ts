@@ -33,6 +33,10 @@ import { MediaAreaComponent } from '../components/media-area/media-area.componen
 import { DialogComponent } from '../components/contact-dialog/dialog.component';
 import { TermsofserviceComponent } from '../components/termsofservice/termsofservice.component';
 import { LanguagesDialogComponent } from '../components/language-dialog/languages-dialog.component';
+import { AvatarModule } from 'ngx-avatar';
+import { BannerDialogComponent } from '../components/banner-dialog/banner-dialog.component';
+import { EtIataNdcComponent } from '../components/et-iata-ndc/et-iata-ndc.component';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
 
 @NgModule({
   declarations: [
@@ -46,12 +50,15 @@ import { LanguagesDialogComponent } from '../components/language-dialog/language
     MediaAreaComponent,
     DialogComponent,
     TermsofserviceComponent,
-    LanguagesDialogComponent
+    LanguagesDialogComponent,
+    BannerDialogComponent,
+    EtIataNdcComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
+    AvatarModule,
     HttpClientModule,
     AppRoutingModule,
     NgImageSliderModule,
@@ -60,7 +67,8 @@ import { LanguagesDialogComponent } from '../components/language-dialog/language
     BrowserAnimationsModule,
     TooltipModule.forRoot(),
     MatDialogModule,
-    Ng2CarouselamosModule,
+    Ng2CarouselamosModule, 
+    SlickCarouselModule,  
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyA2tgD5aHakakIM-B-AMjEoqUnI_UpuSbA' // production key
       // apiKey: 'AIzaSyACUBbhWj2AZpFTGKVu9czrVnKY73V-R3w' // test key

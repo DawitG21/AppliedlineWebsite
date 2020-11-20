@@ -1,4 +1,16 @@
 <div class="">
+  <!--  <div id="cookieConsent" class="alert alert-info alert-dismissible fade show" role="alert" (click)="openDialog()"> -->
+  <div id="cookieConsent" class="alert alert-info alert-dismissible fade show" role="alert" (click)="routeEvents()"
+    i18n="@@cookie">
+    "Congratulations Ethiopian Airlines on your IATA-NDC certification. At Appliedline, we are proud to have helped
+    achieve this milestone
+    and look forward to greater achievements from this point on... <button class="btn-banner">Click to View
+      More</button>.
+    <div class="close">
+      <ngx-avatar src="assets/graphics/iatas.png"></ngx-avatar>
+    </div>
+  </div>
+
   <!-- contains the landing image  -->
   <section #firstshow id="firstshow"></section>
 
@@ -52,7 +64,7 @@
 
   <section id="firstshow2">
     <div class="container">
-      <a href="//seekerfit.com" title="seekerfit.com" target="_blank" rel="noopener">
+      <a href="http://seekerfit.com" title="seekerfit.com" target="_blank" rel="noopener">
         <h2 class="banner-caption" i18n="@@de9ec8776cdf9f3ac156642497e8a07c9f9b9aa0">
           Seekerfit
           <br>
@@ -62,7 +74,8 @@
     </div>
     <div class="mobile-only hero-base-wr">
       <button class="button">
-        <a title="seekerfit.com" class="white" href="//seekerfit.com" target="_blank" rel="noopener" i18n="@@802222cb4754d74846b18f651b1f94e21576185d">Get
+        <a title="seekerfit.com" class="white" href="http://seekerfit.com" target="_blank" rel="noopener"
+          i18n="@@802222cb4754d74846b18f651b1f94e21576185d">Get
           Started</a>
       </button>
     </div>
@@ -75,7 +88,8 @@
         <h3 i18n="@@5686076ff45bb2619ce38bb80faade41ce9835ac">Software
           <span class="color-theme">Development</span>
         </h3>
-        <p i18n="@@04b8f184c914dd32afe3a0a85c6c0d40e8d27271">Conceiving, analyzing, designing, coding, testing, documenting, and bug fixes
+        <p i18n="@@04b8f184c914dd32afe3a0a85c6c0d40e8d27271">Conceiving, analyzing, designing, coding, testing,
+          documenting, and bug fixes
           with industry practice of continuous integration and continuous delivery.</p>
       </div>
       <div class="one">
@@ -102,7 +116,8 @@
         <h3 i18n="@@75e6d7116f9270ed16dfc83ee026019ea5ee84e7">Software
           <span class="color-theme">Consulting</span>
         </h3>
-        <p i18n="@@1ead6cc1963517028cf620b33d94bd1371863675">We provide software assessment, code review, corporate consultancy,
+        <p i18n="@@1ead6cc1963517028cf620b33d94bd1371863675">We provide software assessment, code review, corporate
+          consultancy,
           UX and UI design, and software development knowledge transfer.</p>
       </div>
     </div>
@@ -110,7 +125,7 @@
 
   <section id="firstshow3">
     <div class="container">
-      <a href="//ezembil.com" title="eZembil.com" target="_blank" rel="noopener">
+      <a href="http://ezembil.com/" title="eZembil.com" target="_blank" rel="noopener">
         <h2 class="banner-caption" i18n="@@00bef479c4a6e6de7ef6e967b43794bec15afee5">
           eZembil
           <br>
@@ -120,7 +135,7 @@
     </div>
     <div class="mobile-only hero-base-wr">
       <button class="button">
-        <a title="ezembil.com" class="white" href="//ezembil.com" target="_blank" rel="noopener" i18n>Shop Now</a>
+        <a title="ezembil.com" class="white" href="http://ezembil.com/" target="_blank" rel="noopener" i18n>Shop Now</a>
       </button>
     </div>
   </section>
@@ -171,7 +186,7 @@
 
   <section id="firstshow4">
     <div class="container">
-      <a href="//doceipt.com" title="doceipt.com" target="_blank" rel="noopener">
+      <a href="https://doceipt.com" title="doceipt.com" target="_blank" rel="noopener">
         <h2 class="banner-caption" i18n="@@tag">
           Doceipt
           <br>
@@ -181,17 +196,24 @@
     </div>
     <div class="mobile-only hero-base-wr">
       <button class="button">
-        <a title="doceipt.com" class="white" href="//doceipt.com" target="_blank" rel="noopener" i18n>Shop Now</a>
+        <a title="doceipt.com" class="white" href="https://doceipt.com" target="_blank" rel="noopener" i18n>Explore</a>
       </button>
     </div>
   </section>
 
   <section class="icons2 section-background" #client>
     <div class="container1">
-      <div class="clients">
-        <h1 i18n>Our Clients</h1>        
+    <div class="clients">
+      <h1 i18n>Our Clients</h1>
+    </div>
+    <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig" (init)="slickInit($event)"
+      (breakpoint)="breakpoint($event)" (afterChange)="afterChange($event)" (beforeChange)="beforeChange($event)">
+      <div ngxSlickItem *ngFor="let item of items" class="slide">        
+        <img src="{{ item.url }}" height="150px" style="padding-left: 100px;padding-right: 100px;">
       </div>
-      <div id="container">
+    </ngx-slick-carousel>
+  
+    <!--     <div id="container">
         <div ng2-carouselamos class="slides-wrapper" [items]="items" [width]="900" [$prev]="prev" [$next]="next"
           [$item]="item">
         </div>
@@ -203,11 +225,12 @@
         </ng-template>
         <ng-template #item let-item let-i="index">
           <div class="one clientele">
-            <img src="{{item.url}}">          
+            <img src="{{item.url}}">
           </div>
         </ng-template>
+      </div> -->  
+
       </div>
-    </div>
   </section>
 
 </div>

@@ -1,3 +1,31 @@
+.alert {
+  padding: .75rem 9.25rem;
+  border-radius: .0rem;
+}
+
+/* .slick-prev:before, .slick-next:before{
+  color: #000 !important;
+} */
+
+.alert-info {
+  color: #000;
+}
+
+.alert-dismissible .close {
+  padding-left: 5px;
+  padding-top: 10px;
+}
+
+.close {
+  opacity: 1;
+}
+
+.btn-banner {
+  background: none;
+  border: none;
+  color: #6495ed;
+}
+
 .expertise-color {
   color: #20ad65;
 }
@@ -84,8 +112,8 @@
 #firstshow2,
 #firstshow3,
 #firstshow4 {
-  min-height: 615px;
-  /*  500px; */
+  min-height: 540px;
+  /*  615px; */
   text-align: center;
   color: white;
   padding: 50px 0;
@@ -133,7 +161,8 @@ img {
 }
 
 .section-background {
-  background: #f0f2f5;
+  /* background: #f0f2f5; */
+  background: #d3deef;
 }
 
 .one img {
@@ -299,6 +328,10 @@ img {
 
   .ethics-notes article {
     width: 100%;
+  }
+
+  .alert {
+    display: none;
   }
 
   .banner-caption {

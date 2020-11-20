@@ -7,14 +7,26 @@ import { ContactComponent } from 'src/components/contact/contact.component';
 import { MediaAreaComponent } from 'src/components/media-area/media-area.component';
 import { CargocanalEventComponent } from 'src/components/cargocanal-event/cargocanal-event.component';
 import { TermsofserviceComponent } from 'src/components/termsofservice/termsofservice.component';
+import { EtIataNdcComponent } from 'src/components/et-iata-ndc/et-iata-ndc.component';
+
 
 const routes: Routes = [
-  { path: '', component: ContentAreaComponent },  
+  { path: '', component: ContentAreaComponent },
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'terms&conditions', component: TermsofserviceComponent },
   { path: 'events', component: MediaAreaComponent },
   { path: 'cargocanal', component: CargocanalEventComponent },
-  { path: 'terms&conditions', component: TermsofserviceComponent }  
+  { path: 'etairlinesndc', component: EtIataNdcComponent },
+  /*   {
+      path: 'events', component: MediaAreaComponent, children: [
+        // { path: '', redirectTo: 'etairlinesndc', pathMatch: 'full' },     
+        {
+          path: 'cargocanal', component: CargocanalEventComponent,
+        },
+        { path: 'etairlinesndc', component: EtIataNdcComponent }
+      ]
+    } */
 ];
 
 @NgModule({

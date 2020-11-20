@@ -1191,7 +1191,7 @@ line<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
     </context-group>
   </trans-unit>
   <trans-unit id="af88c1e95a1d16d3cdbb7210981e0bfb6dc1d137" datatype="html">
-    <source>Events</source>
+    <source>Media</source>
     <target>ዝግጅቶች</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/media-area/media-area.component.html</context>
@@ -1254,6 +1254,150 @@ line<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
       <context context-type="linenumber">15</context>
     </context-group>
   </trans-unit>
+  <trans-unit id="ndccert" datatype="html">
+    <source>Addis Ababa Advanced Information
+            Technology
+            supported the Ethiopian Airlines team to ensure the API complies with all IATA NDC schema specifications for
+            version 17.2</source>
+    <target>Addis Ababa Advanced Information Technology ኤ.ፒ.አይው ለሁሉም የ IATA NDC ንድፍ መግለጫዎች ለስሪት 17.2 የሚስማማ መሆኑን ለማረጋገጥ የኢቲ አየር መንገድ ቡድንን ይደግፋል</target>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+      <context context-type="linenumber">73</context>
+    </context-group>
+  </trans-unit>
+  <trans-unit id="ndcscope" datatype="html">
+    <source>Ethiopian Airlines NDC API
+            supports NDC Shopping and partial Order Management at the moment, hence the level 3 certification. There are
+            future plans to include ancillary support, rich media and a full support of Order Management including
+            AirDocExchange, AirDocCancel and AirDocRefund with the current schema 17.2 and more recent schema versions
+            18.2, 19.2 and 20.2 to meet Level 4 and NDC@Scale certifications.</source>
+    <target>
+ET NDC ኤፒአይ በአሁኑ ወቅት የ NDC ግብይት እና ከፊል የትእዛዝ አስተዳደርን ይደግፋል ፣ ስለሆነም የደረጃ 3 ማረጋገጫ ፡፡ ደረጃ 4 እና የ NDC @ ልኬት የምስክር ወረቀቶችን ለማሟላት ረዳት ድጋፍን ፣ ሀብታም ሚዲያዎችን እና ኤርዶክኤክስፕሌክስን ፣ ኤርዶክካንስን እና ኤርዶክ ሪፍund ን አሁን ካለው እቅድ 17.2 እና ከቅርብ ጊዜ የቅርጽ ስሪቶች 18.2 ፣ 19.2 እና 20.2 ጋር ጨምሮ የትእዛዝ አስተዳደር ሙሉ ድጋፍን ለማካተት የወደፊት ዕቅዶች አሉ</target>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+      <context context-type="linenumber">65</context>
+    </context-group>
+  </trans-unit>
+  <trans-unit id="technology" datatype="html">
+    <source>Developed in C# .Net Core 2.1
+            with a micro service
+            architecture running on Azure Service Fabric Cluster. However, this cluster has been moved to run on Azure
+            Kubernetes Service (AKS) by the Ethiopian Airlines team.</source>
+    <target>በአዙር አገልግሎት የጨርቃ ጨርቅ ክላስተር ላይ በሚሠራ ጥቃቅን አገልግሎት ሥነ ሕንፃ በ C #. Net Core 2.1 ውስጥ የተገነባ. ሆኖም ይህ ክላስተር በኢቲ ቡድን በ Azure Kubernetes Service (AKS) ላይ እንዲሠራ ተንቀሳቅሷል</target>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+      <context context-type="linenumber">58</context>
+    </context-group>
+  </trans-unit>
+  <trans-unit id="overview" datatype="html">
+    <source>Ethiopian Airlines quest to
+          be the first commercial
+          carrier in Africa to be NDC compatible, hence a partnership with AAAIT was borne in July 2018 to help
+          develop, deploy and transfer knowledge to the Ethiopian Airlines team.</source>
+    <target>የኢትዮጵያ አየር መንገድ በአፍሪካ የመጀመሪያው የ NDC ተኳሃኝ የመሆን ፍላጎት ያለው በመሆኑ ከ AAAIT ጋር አጋርነት የተከናወነው እ.ኤ.አ. በሐምሌ 2018 ዕውቀትን ለኢትዮጵያ አየር መንገድ ቡድን ለማዳበር ፣ ለማሰማራት እና ለማስተላለፍ ለማገዝ ነበር </target>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+      <context context-type="linenumber">50</context>
+    </context-group>
+  </trans-unit>
+  <trans-unit id="brief" datatype="html">
+    <source>Therefore, IATA-NDC (New Distribution Capability) is a
+            travel
+            industry-supported program (NDC Program) launched by IATA for the development and market adoption of a new,
+            XML-based data transmission standard (NDC Standard).
+            The NDC Standard enhances the capability of communications between airlines and travel agents.</source>
+    <target>
+ስለዚህ IATA-NDC (አዲስ የማሰራጨት አቅም) በአይኤኤኤ (IATA) የተጀመረ አዲስ ፣ በኤክስኤምኤል ላይ የተመሠረተ የመረጃ ማስተላለፊያ መስፈርት (ኤን.ዲ.ሲ. ስታንዳርድ) ልማት እና የገቢያ ጉዲፈቻ የተጀመረው የጉዞ ኢንዱስትሪ የተደገፈ ፕሮግራም ነው. የኤን.ዲ.ሲ ስታንዳርድ በአየር መንገዶች እና በጉዞ ወኪሎች መካከል የመግባባት ችሎታን ያጠናክራል</target>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+      <context context-type="linenumber">40</context>
+    </context-group>
+  </trans-unit>
+  <trans-unit id="intro" datatype="html">
+    <source>The International Air Transport Association (IATA) is the
+            trade association for the world’s airlines, representing some 290 airlines or 82% of total air traffic. They
+            support many areas of aviation activity and help formulate industry policy on critical aviation issues.</source>
+    <target>
+ዓለም አቀፉ የአየር ትራንስፖርት ማህበር (አይኤታ) አንዳንድ 290 አየር መንገዶችን ወይም አጠቃላይ የአየር ትራፊክን 82% በመወከል የዓለም አየር መንገዶች የንግድ ማህበር ነው . እነሱ ብዙ የአቪዬሽን እንቅስቃሴ አካላትን ይደግፋሉ እንዲሁም ወሳኝ በሆኑ የአቪዬሽን ጉዳዮች ላይ የኢንዱስትሪ ፖሊሲን ለመቅረፅ ይረዳሉ</target>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+      <context context-type="linenumber">31</context>
+    </context-group>
+  </trans-unit>
+  <trans-unit id="cookie" datatype="html">
+    <source>Congratulations Ethiopian Airlines on your IATA-NDC certification. At Appliedline, we are proud to have helped
+  achieve this milestone
+  and look forward to greater achievements from this point on.</source>
+    <target>የኢትዮጵያ አየር መንገድ በ IATA-NDC የምስክር ወረቀትዎ እንኳን ደስ አላችሁ ፡፡ በአፕላይድላይን እኛ ይህንን ግስጋሴ ለማሳካት በማገዝ ኩራት ይሰማናል እናም ከዚህ ጊዜ አንስቶ የላቀ ውጤቶችን በጉጉት እንጠብቃለን</target>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+      <context context-type="linenumber">3</context>
+    </context-group>
+  </trans-unit>
+   <trans-unit id="pageHeader" datatype="html">
+    <source>Ethiopian Airlines Group</source>
+    <target>የኢትዮጵያ አየር መንገድ ቡድን</target>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+      <context context-type="linenumber">29</context>
+    </context-group>
+  </trans-unit> 
+   <trans-unit id="tblContent" datatype="html">
+    <source>Table of Contents</source>
+    <target>ዝርዝር ሁኔታ</target>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+      <context context-type="linenumber">7</context>
+    </context-group>
+  </trans-unit> 
+   <trans-unit id="h3Overview" datatype="html">
+    <source>Project Overview</source>
+    <target>የፕሮጀክት አጠቃላይ እይታ</target>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+      <context context-type="linenumber">12</context>
+    </context-group>
+  </trans-unit> 
+   <trans-unit id="h3Tech" datatype="html">
+    <source>Technology</source>
+    <target>ቴክኖሎጂ</target>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+      <context context-type="linenumber">15</context>
+    </context-group>
+  </trans-unit> 
+   <trans-unit id="h3Cert" datatype="html">
+    <source>NDC Certification</source>
+    <target>NDC ማረጋገጫ</target>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+      <context context-type="linenumber">23</context>
+    </context-group>
+  </trans-unit> 
+   <trans-unit id="h3Update" datatype="html">
+    <source>Last updated: November 19, 2020</source>
+    <target>ለመጨረሻ ጊዜ የዘመነው ኖቬምበር 19 ቀን 2020 ነው</target>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+      <context context-type="linenumber">38</context>
+    </context-group>
+  </trans-unit> 
+   <trans-unit id="h3Scope" datatype="html">
+    <source>NDC Scope</source>
+    <target>NDC ወሰን</target>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+      <context context-type="linenumber">20</context>
+    </context-group>
+  </trans-unit>
+   <trans-unit id="h3IATA" datatype="html">
+    <source>IATA-New Distribution Capability</source>
+    <target>የ IATA-አዲስ ስርጭት ችሎታ</target>
+    <context-group purpose="location">
+      <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+      <context context-type="linenumber">39</context>
+    </context-group>
+  </trans-unit> 
 </body>
 </file>
 </xliff>

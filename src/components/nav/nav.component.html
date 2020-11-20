@@ -12,34 +12,14 @@
         <a routerLink="/about" i18n>About</a>
       </li>
       <li class="nav-right">
-        <a routerLink="/events" i18n>Event</a>
+        <a routerLink="/events" i18n="@@af88c1e95a1d16d3cdbb7210981e0bfb6dc1d137">Events</a>
       </li>
       <li class="nav-left">
         <a routerLink="/contact" i18n>Contact</a>
       </li>
-      <li>        
-        <span class="fa fa-globe"></span>&nbsp;<a (click)="openDialog()" i18n>en-us</a>
-        <!-- <span class="fa fa-globe"></span>&nbsp;<a href="#modal1" i18n>en</a> -->
+      <li (click)="openDialog()">
+        <span class="fa fa-globe"></span>&nbsp;<a i18n class="locale">en-us</a>
       </li>
     </ul>
   </nav>
 </header>
-
-
-<!-- <div class="overlay" id="modal1">
-  <a class="cancel" href="#_"></a>
-  <div class="overlay__content">
-    <ul class="navbar-nav">
-      <h2 i18n>Select Language</h2>
-      <hr>
-      <ng-container *ngFor="let lang of languages">
-        <li class="list-body border">
-          <a class="nav-item" (click)="gotoLocale(lang)">
-            <span class="fas fa-globe"></span>
-            &nbsp;{{lang.label}}
-          </a>
-        </li>
-      </ng-container>
-    </ul>
-  </div>
-</div> -->
