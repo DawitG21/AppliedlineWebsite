@@ -1033,7 +1033,7 @@ line<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
     </context-group>
   </trans-unit>
   <trans-unit id="ndccert" datatype="html">
-    <source>Addis Ababa Advanced Information
+    <source>AA Advanced Information
             Technology
             supported the Ethiopian Airlines team to ensure the API complies with all IATA NDC schema specifications for
             version 17.2</source>

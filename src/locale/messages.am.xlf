@@ -1255,11 +1255,11 @@ line<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
     </context-group>
   </trans-unit>
   <trans-unit id="ndccert" datatype="html">
-    <source>Addis Ababa Advanced Information
+    <source>AA Advanced Information
             Technology
             supported the Ethiopian Airlines team to ensure the API complies with all IATA NDC schema specifications for
             version 17.2</source>
-    <target>Addis Ababa Advanced Information Technology ኤ.ፒ.አይው ለሁሉም የ IATA NDC ንድፍ መግለጫዎች ለስሪት 17.2 የሚስማማ መሆኑን ለማረጋገጥ የኢቲ አየር መንገድ ቡድንን ይደግፋል</target>
+    <target>AA Advanced Information Technology ኤ.ፒ.አይው ለሁሉም የ IATA NDC ንድፍ መግለጫዎች ለስሪት 17.2 የሚስማማ መሆኑን ለማረጋገጥ የኢቲ አየር መንገድ ቡድንን ይደግፋል</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
       <context context-type="linenumber">73</context>
@@ -1272,7 +1272,7 @@ line<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
             AirDocExchange, AirDocCancel and AirDocRefund with the current schema 17.2 and more recent schema versions
             18.2, 19.2 and 20.2 to meet Level 4 and NDC@Scale certifications.</source>
     <target>
-ET NDC ኤፒአይ በአሁኑ ወቅት የ NDC ግብይት እና ከፊል የትእዛዝ አስተዳደርን ይደግፋል ፣ ስለሆነም የደረጃ 3 ማረጋገጫ ፡፡ ደረጃ 4 እና የ NDC @ ልኬት የምስክር ወረቀቶችን ለማሟላት ረዳት ድጋፍን ፣ ሀብታም ሚዲያዎችን እና ኤርዶክኤክስፕሌክስን ፣ ኤርዶክካንስን እና ኤርዶክ ሪፍund ን አሁን ካለው እቅድ 17.2 እና ከቅርብ ጊዜ የቅርጽ ስሪቶች 18.2 ፣ 19.2 እና 20.2 ጋር ጨምሮ የትእዛዝ አስተዳደር ሙሉ ድጋፍን ለማካተት የወደፊት ዕቅዶች አሉ</target>
+ET NDC ኤፒአይ በአሁኑ ወቅት የ NDC ግብይት እና ከፊል የትእዛዝ አስተዳደርን ይደግፋል ፣ ስለሆነም የደረጃ 3 ማረጋገጫ ፡፡ ደረጃ 4 እና የ NDC@Scale የምስክር ወረቀቶችን ለማሟላት ረዳት ድጋፍን ፣ ሀብታም ሚዲያዎችን እና ኤርዶክኤክስፕሌክስን ፣ ኤርዶክካንስን እና ኤርዶክ ሪፍund ን አሁን ካለው እቅድ 17.2 እና ከቅርብ ጊዜ የቅርጽ ስሪቶች 18.2 ፣ 19.2 እና 20.2 ጋር ጨምሮ የትእዛዝ አስተዳደር ሙሉ ድጋፍን ለማካተት የወደፊት ዕቅዶች አሉ</target>
     <context-group purpose="location">
       <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
       <context context-type="linenumber">65</context>

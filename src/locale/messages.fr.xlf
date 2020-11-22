@@ -1249,11 +1249,11 @@ line<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
 </context-group>
 </trans-unit>
 <trans-unit id="ndccert" datatype="html">
-<source>Addis Ababa Advanced Information
+<source>AA Advanced Information
             Technology
             supported the Ethiopian Airlines team to ensure the API complies with all IATA NDC schema specifications for
             version 17.2</source>
-<target>Addis Ababa Advanced Information Technology a soutenu l'équipe Ethiopian Airlines pour s'assurer que l'API est conforme à toutes les spécifications de schéma IATA NDC pour la version 17.2</target>
+<target>AA Advanced Information Technology a soutenu l'équipe Ethiopian Airlines pour s'assurer que l'API est conforme à toutes les spécifications de schéma IATA NDC pour la version 17.2</target>
 <context-group purpose="location">
 <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
 <context context-type="linenumber">73</context>
@@ -1266,7 +1266,7 @@ line<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
             AirDocExchange, AirDocCancel and AirDocRefund with the current schema 17.2 and more recent schema versions
             18.2, 19.2 and 20.2 to meet Level 4 and NDC@Scale certifications.</source>
 <target>
-L'API Ethiopian Airlines NDC prend actuellement en charge NDC Shopping et la gestion partielle des commandes, d'où la certification de niveau 3. Il est prévu à l'avenir d'inclure une assistance auxiliaire, des contenus multimédias riches et une prise en charge complète de la gestion des commandes, y compris AirDocExchange, AirDocCancel et AirDocRefund avec le schéma actuel 17.2 et les versions de schéma plus récentes 18.2, 19.2 et 20.2 pour répondre aux certifications de niveau 4 et NDC @ Scale.</target>
+L'API Ethiopian Airlines NDC prend actuellement en charge NDC Shopping et la gestion partielle des commandes, d'où la certification de niveau 3. Il est prévu à l'avenir d'inclure une assistance auxiliaire, des contenus multimédias riches et une prise en charge complète de la gestion des commandes, y compris AirDocExchange, AirDocCancel et AirDocRefund avec le schéma actuel 17.2 et les versions de schéma plus récentes 18.2, 19.2 et 20.2 pour répondre aux certifications de niveau 4 et NDC@Scale.</target>
 <context-group purpose="location">
 <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
 <context context-type="linenumber">65</context>
