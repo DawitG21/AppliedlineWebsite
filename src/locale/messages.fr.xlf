@@ -928,6 +928,22 @@ acheter • vendre • à tout moment <x id="CLOSE_TAG_SPAN" ctype="x-span" equi
     <context context-type="linenumber">115</context>
   </context-group>
 </trans-unit>
+<trans-unit id="explore" datatype="html">
+  <source>Explore</source>
+  <target>Explorer</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
+    <context context-type="linenumber">200</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="footerId" datatype="html">
+  <source>&copy; 2020 AAAIT &amp; Appliedline</source>
+  <target>&copy; 2020 AAAIT &amp; Appliedline</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/components/footer/footer.component.html</context>
+    <context context-type="linenumber">28</context>
+  </context-group>
+</trans-unit>
 <trans-unit id="6b3a9de149b72db9166e9e02813df365481dfb09" datatype="html">
   <source>Ethics</source>
   <target>Éthique</target>
@@ -1160,20 +1176,90 @@ M. Alemayehu Tolosa, l'un des investisseurs de l'industrie, a déclaré: `` Nous
 <trans-unit id="1931bf4825ef11b1b7c706c0c628e2df50192435" datatype="html">
   <source> POWERED BY<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
   <x id="TAG_IMG" ctype="image" equiv-text="&lt;img/&gt;"/>
-Applied
-  <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
-line<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+Appliedline
 </source>
 <target>
     Sponsorisé par <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 <x id="TAG_IMG" ctype="image" equiv-text="&lt;img/&gt;"/>
-Applied
-<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
-line<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+Appliedline
 </target>
 <context-group purpose="location">
 <context context-type="sourcefile">src/components/media-area/media-area.component.html</context>
 <context context-type="linenumber">5</context>
+</context-group>
+</trans-unit>
+<trans-unit id="media21" datatype="html">
+<source>Happy New Year<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    
+New Year Greetings<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+  
+#2013 #happy #newyear
+</source>
+<target>Bonne année<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    
+Salutations de nouvelle année<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+  
+#2013 #heureux #nouvel An
+</target>
+<context-group purpose="location">
+<context context-type="sourcefile">src/components/media-area/media-area.component.html</context>
+<context context-type="linenumber">25</context>
+</context-group>
+</trans-unit>
+<trans-unit id="media38" datatype="html">
+<source>September 12, 2020</source>
+<target>12 Septembre 2020</target>
+<context-group purpose="location">
+<context context-type="sourcefile">src/components/media-area/media-area.component.html</context>
+<context context-type="linenumber">38</context>
+</context-group>
+</trans-unit>
+<trans-unit id="media101" datatype="html">
+<source>IATA-NDC Certification</source>
+<target>Certification IATA-NDC</target>
+<context-group purpose="location">
+<context context-type="sourcefile">src/components/media-area/media-area.component.html</context>
+<context context-type="linenumber">101</context>
+</context-group>
+</trans-unit>
+<trans-unit id="media113" datatype="html">
+<source>CargoCanal Launch</source>
+<target>Lancement de CargoCanal</target>
+<context-group purpose="location">
+<context context-type="sourcefile">src/components/media-area/media-area.component.html</context>
+<context context-type="linenumber">113</context>
+</context-group>
+</trans-unit>
+<trans-unit id="media149" datatype="html">
+<source>Coming Soon</source>
+<target>Bientôt disponible</target>
+<context-group purpose="location">
+<context context-type="sourcefile">src/components/media-area/media-area.component.html</context>
+<context context-type="linenumber">149</context>
+</context-group>
+</trans-unit>
+<trans-unit id="media161" datatype="html">
+<source>Coming Soon</source>
+<target>Bientôt disponible</target>
+<context-group purpose="location">
+<context context-type="sourcefile">src/components/media-area/media-area.component.html</context>
+<context context-type="linenumber">161</context>
+</context-group>
+</trans-unit>
+<trans-unit id="media196" datatype="html">
+<source>Seekerfit</source>
+<target>Seekerfit</target>
+<context-group purpose="location">
+<context context-type="sourcefile">src/components/media-area/media-area.component.html</context>
+<context context-type="linenumber">196</context>
+</context-group>
+</trans-unit>
+<trans-unit id="media209" datatype="html">
+<source>CargoCanal on IOS and Android</source>
+<target>CargoCanal sur IOS et Android</target>
+<context-group purpose="location">
+<context context-type="sourcefile">src/components/media-area/media-area.component.html</context>
+<context context-type="linenumber">209</context>
 </context-group>
 </trans-unit>
 <trans-unit id="57912d22c21399332fdc33728da3e2dbecbf9f2a" datatype="html">
@@ -1321,77 +1407,81 @@ L’International Air Transport Association (IATA) est l’association commercia
 <trans-unit id="cookie" datatype="html">
 <source>Congratulations Ethiopian Airlines on your IATA-NDC certification. At Appliedline, we are proud to have helped
   achieve this milestone
-  and look forward to greater achievements from this point on.</source>
-<target>Félicitations à Ethiopian Airlines pour votre certification IATA-NDC. Chez Appliedline, nous sommes fiers d'avoir contribué à atteindre ce jalon et nous attendons avec impatience de plus grandes réalisations à partir de ce moment</target>
+  and look forward to greater achievements from this point on.
+  <!--   <x id="TAG_IMG" ctype="image" equiv-text="&lt;img/&gt;"/> -->
+</source>
+<target>Félicitations à Ethiopian Airlines pour votre certification IATA-NDC. Chez Appliedline, nous sommes fiers d'avoir contribué à atteindre ce jalon et nous attendons avec impatience de plus grandes réalisations à partir de ce moment
+    <!-- <x id="TAG_IMG" ctype="image" equiv-text="&lt;img/&gt;"/> -->
+</target>
 <context-group purpose="location">
 <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
 <context context-type="linenumber">3</context>
 </context-group>
 </trans-unit>
-  <trans-unit id="pageHeader" datatype="html">
-    <source>Ethiopian Airlines Group</source>
-    <target>Groupe Ethiopian Airlines</target>
-    <context-group purpose="location">
-      <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
-      <context context-type="linenumber">29</context>
-    </context-group>
-  </trans-unit> 
-   <trans-unit id="tblContent" datatype="html">
-    <source>Table of Contents</source>
-    <target>Table des matières</target>
-    <context-group purpose="location">
-      <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
-      <context context-type="linenumber">7</context>
-    </context-group>
-  </trans-unit> 
-   <trans-unit id="h3Overview" datatype="html">
-    <source>Project Overview</source>
-    <target>Aperçu du projet</target>
-    <context-group purpose="location">
-      <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
-      <context context-type="linenumber">12</context>
-    </context-group>
-  </trans-unit> 
-   <trans-unit id="h3Tech" datatype="html">
-    <source>Technology</source>
-    <target>La technologie</target>
-    <context-group purpose="location">
-      <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
-      <context context-type="linenumber">15</context>
-    </context-group>
-  </trans-unit> 
-   <trans-unit id="h3Cert" datatype="html">
-    <source>NDC Certification</source>
-    <target>Certification NDC</target>
-    <context-group purpose="location">
-      <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
-      <context context-type="linenumber">23</context>
-    </context-group>
-  </trans-unit> 
-   <trans-unit id="h3Update" datatype="html">
-    <source>Last updated: November 19, 2020</source>
-    <target>Dernière mise à jour: 19 novembre 2020</target>
-    <context-group purpose="location">
-      <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
-      <context context-type="linenumber">38</context>
-    </context-group>
-  </trans-unit> 
-   <trans-unit id="h3Scope" datatype="html">
-    <source>NDC Scope</source>
-    <target>Portée NDC</target>
-    <context-group purpose="location">
-      <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
-      <context context-type="linenumber">20</context>
-    </context-group>
-  </trans-unit>
-   <trans-unit id="h3IATA" datatype="html">
-    <source>IATA-New Distribution Capability</source>
-    <target>Nouvelle capacité de distribution IATA</target>
-    <context-group purpose="location">
-      <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
-      <context context-type="linenumber">39</context>
-    </context-group>
-  </trans-unit> 
+<trans-unit id="pageHeader" datatype="html">
+<source>Ethiopian Airlines Group</source>
+<target>Groupe Ethiopian Airlines</target>
+<context-group purpose="location">
+<context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+<context context-type="linenumber">29</context>
+</context-group>
+</trans-unit>
+<trans-unit id="tblContent" datatype="html">
+<source>Table of Contents</source>
+<target>Table des matières</target>
+<context-group purpose="location">
+<context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+<context context-type="linenumber">7</context>
+</context-group>
+</trans-unit>
+<trans-unit id="h3Overview" datatype="html">
+<source>Project Overview</source>
+<target>Aperçu du projet</target>
+<context-group purpose="location">
+<context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+<context context-type="linenumber">12</context>
+</context-group>
+</trans-unit>
+<trans-unit id="h3Tech" datatype="html">
+<source>Technology</source>
+<target>La technologie</target>
+<context-group purpose="location">
+<context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+<context context-type="linenumber">15</context>
+</context-group>
+</trans-unit>
+<trans-unit id="h3Cert" datatype="html">
+<source>NDC Certification</source>
+<target>Certification NDC</target>
+<context-group purpose="location">
+<context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+<context context-type="linenumber">23</context>
+</context-group>
+</trans-unit>
+<trans-unit id="h3Update" datatype="html">
+<source>Last updated: November 19, 2020</source>
+<target>Dernière mise à jour: 19 novembre 2020</target>
+<context-group purpose="location">
+<context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+<context context-type="linenumber">38</context>
+</context-group>
+</trans-unit>
+<trans-unit id="h3Scope" datatype="html">
+<source>NDC Scope</source>
+<target>Portée NDC</target>
+<context-group purpose="location">
+<context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+<context context-type="linenumber">20</context>
+</context-group>
+</trans-unit>
+<trans-unit id="h3IATA" datatype="html">
+<source>IATA-New Distribution Capability</source>
+<target>Nouvelle capacité de distribution IATA</target>
+<context-group purpose="location">
+<context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
+<context context-type="linenumber">39</context>
+</context-group>
+</trans-unit>
 </body>
 </file>
 </xliff>

@@ -1,31 +1,32 @@
-<div class=""> 
+<div class="">
   <!-- <router-outlet></router-outlet> -->
   <section #firstshow id="firstshow">
     <div id="right-div">
       <a href="https://www.youtube.com/channel/UCu8PhdsLGRov5jDVejgRRrQ" target="blank" title="Return to HomePage"
         i18n="@@1931bf4825ef11b1b7c706c0c628e2df50192435">
-        POWERED BY<br><img src="assets/graphics/youtube.png" style="margin-left:13%">Applied
-        <span class="span-theme">line</span>
+        POWERED BY<br><img src="assets/graphics/youtube.png" style="margin-left:13%">Appliedline
+        <!-- <span class="span-theme">line</span> -->
       </a>
     </div>
   </section>
 
   <section id="video-content">
     <ng-container *ngFor="let item of videoInfo">
-
       <div id="clip">
         <iframe src="https://www.youtube.com/embed/p6aV-d8GZoc" frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
-
       <div id="clip-description">
-
         <a [href]="item.url" target="_blank" rel="noopener">
-          <h3 class="header_desc">
-            {{ item.name }}
+          <h3 class="header_desc" i18n="@@media21">
+            <!-- {{ item.name }}  -->
+            Happy New Year
             <br>
-            <span class="banner-sub-caption">{{ item.description }}<br>
-              {{ item.description_2 }}
+            <span class="banner-sub-caption">
+              <!-- {{ item.description }}<br>
+              {{ item.description_2 }} -->
+              New Year Greetings<br>
+              #2013 #happy #newyear
             </span>
           </h3>
         </a>
@@ -34,7 +35,10 @@
             <img [src]="item.calendarUrl" class="res_img" />
           </div>
           <div class="cal-desc">
-            <p class="h4">{{item.date}}</p>
+            <p class="h4" i18n="@@media38">
+              <!-- {{item.date}} -->
+              September 12, 2020
+            </p>
           </div>
         </div>
         <div class="share-video location">
@@ -46,7 +50,6 @@
           </div>
         </div>
       </div>
-
     </ng-container>
   </section>
 
@@ -70,17 +73,45 @@
     </div>
 
     <!-- Start of events -->
-    <div class="events">
+    <!--  <div class="events">
       <div class="eventType" id="scroll">
         <a *ngFor="let event of eventsList" [href]="event.routerLink">
-         <!--  <a *ngFor="let event of eventsList" [routerLink]="event.routerLink">   -->     
+          <!--  <a *ngFor="let event of eventsList" [routerLink]="event.routerLink">
           <div class="event eventText">
             <div class="eventTypeimg">
               <img [src]="event.eventUrl" class="event_picture" />
             </div>
             <div class="eventDescription">
               <p class="ptag">
-                {{ event.event_1 }}
+                 {{ event.event_1 }}                
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div> -->
+    <div class="events">
+      <div class="eventType" id="scroll">
+        <a routerLink="/etairlinesndc">
+          <div class="event eventText">
+            <div class="eventTypeimg">
+              <img src="assets/graphics/iata-event.png" class="event_picture" />
+            </div>
+            <div class="eventDescription">
+              <p class="ptag" i18n="@@media101">
+                IATA-NDC Certification
+              </p>
+            </div>
+          </div>
+        </a>
+        <a routerLink="/cargocanal">
+          <div class="event eventText">
+            <div class="eventTypeimg">
+              <img src="assets/graphics/ccz.JPG" class="event_picture" />
+            </div>
+            <div class="eventDescription">
+              <p class="ptag" i18n="@@media113">
+                CargoCanal Launch
               </p>
             </div>
           </div>
@@ -90,7 +121,7 @@
     <!-- End of events div -->
 
     <!-- Start of announcements -->
-    <div class="events">
+    <!--    <div class="events">
       <div class="eventType" id="scroll">
         <a target="_blank" *ngFor="let news of newsList" [href]="news.url">
           <div class="event eventText">
@@ -106,11 +137,39 @@
           </div>
         </a>
       </div>
+    </div> -->
+    <div class="events">
+      <div class="eventType" id="scroll">
+        <a target="_blank" href="https://doceipt.com/">
+          <div class="event eventText">
+            <div class="eventTypeimg">
+              <img src="assets/graphics/doci.png" class="event_picture" />
+            </div>
+            <div class="eventDescription">
+              <p class="ptag" i18n="@@media149">
+                Coming Soon
+              </p>
+            </div>
+          </div>
+        </a>
+        <a target="_blank" href="https://inibla.com/">
+          <div class="event eventText">
+            <div class="eventTypeimg">
+              <img src="assets/graphics/ini.png" class="event_picture" />
+            </div>
+            <div class="eventDescription">
+              <p class="ptag" i18n="@@media161">
+                Coming Soon
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
     </div>
     <!-- End of announcements -->
 
     <!-- Start of archives -->
-    <div class="events">
+    <!--   <div class="events">
       <div class="eventType" id="scroll" *ngFor="let archive of archivesList">
         <a title="seekerfit" target="_blank" rel="noopener" [href]="archive.url">
           <div class="event eventText" style="display: inline !important;">
@@ -120,6 +179,35 @@
             <div class="eventDescription">
               <p class="ptag">
                 {{ archive.archive_1 }}
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div> -->
+    <div class="events">
+      <div class="eventType" id="scroll">
+        <a title="seekerfit" target="_blank" rel="noopener" href="https://seekerfit.com/#!/">
+          <div class="event eventText" style="display: inline !important;">
+            <div class="eventTypeimg">
+              <img src="assets/graphics/seekerfit.png" class="event_picture" />
+            </div>
+            <div class="eventDescription">
+              <p class="ptag" i18n="@@media196">
+                Seekerfit
+              </p>
+            </div>
+          </div>
+        </a>
+        <a title="seekerfit" target="_blank" rel="noopener"
+          href="https://play.google.com/store/apps/details?id=com.appliedline.cargocanals">
+          <div class="event eventText" style="display: inline !important;">
+            <div class="eventTypeimg">
+              <img src="assets/graphics/ccan.png" class="event_picture" />
+            </div>
+            <div class="eventDescription">
+              <p class="ptag" i18n="@@media209">
+                CargoCanal on IOS and Android
               </p>
             </div>
           </div>

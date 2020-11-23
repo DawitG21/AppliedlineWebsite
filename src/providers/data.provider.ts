@@ -39,7 +39,7 @@ export class DataProvider {
         },
         {
             event_1: 'CargoCanal Launch',
-            eventUrl: 'assets/graphics/ccz.JPG', 
+            eventUrl: 'assets/graphics/ccz.JPG',
             routerLink: 'cargocanal'
         }
     ];
@@ -49,28 +49,27 @@ export class DataProvider {
             newsTitle: 'Melkam Addis Amet 2013',
             url: 'https://www.youtube.com/watch?v=p6aV-d8GZoc',
             newsUrl: 'assets/graphics/melkam.png',
-        }, {
+        }, 
+        {
             newsTitle: 'Coming Soon',
             url: 'https://doceipt.com/',
             newsUrl: 'assets/graphics/doci.png',
         },
         {
             newsTitle: 'Coming Soon',
-            url: 'http://inibla.com/',
+            url: 'https://inibla.com/',
             newsUrl: 'assets/graphics/ini.png',
         }
     ];
 
     archivesList = [
         {
-            archive_1: 'Seekerfit',
-            archive_2: 'Cost Estimator',
+            archive_1: 'Seekerfit',            
             seekerUrl: 'assets/graphics/seekerfit.png',
             url: 'https://seekerfit.com/#!/'
         },
         {
-            archive_1: 'CargoCanal on iOS and Android',
-            archive_2: 'Mobile App',
+            archive_1: 'CargoCanal on iOS and Android',          
             seekerUrl: 'assets/graphics/ccan.png',
             url: 'https://play.google.com/store/apps/details?id=com.appliedline.cargocanal'
         }

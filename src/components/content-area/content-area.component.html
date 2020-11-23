@@ -196,24 +196,27 @@
     </div>
     <div class="mobile-only hero-base-wr">
       <button class="button">
-        <a title="doceipt.com" class="white" href="https://doceipt.com" target="_blank" rel="noopener" i18n>Explore</a>
+        <a title="doceipt.com" class="white" href="https://doceipt.com" target="_blank" rel="noopener"
+          i18n="@@explore">Explore</a>
       </button>
     </div>
   </section>
 
   <section class="icons2 section-background" #client>
     <div class="container1">
-    <div class="clients">
-      <h1 i18n>Our Clients</h1>
-    </div>
-    <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig" (init)="slickInit($event)"
-      (breakpoint)="breakpoint($event)" (afterChange)="afterChange($event)" (beforeChange)="beforeChange($event)">
-      <div ngxSlickItem *ngFor="let item of items" class="slide">        
-        <img src="{{ item.url }}" height="150px" style="padding-left: 100px;padding-right: 100px;">
+      <div class="clients">
+        <h1 i18n>Our Clients</h1>
       </div>
-    </ngx-slick-carousel>
-  
-    <!--     <div id="container">
+      <!-- <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig"
+        (init)="slickInit($event)" (breakpoint)="breakpoint($event)" (afterChange)="afterChange($event)"
+        (beforeChange)="beforeChange($event)"> -->
+      <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
+        <div ngxSlickItem *ngFor="let item of items" class="slide">
+          <img src="{{ item.url }}" height="150px" style="padding-left: 100px;padding-right: 100px;">
+        </div>
+      </ngx-slick-carousel>
+
+      <!--     <div id="container">
         <div ng2-carouselamos class="slides-wrapper" [items]="items" [width]="900" [$prev]="prev" [$next]="next"
           [$item]="item">
         </div>
@@ -228,9 +231,9 @@
             <img src="{{item.url}}">
           </div>
         </ng-template>
-      </div> -->  
+      </div> -->
 
-      </div>
+    </div>
   </section>
 
 </div>

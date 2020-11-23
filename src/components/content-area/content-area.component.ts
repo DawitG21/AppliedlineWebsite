@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { Router } from '@angular/router';
 import { DataProvider } from 'src/providers/data.provider';
+import { DebugService } from 'src/providers/debug.service';
 import { HelperProvider } from 'src/providers/helper.provider';
 import { BannerDialogComponent } from '../banner-dialog/banner-dialog.component';
 
@@ -23,6 +24,7 @@ export class ContentAreaComponent implements OnInit {
     private helper: HelperProvider,
     private data: DataProvider,
     public dialog: MatDialog,
+    private console:DebugService,
   ) {
     this.items = [
       {
@@ -60,19 +62,19 @@ export class ContentAreaComponent implements OnInit {
   }
 
   slickInit(e) {
-    console.log('slick initialized');
+    this.console.consoleMessage(e);
   }
 
   breakpoint(e) {
-    console.log('breakpoint');
+    this.console.consoleMessage(e);
   }
 
   afterChange(e) {
-    console.log('afterChange');
+    this.console.consoleMessage(e);
   }
 
   beforeChange(e) {
-    console.log('beforeChange');
+    this.console.consoleMessage(e);
   }
 
   onSubmit() {
