@@ -4,10 +4,12 @@
     i18n="@@cookie">
     "Congratulations Ethiopian Airlines on your IATA-NDC certification. At Appliedline, we are proud to have helped
     achieve this milestone
-    and look forward to greater achievements from this point on... <button class="btn-banner">Click to View
-      More</button>.
+    and look forward to greater achievements from this point on... <button class="btn-banner"><span class="color-theme">Click to View
+      More</span></button>.
     <div class="close">
-      <ngx-avatar src="assets/graphics/iatas.png"></ngx-avatar>
+      <!--  <ngx-avatar src="assets/graphics/iatas.png"></ngx-avatar> -->
+      <img src="assets/graphics/iatas.png" width="50" height="50"
+         style="border-radius: 50%;">
     </div>
   </div>
 
@@ -207,32 +209,11 @@
       <div class="clients">
         <h1 i18n>Our Clients</h1>
       </div>
-      <!-- <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig"
-        (init)="slickInit($event)" (breakpoint)="breakpoint($event)" (afterChange)="afterChange($event)"
-        (beforeChange)="beforeChange($event)"> -->
       <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
         <div ngxSlickItem *ngFor="let item of items" class="slide">
           <img src="{{ item.url }}" height="150px" style="padding-left: 100px;padding-right: 100px;">
         </div>
       </ngx-slick-carousel>
-
-      <!--     <div id="container">
-        <div ng2-carouselamos class="slides-wrapper" [items]="items" [width]="900" [$prev]="prev" [$next]="next"
-          [$item]="item">
-        </div>
-        <ng-template #prev>
-          <img src="assets/graphics/icons/left-arrow.png" id="left">
-        </ng-template>
-        <ng-template #next>
-          <img src="assets/graphics/icons/right-arrow.png" id="right">
-        </ng-template>
-        <ng-template #item let-item let-i="index">
-          <div class="one clientele">
-            <img src="{{item.url}}">
-          </div>
-        </ng-template>
-      </div> -->
-
     </div>
   </section>
 

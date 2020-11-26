@@ -934,7 +934,7 @@ buy • sell • anytime<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/s
         <context context-type="linenumber">115</context>
       </context-group>
     </trans-unit>
-     <trans-unit id="explore" datatype="html">
+    <trans-unit id="explore" datatype="html">
       <source>Explore</source>
       <target>ያስሱ</target>
       <context-group purpose="location">
@@ -942,7 +942,7 @@ buy • sell • anytime<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/s
         <context context-type="linenumber">200</context>
       </context-group>
     </trans-unit>
-     <trans-unit id="footerId" datatype="html">
+    <trans-unit id="footerId" datatype="html">
       <source>&copy; 2020 AAAIT &amp; Appliedline</source>
       <target>&copy; 2020 AAAIT &amp; Appliedline</target>
       <context-group purpose="location">
@@ -1414,10 +1414,10 @@ ET NDC ኤፒአይ በአሁኑ ወቅት የ NDC ግብይት እና ከፊል
   <source>Congratulations Ethiopian Airlines on your IATA-NDC certification. At Appliedline, we are proud to have helped
   achieve this milestone
   and look forward to greater achievements from this point on.
-        <!-- <x id="TAG_IMG" ctype="image" equiv-text="&lt;img/&gt;"/> -->
+    <x id="TAG_IMG" ctype="image" equiv-text="&lt;img/&gt;"/>
   </source>
-  <target>የኢትዮጵያ አየር መንገድ በ IATA-NDC የምስክር ወረቀትዎ እንኳን ደስ አላችሁ ፡፡ በአፕላይድላይን እኛ ይህንን ግስጋሴ ለማሳካት በማገዝ ኩራት ይሰማናል እናም ከዚህ ጊዜ አንስቶ የላቀ ውጤቶችን በጉጉት እንጠብቃለን
-        <!-- <x id="TAG_IMG" ctype="image" equiv-text="&lt;img/&gt;"/> -->
+  <target>የኢትዮጵያ አየር መንገድ በ IATA-NDC የምስክር ወረቀትዎ እንኳን ደስ አላችሁ በአፕላይድላይን እኛ ይህንን ግስጋሴ ለማሳካት በማገዝ ኩራት ይሰማናል እናም ከዚህ ጊዜ አንስቶ የላቀ ውጤቶችን በጉጉት እንጠብቃለን
+  <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/> አሳይ<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="TAG_IMG" ctype="image" equiv-text="&lt;img/&gt;"/>
   </target>
   <context-group purpose="location">
     <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>

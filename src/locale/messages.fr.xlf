@@ -1263,7 +1263,7 @@ Salutations de nouvelle année<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&
 </trans-unit>
 <trans-unit id="57912d22c21399332fdc33728da3e2dbecbf9f2a" datatype="html">
 <source>AA Advanced Information Technology</source>
-<target>Technologie de l'information avancée AA</target>
+<target>Technologie de l'Information Avancée AA</target>
 <context-group purpose="location">
 <context context-type="sourcefile">src/components/media-area/media-area.component.html</context>
 <context context-type="linenumber">47</context>
@@ -1338,7 +1338,7 @@ Salutations de nouvelle année<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&
             Technology
             supported the Ethiopian Airlines team to ensure the API complies with all IATA NDC schema specifications for
             version 17.2</source>
-<target>Informations avancées AA La technologie a soutenu l'équipe d'Ethiopian Airlines pour s'assurer que l'API est conforme à toutes les spécifications de schéma IATA NDC pour version 17.2</target>
+<target>Informations Avancées AA La Technologie a soutenu l'équipe d'Ethiopian Airlines pour s'assurer que l'API est conforme à toutes les spécifications de schéma IATA NDC pour version 17.2</target>
 <context-group purpose="location">
 <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
 <context context-type="linenumber">73</context>
@@ -1386,7 +1386,7 @@ API NDC d'Ethiopian Airlines  prend en charge NDC Shopping et la gestion partiel
             XML-based data transmission standard (NDC Standard).
             The NDC Standard enhances the capability of communications between airlines and travel agents.</source>
 <target>
-Par conséquent, IATA-NDC (New Distribution Capability) est un programme soutenu par l'industrie du voyage (programme NDC) lancé par l'IATA pour le développement et l'adoption sur le marché d'une nouvelle norme de transmission de données basée sur XML (norme NDC). La norme NDC améliore la capacité de communication entre les compagnies aériennes et les agents de voyages.</target>
+Par conséquent, IATA-NDC (Nouvelle Capacité de Distribution) est un programme soutenu par l'industrie du voyage (programme NDC) lancé par l'IATA pour le développement et l'adoption sur le marché d'une nouvelle norme de transmission de données basée sur XML (norme NDC). La norme NDC améliore la capacité de communication entre les compagnies aériennes et les agents de voyages.</target>
 <context-group purpose="location">
 <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
 <context context-type="linenumber">40</context>
@@ -1405,10 +1405,12 @@ L'Association du transport aérien international (IATA) est le association profe
 </trans-unit>
 <trans-unit id="cookie" datatype="html">
 <source>Congratulations Ethiopian Airlines on your IATA-NDC certification. At Appliedline, we are proud to have helped
-  achieve this milestone
-  and look forward to greater achievements from this point on.  
+  achieve this milestone and look forward to greater achievements from this point on.
+<x id="TAG_IMG" ctype="image" equiv-text="&lt;img/&gt;"/>
 </source>
-<target>Félicitations à Ethiopian Airlines pour votre certification IATA-NDC. Chez Appliedline, nous sommes fiers d'avoir contribué à atteindre ce jalon et nous attendons avec impatience de plus grandes réalisations à partir de ce moment.</target>
+<target>Félicitations à Ethiopian Airlines pour votre certification IATA-NDC. Chez Appliedline, nous sommes fiers d'avoir contribué à franchir cette étape.
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Cliquez pour en voir plus.<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="TAG_IMG" ctype="image" equiv-text="&lt;img/&gt;"/>
+</target>
 <context-group purpose="location">
 <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
 <context context-type="linenumber">3</context>
@@ -1432,7 +1434,7 @@ L'Association du transport aérien international (IATA) est le association profe
 </trans-unit>
 <trans-unit id="h3Overview" datatype="html">
 <source>Project Overview</source>
-<target>Aperçu du projet</target>
+<target>Aperçu du Projet</target>
 <context-group purpose="location">
 <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
 <context context-type="linenumber">12</context>
@@ -1440,7 +1442,7 @@ L'Association du transport aérien international (IATA) est le association profe
 </trans-unit>
 <trans-unit id="h3Tech" datatype="html">
 <source>Technology</source>
-<target>La technologie</target>
+<target>La Technologie</target>
 <context-group purpose="location">
 <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
 <context context-type="linenumber">15</context>
