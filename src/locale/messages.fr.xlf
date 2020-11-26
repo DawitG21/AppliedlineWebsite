@@ -5,7 +5,7 @@
     <body>
       <trans-unit id="ngb.alert.close" datatype="html">
         <source>Close</source>
-        <target>Fermer</target>
+        <target>Ferme’</target>
         <context-group purpose="location">
           <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/alert/alert.d.ts</context>
           <context context-type="linenumber">3</context>
@@ -13,7 +13,7 @@
       </trans-unit>
       <trans-unit id="ngb.carousel.previous" datatype="html">
         <source>Previous</source>
-        <target>Précédent</target>
+        <target>Le passe’</target>
         <context-group purpose="location">
           <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/carousel/carousel.d.ts</context>
           <context context-type="linenumber">13</context>
@@ -21,7 +21,7 @@
       </trans-unit>
       <trans-unit id="ngb.carousel.next" datatype="html">
         <source>Next</source>
-        <target>ቀጣይ</target>
+        <target>Suivant</target>
         <context-group purpose="location">
           <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/carousel/carousel.d.ts</context>
           <context context-type="linenumber">17</context>
@@ -29,7 +29,7 @@
       </trans-unit>
       <trans-unit id="ngb.datepicker.previous-month" datatype="html">
         <source>Previous month</source>
-        <target>Prochain</target>
+        <target>Le mois dernier</target>
         <context-group purpose="location">
           <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation.d.ts</context>
           <context context-type="linenumber">4</context>
@@ -53,7 +53,7 @@
       </trans-unit>
       <trans-unit id="ngb.datepicker.select-month" datatype="html">
         <source>Select month</source>
-        <target>Sélectionnez un mois</target>
+        <target>Choisir le mois</target>
         <context-group purpose="location">
           <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation-select.d.ts</context>
           <context context-type="linenumber">5</context>
@@ -65,7 +65,7 @@
       </trans-unit>
       <trans-unit id="ngb.datepicker.select-year" datatype="html">
         <source>Select year</source>
-        <target>Sélectionnez l'année</target>
+        <target>Choisir  l’anne’e</target>
         <context-group purpose="location">
           <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-navigation-select.d.ts</context>
           <context context-type="linenumber">13</context>
@@ -117,7 +117,7 @@
       </trans-unit>
       <trans-unit id="ngb.pagination.previous-aria" datatype="html">
         <source>Previous</source>
-        <target>Précédent</target>
+        <target>Le passe’</target>
         <context-group purpose="location">
           <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
           <context context-type="linenumber">24</context>
@@ -125,7 +125,7 @@
       </trans-unit>
       <trans-unit id="ngb.pagination.next-aria" datatype="html">
         <source>Next</source>
-        <target>Prochain</target>
+        <target>Suivant</target>
         <context-group purpose="location">
           <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.d.ts</context>
           <context context-type="linenumber">44</context>
@@ -153,7 +153,7 @@
       </trans-unit>
       <trans-unit id="ngb.timepicker.increment-hours" datatype="html">
         <source>Increment hours</source>
-        <target>Incrément d'heures</target>
+        <target>Le temps en plus</target>
         <context-group purpose="location">
           <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
           <context context-type="linenumber">9</context>
@@ -177,7 +177,7 @@
       </trans-unit>
       <trans-unit id="ngb.timepicker.decrement-hours" datatype="html">
         <source>Decrement hours</source>
-        <target>Décrémenter les heures</target>
+        <target>Le temps en moins</target>
         <context-group purpose="location">
           <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
           <context context-type="linenumber">23</context>
@@ -185,7 +185,7 @@
       </trans-unit>
       <trans-unit id="ngb.timepicker.increment-minutes" datatype="html">
         <source>Increment minutes</source>
-        <target>Incrémenter les minutes</target>
+        <target>La minute en plus</target>
         <context-group purpose="location">
           <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
           <context context-type="linenumber">32</context>
@@ -209,7 +209,7 @@
       </trans-unit>
       <trans-unit id="ngb.timepicker.decrement-minutes" datatype="html">
         <source>Decrement minutes</source>
-        <target>Décrémenter les minutes</target>
+        <target>La minute en moins</target>
         <context-group purpose="location">
           <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
           <context context-type="linenumber">45</context>
@@ -217,7 +217,7 @@
       </trans-unit>
       <trans-unit id="ngb.timepicker.increment-seconds" datatype="html">
         <source>Increment seconds</source>
-        <target>Incrémenter les secondes</target>
+        <target>Le seconde en plus</target>
         <context-group purpose="location">
           <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
           <context context-type="linenumber">54</context>
@@ -241,7 +241,7 @@
       </trans-unit>
       <trans-unit id="ngb.timepicker.decrement-seconds" datatype="html">
         <source>Decrement seconds</source>
-        <target>Décrémenter les secondes</target>
+        <target>La secondes en moins</target>
         <context-group purpose="location">
           <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts</context>
           <context context-type="linenumber">67</context>
@@ -273,7 +273,7 @@
       </trans-unit>
       <trans-unit id="ngb.toast.close-aria" datatype="html">
         <source>Close</source>
-        <target>Fermer</target>
+        <target>Ferme’</target>
         <context-group purpose="location">
           <context context-type="sourcefile">node_modules/@ng-bootstrap/ng-bootstrap/toast/toast.d.ts</context>
           <context context-type="linenumber">8</context>
@@ -303,7 +303,7 @@ Conditions d'utilisation<x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt
       </trans-unit>
       <trans-unit id="004b222ff9ef9dd4771b777950ca1d0e4cd4348a" datatype="html">
         <source>About</source>
-        <target>À propos</target>
+        <target>Pour</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/nav/nav.component.html</context>
           <context context-type="linenumber">12</context>
@@ -343,7 +343,7 @@ Conditions d'utilisation<x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt
       </trans-unit>
       <trans-unit id="847171f94c5e932a67df0c3b4d57e4e10d844b52" datatype="html">
         <source>About Us</source>
-        <target>À propos de nous</target>
+        <target>De nous</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
           <context context-type="linenumber">7</context>
@@ -360,8 +360,8 @@ Conditions d'utilisation<x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt
           with a vision to be incorporated by 2020.
         </source>
         <target>
-        Appliedline ™ est la branche de développement de logiciels d'AA Advanced Information Technology PLC® (AAAIT), spécialisée dans le développement de logiciels pour les organisations gouvernementales, corporatives et individuelles.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-         AAAIT PLC est dans le secteur du matériel informatique et des livrables de services depuis 2006 avant d'incuber son unité de développement logiciel en 2009. En 2015, AAAIT PLC a décidé de laisser son unité de développement logiciel fonctionner indépendamment sous le nom d'Appliedline avec une vision à intégrer d'ici 2020.
+        Appliedline ™ est le development logiciel branche de AAAIT PLC, Specialise’ par un logiciel development for government pour le gouverment, coorporation et individual organisation.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        AAAIT PLC est dans le secteur du matériel informatique et des livrables de services depuis 2006 avant d'incuber ses Logiciel unité de développement en 2009. En 2015, AAAIT PLC a décidé de laisser son unité de développement logiciel fonctionner de manière indépendante Appliedline avec une vision à intégrer d'ici 2020.
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
@@ -376,7 +376,7 @@ Conditions d'utilisation<x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt
           advantage as well as eliminate outlined bussiness problems.
         </source>
         <target>
-        Nos valeurs fondamentales sont la précision, la synergie, le professionnalisme et l'apprentissage continu. Notre objectif est de dépasser les attentes de chaque client en offrant un service à la clientèle exceptionnel et une grande valeur qui met leur entreprise à un avantage concurrentiel ainsi que d'éliminer les problèmes commerciaux décrits.
+      Nos valeurs fondamentales sont la précision, la synergie, le professionnalisme et l'apprentissage continu. Notre objectif est de dépasser le  attentes de chaque client en offrant un service client exceptionnel et une grande valeur qui met leur entreprise à un compétitif avantage ainsi que d'éliminer les problèmes commerciaux décrits.
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
@@ -391,7 +391,7 @@ Conditions d'utilisation<x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt
           RDBMS &amp; NoSql databases, Microsoft Azure and many more.
         </source>
         <target>        
-Chez Appliedline, nous apprécions nos clients, c'est pourquoi nous investissons beaucoup dans l'embauche de développeurs possédant une solide et vaste expérience dans l'industrie du développement de logiciels. Notre équipe possède une connaissance approfondie de l'industrie dans des technologies telles que ASP.NET MVC, .NET Core, AngularJS &amp; Développement d'applications angulaires, NodeJS, multiplateformes et hybrides (Xamarin et Cordova), conception UX et UI, RDBMS &amp; NoSql bases de données, Microsoft Azure et bien d'autres.
+Chez Appliedline, nous apprécions nos clients, c'est pourquoi nous investissons beaucoup dans l'embauche de développeurs qui ont des expérience dans l'industrie du développement de logiciels. Notre équipe possède une connaissance approfondie de l'industrie dans des technologies telles que ASP.NET MVC, .NET Noyau, AngularJS Développement d'applications angulaires, NodeJS, multiplateformes et hybrides (Xamarin et Cordova), UX et  Conception de l'interface utilisateur, SGBDR Bases de données NoSql, Microsoft Azure et bien d'autres
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
@@ -404,8 +404,8 @@ Chez Appliedline, nous apprécions nos clients, c'est pourquoi nous investissons
           industry. Technical expertise along with vast and deep industry knowledge makes Appliedline the
           ideal choice for a software development company to provide custom software services and products to your company.
         </source>
-        <target>
-Afin de répondre à la demande de notre clientèle toujours croissante, Appliedline maintient un large éventail de programmes de développement technologique pour maintenir ses employés à jour avec les derniers outils et ressources dans l'industrie du développement logiciel. L'expertise technique ainsi que la connaissance vaste et approfondie de l'industrie font d'Appliedline le choix idéal pour une société de développement de logiciels pour fournir des services et des produits logiciels personnalisés à votre entreprise.</target>
+        <target>Afin de répondre à la demande de notre clientèle toujours croissante, Appliedline maintient une large gamme de développement technologique  programmes pour maintenir ses employés à jour avec les derniers outils et ressources dans le développement de logiciels          industrie. L'expertise technique associée à une vaste et profonde connaissance de l'industrie font d'Appliedline choix idéal pour un développement logiciel  entreprise pour fournir des services et des produits logiciels personnalisés à votre entreprise
+        </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
           <context context-type="linenumber">39</context>
@@ -434,7 +434,7 @@ Afin de répondre à la demande de notre clientèle toujours croissante, Applied
       <trans-unit id="34cff45e097e8a1113cd95cc14fee3cfc611ecb3" datatype="html">
         <source>An invoicing app that allows businesses invoice their customers and receive payments on the platform.
         </source>
-        <target>Une application de facturation qui permet aux entreprises de facturer leurs clients et de recevoir des paiements sur la plateforme.</target>
+        <target>Une application de facturation qui permet aux entreprises de facturer leurs clients et de recevoir des paiements sur la plateforme</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
           <context context-type="linenumber">68</context>
@@ -469,7 +469,7 @@ Une application qui vous permet de commander des produits d'épicerie à Addis-A
       <trans-unit id="5fd6acf85e7b4a030fdd184b8ba0f64b33adfe3d" datatype="html">
         <source>A system designed to solve gross logistics and excessive demurraage cost problems faced by Ethiopian
             Maritime Authority.</source>
-        <target>Un système conçu pour résoudre les problèmes de logistique grossière et de surcoût excessifs auxquels fait face l'Autorité maritime éthiopienne.</target>
+        <target>Un système conçu pour résoudre les problèmes de logistique grossière et de surcoût excessifs auxquels fait face l'Éthiopien Autorité maritime.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
           <context context-type="linenumber">80</context>
@@ -486,7 +486,7 @@ Une application qui vous permet de commander des produits d'épicerie à Addis-A
       <trans-unit id="a4b066f809a9b76576bef5ded7f6278bd9150634" datatype="html">
         <source>An online shopping platform.Buy products or services over the Internet. Shopping from the
             comfort of your home or office.</source>
-        <target>Une plateforme d'achat en ligne.Achetez des produits ou des services sur Internet.Achat dans le confort de votre maison ou de votre bureau.</target>
+        <target>Une plateforme d'achat en ligne. Achetez des produits ou des services sur Internet. Shopping de le confort de votre maison ou de votre bureau.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
           <context context-type="linenumber">86</context>
@@ -504,7 +504,7 @@ Une application qui vous permet de commander des produits d'épicerie à Addis-A
         <source>A cheque writing software that allows you to print on your bank cheques. It&apos;s main goal is to eliminate
             problems related to errors while writing cheques by hand.</source>
         <target>
-Un logiciel d'écriture de chèques qui vous permet d'imprimer sur vos chèques bancaires. Son objectif principal est d'éliminer les problèmes liés aux erreurs lors de la rédaction manuelle des chèques.</target>
+Un logiciel d'écriture de chèques qui vous permet d'imprimer sur vos chèques bancaires. Son objectif principal est d'éliminer problèmes liés aux erreurs lors de l'écriture manuelle des chèques.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
           <context context-type="linenumber">94</context>
@@ -521,7 +521,7 @@ Un logiciel d'écriture de chèques qui vous permet d'imprimer sur vos chèques 
       <trans-unit id="6dbcfaa64e84ab17a742b75fb3018211e97ab5db" datatype="html">
         <source>An online job portal accessible from a web browser. Seekerfit&apos;s goal is to allow applicants apply for jobs
             and meet physically with employers regardless of location.</source>
-        <target>Un portail d'emploi en ligne accessible depuis un navigateur Web. L'objectif de Seekerfits est de permettre aux candidats de postuler à des emplois et de rencontrer physiquement les employeurs, quel que soit leur emplacement.</target>
+        <target>Un portail d'emploi en ligne accessible depuis un navigateur Web. L'objectif de Seekerfit est de permettre aux candidats de postuler à des emplois et rencontrer physiquement les employeurs, quel que soit leur emplacement.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
           <context context-type="linenumber">100</context>
@@ -529,7 +529,7 @@ Un logiciel d'écriture de chèques qui vous permet d'imprimer sur vos chèques 
       </trans-unit>
       <trans-unit id="eac78e341745d435bc0e3efc74cf50d6c08eab6b" datatype="html">
         <source>Millenium Browser</source>
-        <target>Millenium Browser</target>
+        <target>Navigateur Millenium</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
           <context context-type="linenumber">105</context>
@@ -538,7 +538,7 @@ Un logiciel d'écriture de chèques qui vous permet d'imprimer sur vos chèques 
       <trans-unit id="36c6692c7542d8a3ac482597a0f915ae0ac2f8f0" datatype="html">
         <source>A web browser designed and released in the Ethiopian millennium to help the Ethiopian natives surf the
             Internet by typing in their native language &quot;geez&quot;.</source>
-        <target>Un navigateur Web conçu et publié au cours du millénaire éthiopien pour aider les natifs éthiopiens à surfer sur Internet en tapant dans leur langue maternelle.</target>
+        <target>Un navigateur Web conçu et publié au cours du millénaire éthiopien pour aider les autochtones éthiopiens à surfer sur le Internet en tapant dans leur langue maternelle &quot;geez&quot;.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
           <context context-type="linenumber">106</context>
@@ -555,7 +555,7 @@ Un logiciel d'écriture de chèques qui vous permet d'imprimer sur vos chèques 
       <trans-unit id="5e81befad8a29f3886a5cff44f7560e4c1d43a00" datatype="html">
         <source>A warehouse management system designed with one of the most powerful serverside technologies in the world,
             Microsoft ASP.NET MVC.</source>
-        <target>Un système de gestion d'entrepôt conçu avec l'une des technologies serveur les plus puissantes au monde, Microsoft ASP.NET MVC.</target>
+        <target>Un système de gestion d'entrepôt conçu avec l'une des technologies serveurs les plus puissantes au monde, Microsoft ASP.NET MVC.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/about/about.component.html</context>
           <context context-type="linenumber">112</context>
@@ -571,7 +571,7 @@ Un logiciel d'écriture de chèques qui vous permet d'imprimer sur vos chèques 
       </trans-unit>
       <trans-unit id="4b0ca852bafa5037c4e64c7b18f9cd1e14b799de" datatype="html">
         <source>Subject</source>
-        <target>Sélectionnez le sujet</target>
+        <target>Matière</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/contact/contact.component.html</context>
           <context context-type="linenumber">35</context>
@@ -603,7 +603,7 @@ Un logiciel d'écriture de chèques qui vous permet d'imprimer sur vos chèques 
       </trans-unit>
       <trans-unit id="3ec88737802269bcef0c5cfcec11e9fe3a04e60d" datatype="html">
         <source>Quote</source>
-        <target>Devis</target>
+        <target> Citation</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/contact/contact.component.html</context>
           <context context-type="linenumber">39</context>
@@ -611,7 +611,7 @@ Un logiciel d'écriture de chèques qui vous permet d'imprimer sur vos chèques 
       </trans-unit>
       <trans-unit id="ed6283b90d495dba95b8ea1c42455acc1d4916a4" datatype="html">
         <source>Training</source>
-        <target>Formation</target>
+        <target>Entraînement</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/contact/contact.component.html</context>
           <context context-type="linenumber">40</context>
@@ -635,7 +635,7 @@ Un logiciel d'écriture de chèques qui vous permet d'imprimer sur vos chèques 
       </trans-unit>
       <trans-unit id="92dffb34cc6adb9e20a5ac0c931f1fc539fcd9e2" datatype="html">
         <source>Need great apps? Let&apos;s do it</source>
-        <target>Besoin de super applis? Faisons le</target>
+        <target>Besoin de bonnes applications</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
           <context context-type="linenumber">8</context>
@@ -668,7 +668,7 @@ Application de <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/
         <source>Programs designed to run on a PC or Mac independently without the need for an Internet connection.
         Work anywhere, anytime at your pace.</source>
         <target>        
-Programmes conçus pour fonctionner indépendamment sur un PC ou un Mac sans avoir besoin d'une connexion Internet. Travaillez n'importe où, n'importe quand à votre rythme.
+ Programmes conçus pour fonctionner indépendamment sur un PC ou un Mac sans avoir besoin d'une connexion Internet. Travaillez n'importe où, n'importe quand à votre rythme.
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
@@ -682,8 +682,7 @@ Mobile<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
  Application</source>
         <target>
           <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
-
-Application          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+Application<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
  Mobile
         </target>
         <context-group purpose="location">
@@ -721,7 +720,7 @@ Service          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;
         <source>Software-as-a-Service that can be consumed without having to invest in
         hardware, development and maintenance. Save cost and be more productive.</source>
         <target>        
-Logiciel en tant que service qui peut être utilisé sans avoir à investir dans le matériel, le développement et la maintenance. Économisez sur les coûts et soyez plus productif.
+Logiciel en tant que service qui peut être utilisé sans avoir à investir dans  matériel, développement et maintenance. Économisez sur les coûts et soyez plus productif.
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
@@ -747,7 +746,7 @@ Service de          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&
         <source>We provides computer storage space and related management services. We also offer periodic
         backup and archiving. You can scale up or down as desired.</source>
         <target>
-        Nous fournissons un espace de stockage informatique et des services de gestion connexes. Nous proposons également une sauvegarde et un archivage périodiques. Vous pouvez augmenter ou diminuer selon vos besoins.
+        Nous fournissons un espace de stockage informatique et des services de gestion connexes. Nous proposons également des        sauvegarde et archivage. Vous pouvez augmenter ou diminuer selon vos besoins.
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
@@ -817,7 +816,7 @@ Logiciels    <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
         <source>Conceiving, analyzing, designing, coding, testing, documenting, and bug fixes
         with industry practice of continuous integration and continuous delivery.</source>
         <target>  
-Concevoir, analyser, concevoir, coder, tester, documenter et corriger des bogues avec la pratique de l'industrie d'intégration continue et de livraison continue.
+Concevoir, analyser, concevoir, coder, tester, documenter et corriger des bogues        avec une pratique industrielle d'intégration continue et de livraison continue.
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
@@ -830,8 +829,8 @@ Concevoir, analyser, concevoir, coder, tester, documenter et corriger des bogues
 Architecture<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
         </source>
         <target>        
-Architecture de Base<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
-de Données<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+Base de données<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+Architecture<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
       </target>
       <context-group purpose="location">
         <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
@@ -844,7 +843,7 @@ de Données<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
         and guaranteed optimal performance.
       </source>
       <target>
-Nous proposons des conceptions de bases de données sécurisées, évolutives avec une redondance des données réduite, une meilleure intégrité des données et des performances optimales garanties.</target>
+Nous fournissons des conceptions de bases de données sécurisées,  évolutif avec une redondance des données réduite, une meilleure intégrité des données et performances optimales garanties.</target>
       <context-group purpose="location">
         <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
         <context context-type="linenumber">78</context>
@@ -869,7 +868,7 @@ d'intégration <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/
         into existing systems and ensure the subsystems function
         together as a unit.</source>
   <target>
-     Nous fournissons une intégration transparente du nouveau sous-système de composants dans les systèmes existants et nous assurons que les sous-systèmes fonctionnent ensemble comme une unité.
+     Nous fournissons une intégration transparente du nouveau sous-système de composants dans les systèmes existants et assurer le fonctionnement des sous-systèmes ensemble comme une unité.
   </target>
   <context-group purpose="location">
     <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
@@ -882,9 +881,9 @@ d'intégration <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/
 Consulting<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
   </source>
   <target>
-     Conseil en
+     Logiciel 
     <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
-Logiciel <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+Consultation <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
   </target>
   <context-group purpose="location">
     <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
@@ -1272,7 +1271,7 @@ Salutations de nouvelle année<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&
 </trans-unit>
 <trans-unit id="af88c1e95a1d16d3cdbb7210981e0bfb6dc1d137" datatype="html">
 <source>Media</source>
-<target>Événements</target>
+<target>Médias</target>
 <context-group purpose="location">
 <context context-type="sourcefile">src/components/media-area/media-area.component.html</context>
 <context context-type="linenumber">56</context>
@@ -1339,7 +1338,7 @@ Salutations de nouvelle année<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&
             Technology
             supported the Ethiopian Airlines team to ensure the API complies with all IATA NDC schema specifications for
             version 17.2</source>
-<target>AA Advanced Information Technology a soutenu l'équipe Ethiopian Airlines pour s'assurer que l'API est conforme à toutes les spécifications de schéma IATA NDC pour la version 17.2</target>
+<target>Informations avancées AA La technologie a soutenu l'équipe d'Ethiopian Airlines pour s'assurer que l'API est conforme à toutes les spécifications de schéma IATA NDC pour version 17.2</target>
 <context-group purpose="location">
 <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
 <context context-type="linenumber">73</context>
@@ -1352,7 +1351,7 @@ Salutations de nouvelle année<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&
             AirDocExchange, AirDocCancel and AirDocRefund with the current schema 17.2 and more recent schema versions
             18.2, 19.2 and 20.2 to meet Level 4 and NDC@Scale certifications.</source>
 <target>
-L'API Ethiopian Airlines NDC prend actuellement en charge NDC Shopping et la gestion partielle des commandes, d'où la certification de niveau 3. Il est prévu à l'avenir d'inclure une assistance auxiliaire, des contenus multimédias riches et une prise en charge complète de la gestion des commandes, y compris AirDocExchange, AirDocCancel et AirDocRefund avec le schéma actuel 17.2 et les versions de schéma plus récentes 18.2, 19.2 et 20.2 pour répondre aux certifications de niveau 4 et NDC@Scale.</target>
+API NDC d'Ethiopian Airlines  prend en charge NDC Shopping et la gestion partielle des commandes pour le moment, d'où la certification de niveau 3. Il y a les projets futurs d'inclure un support auxiliaire, des médias riches et un support complet de la gestion des commandes, y compris AirDocExchange, AirDocCancel et AirDocRefund avec le schéma actuel 17.2 et les versions de schéma plus récentes 18.2, 19.2 et 20.2 pour répondre aux certifications de niveau 4 et NDC @ Scale</target>
 <context-group purpose="location">
 <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
 <context context-type="linenumber">65</context>
@@ -1363,7 +1362,7 @@ L'API Ethiopian Airlines NDC prend actuellement en charge NDC Shopping et la ges
             with a micro service
             architecture running on Azure Service Fabric Cluster. However, this cluster has been moved to run on Azure
             Kubernetes Service (AKS) by the Ethiopian Airlines team.</source>
-<target>Développé en C # .Net Core 2.1 avec une architecture de micro-service s'exécutant sur Azure Service Fabric Cluster. Cependant, ce cluster a été déplacé pour s'exécuter sur Azure Kubernetes Service (AKS) par l'équipe ET</target>
+<target>Développé en C # .Net Core 2.1 avec un micro service architecture s'exécutant sur Azure Service Fabric Cluster. Cependant, ce cluster a été déplacé pour s'exécuter sur Azure Service Kubernetes (AKS) par l'équipe d'Ethiopian Airlines.</target>
 <context-group purpose="location">
 <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
 <context context-type="linenumber">58</context>
@@ -1374,7 +1373,7 @@ L'API Ethiopian Airlines NDC prend actuellement en charge NDC Shopping et la ges
           be the first commercial
           carrier in Africa to be NDC compatible, hence a partnership with AAAIT was borne in July 2018 to help
           develop, deploy and transfer knowledge to the Ethiopian Airlines team.</source>
-<target>Ethiopian Airlines cherche à être le premier transporteur commercial en Afrique à être compatible NDC, c'est pourquoi un partenariat avec AAAIT a été conclu en juillet 2018 pour aider à développer, déployer et transférer des connaissances à l'équipe d'Ethiopian Airline </target>
+<target>Ethiopian Airlines cherche à être le premier transporteur commercial en Afrique à être compatible NDC, c'est pourquoi un partenariat avec AAAIT a été conclu en juillet 2018 pour aider à développer, déployer et transférer des connaissances à l'équipe d'Ethiopian Airlines. </target>
 <context-group purpose="location">
 <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
 <context context-type="linenumber">50</context>
@@ -1387,7 +1386,7 @@ L'API Ethiopian Airlines NDC prend actuellement en charge NDC Shopping et la ges
             XML-based data transmission standard (NDC Standard).
             The NDC Standard enhances the capability of communications between airlines and travel agents.</source>
 <target>
-Par conséquent, IATA-NDC (Nouvelle capacité de distribution) est un programme soutenu par l'industrie du voyage (programme NDC) lancé par l'IATA pour le développement et l'adoption sur le marché d'une nouvelle norme de transmission de données basée sur XML (norme NDC). La norme NDC améliore la capacité de communication entre les compagnies aériennes et les agents de voyages</target>
+Par conséquent, IATA-NDC (New Distribution Capability) est un programme soutenu par l'industrie du voyage (programme NDC) lancé par l'IATA pour le développement et l'adoption sur le marché d'une nouvelle norme de transmission de données basée sur XML (norme NDC). La norme NDC améliore la capacité de communication entre les compagnies aériennes et les agents de voyages.</target>
 <context-group purpose="location">
 <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
 <context context-type="linenumber">40</context>
@@ -1398,7 +1397,7 @@ Par conséquent, IATA-NDC (Nouvelle capacité de distribution) est un programme 
             trade association for the world’s airlines, representing some 290 airlines or 82% of total air traffic. They
             support many areas of aviation activity and help formulate industry policy on critical aviation issues.</source>
 <target>
-L’International Air Transport Association (IATA) est l’association commerciale des compagnies aériennes mondiales, qui représente quelque 290 compagnies aériennes ou 82% du trafic aérien total. Ils soutiennent de nombreux domaines de l'activité aéronautique et aident à formuler une politique de l'industrie sur des questions aéronautiques critiques.</target>
+L'Association du transport aérien international (IATA) est le association professionnelle des compagnies aériennes mondiales, représentant quelque 290 compagnies aériennes, soit 82% du trafic aérien total. Ils soutenir de nombreux domaines de l’activité aéronautique et aider à formuler une politique de l’industrie sur des questions aéronautiques critiques.</target>
 <context-group purpose="location">
 <context context-type="sourcefile">src/components/et-iata-ndc/et-iata-ndc.component.html</context>
 <context context-type="linenumber">31</context>
@@ -1407,12 +1406,9 @@ L’International Air Transport Association (IATA) est l’association commercia
 <trans-unit id="cookie" datatype="html">
 <source>Congratulations Ethiopian Airlines on your IATA-NDC certification. At Appliedline, we are proud to have helped
   achieve this milestone
-  and look forward to greater achievements from this point on.
-  <!--   <x id="TAG_IMG" ctype="image" equiv-text="&lt;img/&gt;"/> -->
+  and look forward to greater achievements from this point on.  
 </source>
-<target>Félicitations à Ethiopian Airlines pour votre certification IATA-NDC. Chez Appliedline, nous sommes fiers d'avoir contribué à atteindre ce jalon et nous attendons avec impatience de plus grandes réalisations à partir de ce moment
-    <!-- <x id="TAG_IMG" ctype="image" equiv-text="&lt;img/&gt;"/> -->
-</target>
+<target>Félicitations à Ethiopian Airlines pour votre certification IATA-NDC. Chez Appliedline, nous sommes fiers d'avoir contribué à atteindre ce jalon et nous attendons avec impatience de plus grandes réalisations à partir de ce moment.</target>
 <context-group purpose="location">
 <context context-type="sourcefile">src/components/content-area/content-area.component.html</context>
 <context context-type="linenumber">3</context>

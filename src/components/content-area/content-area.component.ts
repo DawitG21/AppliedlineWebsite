@@ -61,19 +61,19 @@ export class ContentAreaComponent implements OnInit {
     this.helper.fixLetUsKnowDiv(letUsKnowDiv, letUsKnowWrTopOffset);
   }
 
-  slickInit(e) {
+  slickInit(e: any) {
     this.console.consoleMessage(e);
   }
 
-  breakpoint(e) {
+  breakpoint(e: any) {
     this.console.consoleMessage(e);
   }
 
-  afterChange(e) {
+  afterChange(e: any) {
     this.console.consoleMessage(e);
   }
 
-  beforeChange(e) {
+  beforeChange(e: any) {
     this.console.consoleMessage(e);
   }
 
